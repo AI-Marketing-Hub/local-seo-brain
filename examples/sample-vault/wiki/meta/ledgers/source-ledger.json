@@ -1,0 +1,1476 @@
+{
+  "generated_at": "2026-10-15T00:00:00Z",
+  "schema": "claude-obsidian.source-ledger.v1",
+  "sources": {
+    "src-052cb01b9917db050bcf": {
+      "authority": "official",
+      "canonical_id": "google-search-status-summary",
+      "canonical_locator": "Ranking update incident history",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-status",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://status.search.google.com/summary"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-22",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Search Status Dashboard"
+    },
+    "src-07399f16231f427bea3c": {
+      "authority": "official",
+      "canonical_id": "google-review-snippet",
+      "canonical_locator": "LocalBusiness and Organization review guidelines",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Review Snippet (Review, AggregateRating) Structured Data"
+    },
+    "src-082af7b0bf412f8cf585": {
+      "authority": "official",
+      "canonical_id": "google-search-ranking-systems",
+      "canonical_locator": "Link analysis systems and PageRank; retired systems",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/ranking-systems-guide"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "A Guide to Google Search Ranking Systems"
+    },
+    "src-0e1099e09ea2a11cb1a1": {
+      "authority": "official",
+      "canonical_id": "google-maps-ugc-policy",
+      "canonical_locator": "Real experiences; place questions and answers; enforcement",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-content-policy",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/contributionpolicy/answer/7422880"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Maps User-Generated Content Policy"
+    },
+    "src-11ebf2cd22ebb2ba864c": {
+      "authority": "official",
+      "canonical_id": "google-local-ranking",
+      "canonical_locator": "Relevance, distance, prominence; reviews",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/7091"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Tips to Improve Your Local Ranking on Google"
+    },
+    "src-12914ea1db52b1af21a1": {
+      "authority": "official",
+      "canonical_id": "google-search-supplier-unit",
+      "canonical_locator": "Direct-provider eligibility; crawling; only alongside aggregator units",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/supplier-unit"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Supplier unit in Google Search"
+    },
+    "src-1d92a6be27947825c5f2": {
+      "authority": "official",
+      "canonical_id": "google-search-console-anomalies",
+      "canonical_locator": "May 7, 2026 rich result reporting change",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-console",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/webmasters/answer/6211453"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Data Anomalies in Search Console"
+    },
+    "src-1e1d16a4a1839eb899d2": {
+      "authority": "official",
+      "canonical_id": "google-link-best-practices",
+      "canonical_locator": "Internal links; external links; sponsored and UGC attributes",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "SEO Link Best Practices for Google"
+    },
+    "src-1f02f8734441efe80cf6": {
+      "authority": "official",
+      "canonical_id": "google-helpful-content",
+      "canonical_locator": "Expertise questions; Get to know E-E-A-T; Who, How, and Why; main content quality; no preferred word count",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Creating Helpful, Reliable, People-First Content"
+    },
+    "src-206e1466af1001d96b13": {
+      "authority": "official",
+      "canonical_id": "google-page-experience",
+      "canonical_locator": "Page experience and relevance; Core Web Vitals",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/page-experience"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Understanding Google Page Experience"
+    },
+    "src-26191bea8d7dd0deb7e4": {
+      "authority": "official",
+      "canonical_id": "google-gbp-media-post-policy",
+      "canonical_locator": "Posts including contact information; hotel-post restrictions; linked prohibited and restricted content",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/7213077"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Business Profile Photos and Videos Policy and Posts Content Policy"
+    },
+    "src-2d5ca5e9324ec8a86f8a": {
+      "authority": "official",
+      "canonical_id": "google-gbp-get-reviews",
+      "canonical_locator": "Permitted review requests",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/3474122"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Tips to Get More Google Reviews"
+    },
+    "src-3419d9e51e84697b0820": {
+      "authority": "official",
+      "canonical_id": "google-places-release-notes",
+      "canonical_locator": "Places API release history",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-platform",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/maps/documentation/places/web-service/release-notes"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Places API Release Notes"
+    },
+    "src-36bbcc8a9a5a6b89253b": {
+      "authority": "primary",
+      "canonical_id": "schema-localbusiness",
+      "canonical_locator": "LocalBusiness type and properties",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "schema-org",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://schema.org/LocalBusiness"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "LocalBusiness"
+    },
+    "src-37797682c06dfa7d1d7b": {
+      "authority": "primary",
+      "canonical_id": "cipa-exif-31",
+      "canonical_locator": "Standards list and Exif 3.1 entry",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "cipa-exif-wg-2026",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://www.cipa.jp/e/std/std-sec.html"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "CIPA DC-008-Translation-2026 — Exif Version 3.1"
+    },
+    "src-3935c2ea8a3193ccfe9c": {
+      "authority": "official",
+      "canonical_id": "google-gbp-api-overview",
+      "canonical_locator": "API overview and authorization boundary",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile-api",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/my-business/content/overview"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-29",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Business Profile APIs"
+    },
+    "src-3994d1b7a53d02189b18": {
+      "authority": "official",
+      "canonical_id": "google-search-doc-updates",
+      "canonical_locator": "Documentation change history",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/updates"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-22",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Search Documentation Updates"
+    },
+    "src-3b7c5aafc3ca8600dc06": {
+      "authority": "official",
+      "canonical_id": "google-gbp-eligibility-ownership",
+      "canonical_locator": "Eligible and ineligible businesses; authorized representatives",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/13763036"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Business Eligibility and Ownership Guidelines"
+    },
+    "src-430af356923901c4c696": {
+      "authority": "official",
+      "canonical_id": "google-gen-ai-report-launch",
+      "canonical_locator": "Announcement and staged rollout",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-console",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Introducing Search Generative AI Performance Reports in Search Console"
+    },
+    "src-4af7141858da367726e7": {
+      "authority": "primary",
+      "canonical_id": "pew-ai-summary-click-study",
+      "canonical_locator": "Methods and findings for 68,879 searches from 900 U.S. adults",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "pew-metered-panel-2025",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Users Are Less Likely to Click on Links When an AI Summary Appears in the Results"
+    },
+    "src-4c569690596b83d05e18": {
+      "authority": "primary",
+      "canonical_id": "geo-kdd-2024",
+      "canonical_locator": "Abstract and contribution summary",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "geo-bench-kdd-2024",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://doi.org/10.1145/3637528.3671900"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "GEO: Generative Engine Optimization"
+    },
+    "src-4c6e8b6ba36d26dc84ea": {
+      "authority": "official",
+      "canonical_id": "google-gbp-qanda-api-changelog",
+      "canonical_locator": "v1 2025-11-03 Q&A API deprecation complete",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile-api",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/my-business/content/qanda/change-log"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-29",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Q&A API"
+    },
+    "src-4de8b2526157d9568187": {
+      "authority": "official",
+      "canonical_id": "google-site-reputation-eea-update-2026",
+      "canonical_locator": "August 30 enforcement effects by searcher region",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Update to the Site Reputation Policy"
+    },
+    "src-4f6d6c75db03e8cff505": {
+      "authority": "official",
+      "canonical_id": "google-gbp-categories",
+      "canonical_locator": "Understand business categories; add or edit categories",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/7249669"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Manage Your Business Category"
+    },
+    "src-5149fcc6e1bcceaa31f7": {
+      "authority": "official",
+      "canonical_id": "google-gbp-posts",
+      "canonical_locator": "Post types, scheduling, status, and tips",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/7342169"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Create and Manage Posts on Your Business Profile"
+    },
+    "src-53aee1c90fd840426d7d": {
+      "authority": "official",
+      "canonical_id": "google-maps-content-use",
+      "canonical_locator": "Subjective content; beta questions; machine learning and generative AI",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-content-policy",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/contributionpolicy/answer/7412443"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "How Your Content Is Used"
+    },
+    "src-574f56015d37e6f7bcc0": {
+      "authority": "official",
+      "canonical_id": "google-search-spam-policies",
+      "canonical_locator": "Scaled content abuse; hidden text and link abuse; link spam; doorway abuse",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Spam Policies for Google Web Search"
+    },
+    "src-57af35c3a95d547024f5": {
+      "authority": "primary",
+      "canonical_id": "doj-google-interaction-testimony",
+      "canonical_locator": "PDF pp. 44–47; aggregated interaction evidence and NavBoost",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "us-v-google-upxd104",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://www.justice.gov/d9/2023-10/417254.pdf"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Direct Testimony of Prof. Michael D. Whinston, U.S., et al. v. Google LLC"
+    },
+    "src-61e671e58d9e0fe47b67": {
+      "authority": "official",
+      "canonical_id": "google-gbp-video-verification",
+      "canonical_locator": "Prepare for recording; service-area business requirements",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/14271705"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Verify Your Business with a Video Recording"
+    },
+    "src-6204ac50218a58a6bc17": {
+      "authority": "official",
+      "canonical_id": "google-gbp-policy-overview",
+      "canonical_locator": "Policy overview and linked requirements",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/13762416"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Overview of Google Business Profile Policies"
+    },
+    "src-621e4bacc0496d26f5b9": {
+      "authority": "official",
+      "canonical_id": "google-march-2024-core-spam",
+      "canonical_locator": "March 2024 core update and new spam policies announcement",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/blog/2024/03/core-update-spam-policies"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "What Web Creators Should Know About Our March 2024 Core Update and New Spam Policies"
+    },
+    "src-65548205f0d2c064aeb0": {
+      "authority": "official",
+      "canonical_id": "google-gbp-service-areas",
+      "canonical_locator": "How service areas work; remove address when customers are not served there",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/9157481"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Manage Your Service Areas for Service Area and Hybrid Businesses"
+    },
+    "src-6a628ab52033fe543893": {
+      "authority": "official",
+      "canonical_id": "google-gbp-rest-reference",
+      "canonical_locator": "Current REST resources and methods",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile-api",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/my-business/reference/rest"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-29",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Business Profile APIs REST Reference"
+    },
+    "src-6b7eb398e7aab02810ca": {
+      "authority": "official",
+      "canonical_id": "google-image-seo",
+      "canonical_locator": "Page context, alt text, speed, quality, image sitemaps",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/google-images"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Image SEO Best Practices"
+    },
+    "src-6ed428c4c817bc310b64": {
+      "authority": "official",
+      "canonical_id": "google-maps-prohibited-content",
+      "canonical_locator": "Fake engagement; rating manipulation; personal information",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-content-policy",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/contributionpolicy/answer/7400114"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Prohibited and Restricted Content"
+    },
+    "src-71f7d659449f3880e1ba": {
+      "authority": "primary",
+      "canonical_id": "schema-validator",
+      "canonical_locator": "Schema.org syntax and vocabulary validation",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "schema-org",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://validator.schema.org/"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Schema Markup Validator"
+    },
+    "src-73dccfd0ac6fcb6b52d4": {
+      "authority": "official",
+      "canonical_id": "google-image-metadata",
+      "canonical_locator": "IPTC rights fields and C2PA provenance",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Image Metadata in Google Images"
+    },
+    "src-77b9935c09a4729a9c91": {
+      "authority": "official",
+      "canonical_id": "google-maps-ask-maps-launch",
+      "canonical_locator": "Ask anything about any place; initial rollout scope",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-product",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "How We’re Reimagining Maps with Gemini"
+    },
+    "src-7fb9170313d5fa1bdc76": {
+      "authority": "official",
+      "canonical_id": "google-gbp-verification",
+      "canonical_locator": "Verification methods and re-verification",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/7107242"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Verify Your Business on Google"
+    },
+    "src-805a698b76ddce899989": {
+      "authority": "official",
+      "canonical_id": "google-ai-optimization-resource-2026",
+      "canonical_locator": "May 2026 AI search resource announcement",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "A New Resource for Optimizing Your Content for Google's AI Experiences"
+    },
+    "src-8b0bab5c51b64fadba44": {
+      "authority": "official",
+      "canonical_id": "google-site-reputation-update",
+      "canonical_locator": "Site reputation abuse policy update",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/blog/2024/11/site-reputation-abuse"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Updating Our Site Reputation Abuse Policy"
+    },
+    "src-8b69d5f4f82f98fb047f": {
+      "authority": "official",
+      "canonical_id": "google-maps-platform-terms",
+      "canonical_locator": "License restrictions and service terms",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-platform",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://cloud.google.com/maps-platform/terms"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Maps Platform Terms of Service"
+    },
+    "src-8bca4c8237ba5eac682b": {
+      "authority": "official",
+      "canonical_id": "google-gbp-api-faq",
+      "canonical_locator": "Access and usage FAQ",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile-api",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/my-business/content/faq"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-29",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Business Profile APIs FAQ"
+    },
+    "src-907ec793eb5bf57ff4cf": {
+      "authority": "primary",
+      "canonical_id": "geo-citation-absorption-2026",
+      "canonical_locator": "Abstract; 602-prompt cross-platform measurement",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "geo-citation-lab-2026",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://doi.org/10.48550/arXiv.2604.25707"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "From Citation Selection to Citation Absorption: A Measurement Framework for Generative Engine Optimization Across AI Search Platforms"
+    },
+    "src-92620f4d7bf74b4f519c": {
+      "authority": "official",
+      "canonical_id": "google-search-aggregator-unit",
+      "canonical_locator": "Feature availability; eligibility criteria; direct data-feed integrations for local businesses",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/aggregator-unit"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Aggregator unit in Google Search"
+    },
+    "src-98c81ebc40f39127aa45": {
+      "authority": "official",
+      "canonical_id": "google-gbp-chat-call-history",
+      "canonical_locator": "Chat and call history ended July 31, 2024",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/14919056"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Changes to Google Business Profile Chat and Call History"
+    },
+    "src-99b3bb9aec22c3509b7a": {
+      "authority": "official",
+      "canonical_id": "google-gen-ai-control",
+      "canonical_locator": "Change your control; exclusion effects",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-console",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/webmasters/answer/16908024"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Search Generative AI Control"
+    },
+    "src-9ae2c6897efc9367cc08": {
+      "authority": "primary",
+      "canonical_id": "hbs-yelp-revenue-study",
+      "canonical_locator": "Abstract; data and identification: Seattle restaurant revenues 2003-2009 and rounded Yelp star thresholds",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "luca-yelp-wp-12-016",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://www.hbs.edu/ris/download.aspx?name=12-016.pdf"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Reviews, Reputation, and Revenue: The Case of Yelp.com"
+    },
+    "src-a313ffd5fd512bc33340": {
+      "authority": "official",
+      "canonical_id": "google-gbp-api-changelog",
+      "canonical_locator": "v4.9 New Features: 2026-10-09 Food Menus Dietary Restrictions; 2026-07-24 review_reply_url; 2026-07-01 Policy Violation",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile-api",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/my-business/content/change-log"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-10-29",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Change Log"
+    },
+    "src-a3e200eac00e2cfb3400": {
+      "authority": "official",
+      "canonical_id": "google-gbp-report-reviews",
+      "canonical_locator": "Review reporting workflow",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/4596773"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Report Inappropriate Reviews on Your Business Profile"
+    },
+    "src-a963c854200101db2473": {
+      "authority": "official",
+      "canonical_id": "google-core-web-vitals",
+      "canonical_locator": "LCP, INP, CLS and Search",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/core-web-vitals"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Core Web Vitals and Search Results"
+    },
+    "src-ab890030d61335d3c23d": {
+      "authority": "official",
+      "canonical_id": "google-gbp-restrictions",
+      "canonical_locator": "Restrictions and enforcement",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/14114287"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Business Profile Restrictions for Policy Violations"
+    },
+    "src-b14bb73560495d988f6f": {
+      "authority": "official",
+      "canonical_id": "google-ai-features",
+      "canonical_locator": "How to appear in AI features; technical requirements; SEO best practices",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "AI Features and Your Website"
+    },
+    "src-b2cf78baa6ffb866b267": {
+      "authority": "official",
+      "canonical_id": "google-seo-starter-guide",
+      "canonical_locator": "Influence your title links; Control your snippets; useful content; contextual links",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "SEO Starter Guide: The Basics"
+    },
+    "src-b5c8f6e491878b36070c": {
+      "authority": "official",
+      "canonical_id": "google-succeeding-ai-search",
+      "canonical_locator": "Foundational SEO guidance for AI search experiences",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Succeeding in AI Search"
+    },
+    "src-b6a3de60bbfd2a10389f": {
+      "authority": "official",
+      "canonical_id": "google-rich-results-test",
+      "canonical_locator": "Google rich-result eligibility test surface",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-console",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://search.google.com/test/rich-results"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Rich Results Test"
+    },
+    "src-ba67a65e6a06d4ee7018": {
+      "authority": "official",
+      "canonical_id": "google-localbusiness-structured-data",
+      "canonical_locator": "Guidelines; aggregateRating; review properties",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/structured-data/local-business"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Local Business (LocalBusiness) Structured Data"
+    },
+    "src-c40c524af2650ce4a729": {
+      "authority": "official",
+      "canonical_id": "google-structured-data-intro",
+      "canonical_locator": "Supported formats",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Intro to How Structured Data Markup Works"
+    },
+    "src-c6ab97f8034bac9edaf0": {
+      "authority": "official",
+      "canonical_id": "google-search-essentials",
+      "canonical_locator": "Technical requirements; spam policies; key best practices",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/essentials"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Search Essentials (formerly Webmaster Guidelines)"
+    },
+    "src-d1a0959df8558f1f7872": {
+      "authority": "official",
+      "canonical_id": "google-gbp-reviews",
+      "canonical_locator": "Read and reply to reviews; reply moderation",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/3474050"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Manage Customer Reviews"
+    },
+    "src-da55afdaa6e762fb7802": {
+      "authority": "official",
+      "canonical_id": "google-gbp-representation-guidelines",
+      "canonical_locator": "Business description; hours; name; categories; address; service-area businesses",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/3038177"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Guidelines for Representing Your Business on Google"
+    },
+    "src-e5d65de8189c3cb3bce5": {
+      "authority": "official",
+      "canonical_id": "google-places-policies",
+      "canonical_locator": "Attribution, caching, storage, and display requirements",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-maps-platform",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/maps/documentation/places/web-service/policies"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Places API Policies"
+    },
+    "src-ea4070acae320972bb10": {
+      "authority": "official",
+      "canonical_id": "google-gen-ai-performance-help",
+      "canonical_locator": "What's included; dimensions; data limitations",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-console",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/webmasters/answer/16984139"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Generative AI Performance Report (Search)"
+    },
+    "src-f3a7ed1bc7520321e933": {
+      "authority": "official",
+      "canonical_id": "google-june-2026-spam-update",
+      "canonical_locator": "Incident details, June 24–26, 2026",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-status",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://status.search.google.com/incidents/YUX1peHev5a4fkxLDiUQ"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "June 2026 Spam Update"
+    },
+    "src-f459f51ead8ed8994f33": {
+      "authority": "primary",
+      "canonical_id": "local-seo-brain-product-contract",
+      "canonical_locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+      "content_kind": "webpage",
+      "content_sha256": "a93e43f746a64e48e17fdbdb01d03106c42bb7ca4303670cac4bac9c5543484d",
+      "independence_key": "local-seo-brain-repository",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://github.com/AI-Marketing-Hub/local-seo-brain"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Local SEO Brain Product Boundaries"
+    },
+    "src-f9ab02e826915ce95f9a": {
+      "authority": "primary",
+      "canonical_id": "ahrefs-ai-overview-ctr-study",
+      "canonical_locator": "February 2026 rerun: 300,000 keywords; desktop GSC December 2023 vs December 2025; correlational counterfactual",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "ahrefs-gsc-ctr-2025",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "AI Overviews Reduce Clicks by 34.5%"
+    },
+    "src-f9c333dc17a641100944": {
+      "authority": "official",
+      "canonical_id": "google-core-updates",
+      "canonical_locator": "Assessing a drop in position; self-assessment guidance",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/core-updates"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Google Search Core Updates and Your Website"
+    },
+    "src-fb8f80a7233d83f37ebe": {
+      "authority": "official",
+      "canonical_id": "google-generative-ai-content-guidance",
+      "canonical_locator": "Using generative AI content; accuracy, quality, relevance; give users context",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Using generative AI content"
+    },
+    "src-ffc849ad6f01a7d9d85c": {
+      "authority": "official",
+      "canonical_id": "google-gbp-missing-reviews",
+      "canonical_locator": "Review delay and removal causes",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-business-profile",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://support.google.com/business/answer/10313341"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "Missing or Delayed Reviews"
+    },
+    "src-ffde11f53dbc36aa37e5": {
+      "authority": "official",
+      "canonical_id": "google-structured-data-guidelines",
+      "canonical_locator": "Format; content quality; completeness",
+      "content_kind": "webpage",
+      "content_sha256": null,
+      "independence_key": "google-search-central",
+      "ingested_at": null,
+      "origin": {
+        "kind": "url",
+        "locator": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
+      },
+      "pages": [
+        "wiki/sources/research-pack-2026-local-seo.md"
+      ],
+      "refresh_due": "2026-11-14",
+      "retrieved_at": "2026-10-15",
+      "review_status": "active",
+      "supersedes": null,
+      "title": "General Structured Data Guidelines"
+    }
+  }
+}

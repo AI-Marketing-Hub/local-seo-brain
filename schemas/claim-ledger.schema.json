@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AI-Marketing-Hub/local-seo-brain/schemas/claim-ledger.schema.json",
+  "title": "Local SEO Brain Claim Ledger",
+  "type": "object",
+  "required": [
+    "schema",
+    "as_of",
+    "claims"
+  ],
+  "properties": {
+    "schema": {
+      "const": "local-seo-brain.claim-ledger.v1"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "statement",
+          "locations",
+          "risk",
+          "assessment",
+          "confidence",
+          "source_ids",
+          "contradicting_source_ids",
+          "scope",
+          "verified_at",
+          "refresh_due",
+          "owner",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9.-]*$"
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "risk": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "assessment": {
+            "enum": [
+              "accepted",
+              "provisional",
+              "contested",
+              "unsupported",
+              "deprecated"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "EVIDENCE-BASED",
+              "PRACTITIONER",
+              "CONTESTED",
+              "FOLKLORE"
+            ]
+          },
+          "claim_type": {
+            "enum": [
+              "policy",
+              "product",
+              "empirical",
+              "recommendation",
+              "historical"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contradicting_source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verified_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "refresh_due": {
+            "type": "string",
+            "format": "date"
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "local-seo-brain.freshness-policy.v1",
+  "default_days": 30,
+  "source_days": {
+    "google-search-status-summary": 7,
+    "google-search-doc-updates": 7,
+    "google-gbp-qanda-api-changelog": 14,
+    "google-gbp-api-changelog": 14,
+    "google-gbp-api-overview": 14,
+    "google-gbp-api-faq": 14,
+    "google-gbp-rest-reference": 14
+  },
+  "note": "Internal review intervals, not Google requirements. Event claims retain their dated scope."
+}

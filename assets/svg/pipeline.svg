@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="ptitle pdesc">
+  <title id="ptitle">Local SEO Brain pipeline</title>
+  <desc id="pdesc">Four-stage operator pipeline: raw sources flow through ingestors into the Obsidian wiki memory, then synthesize into source-cited deliverables.</desc>
+
+  <defs>
+    <style>
+      .h1 { font: 700 26px Inter, Arial, sans-serif; fill: #1F1B16; }
+      .sub { font: 500 14px Inter, Arial, sans-serif; fill: #5C5346; }
+      .col { font: 700 12px 'JetBrains Mono', monospace; fill: #ffffff; letter-spacing: 1.2px; }
+      .item { font: 500 13px Inter, Arial, sans-serif; fill: #1F1B16; }
+      .mono { font: 600 11px 'JetBrains Mono', monospace; fill: #5C5346; }
+      .stage { fill: #ffffff; stroke: #E8E0D4; stroke-width: 1.5; }
+      .arrow { stroke: #D97757; stroke-width: 2.5; fill: none; }
+    </style>
+    <marker id="parr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#D97757"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="540" fill="#FAF7F2"/>
+
+  <text x="40" y="46" class="h1">The pipeline</text>
+  <text x="40" y="72" class="sub">Authorized exports → verified raw receipts → working notes → Draft outputs.</text>
+
+  <!-- Stage 1: Raw sources -->
+  <g transform="translate(40, 120)">
+    <rect class="stage" x="0" y="0" width="240" height="360" rx="10"/>
+    <rect x="0" y="0" width="240" height="44" rx="10" fill="#2f7f87"/>
+    <text x="20" y="29" class="col">STAGE 1 · RAW SOURCES</text>
+    <text x="20" y="80" class="item">▸ GBP CSV export</text>
+    <text x="20" y="104" class="mono">gbp-export.csv</text>
+    <text x="20" y="140" class="item">▸ Citation export</text>
+    <text x="20" y="164" class="mono">citation-export.csv</text>
+    <text x="20" y="200" class="item">▸ Review export</text>
+    <text x="20" y="224" class="mono">authorized raw review export</text>
+    <text x="20" y="260" class="item">▸ Geo-grid scan</text>
+    <text x="20" y="284" class="mono">geogrid-export.csv</text>
+    <text x="20" y="328" class="mono" fill="#2f7f87">Immutable under .raw/</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path class="arrow" d="M 290 300 L 332 300" marker-end="url(#parr)"/>
+
+  <!-- Stage 2: Ingestors -->
+  <g transform="translate(340, 120)">
+    <rect class="stage" x="0" y="0" width="240" height="360" rx="10"/>
+    <rect x="0" y="0" width="240" height="44" rx="10" fill="#D97757"/>
+    <text x="20" y="29" class="col">STAGE 2 · INGESTORS</text>
+    <text x="20" y="80" class="item">▸ ingest_gbp.py</text>
+    <text x="20" y="104" class="mono">row/column counts + location</text>
+    <text x="20" y="140" class="item">▸ ingest_citations.py</text>
+    <text x="20" y="164" class="mono">directory + URL + status</text>
+    <text x="20" y="200" class="item">▸ ingest_reviews.py</text>
+    <text x="20" y="224" class="mono">ratings + dates + tokens</text>
+    <text x="20" y="260" class="item">▸ ingest_geogrid.py</text>
+    <text x="20" y="284" class="mono">observed rank summaries</text>
+    <text x="20" y="328" class="mono" fill="#D97757">sha256 + pinned as-of</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path class="arrow" d="M 590 300 L 632 300" marker-end="url(#parr)"/>
+
+  <!-- Stage 3: Wiki memory -->
+  <g transform="translate(640, 120)">
+    <rect class="stage" x="0" y="0" width="240" height="360" rx="10"/>
+    <rect x="0" y="0" width="240" height="44" rx="10" fill="#B084CC"/>
+    <text x="20" y="29" class="col">STAGE 3 · WIKI MEMORY</text>
+    <text x="20" y="80" class="item">▸ locations/</text>
+    <text x="20" y="104" class="mono">per-location source record</text>
+    <text x="20" y="140" class="item">▸ citations/</text>
+    <text x="20" y="164" class="mono">exported directory status</text>
+    <text x="20" y="200" class="item">▸ reviews/</text>
+    <text x="20" y="224" class="mono">identity-free summary notes</text>
+    <text x="20" y="260" class="item">▸ keywords/</text>
+    <text x="20" y="284" class="mono">observed geo-grid sample</text>
+    <text x="20" y="328" class="mono" fill="#B084CC">Hot · Index · Wiki pattern</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <path class="arrow" d="M 890 300 L 932 300" marker-end="url(#parr)"/>
+
+  <!-- Stage 4: Deliverables -->
+  <g transform="translate(940, 120)">
+    <rect class="stage" x="0" y="0" width="220" height="360" rx="10"/>
+    <rect x="0" y="0" width="220" height="44" rx="10" fill="#1F1B16"/>
+    <text x="20" y="29" class="col">STAGE 4 · DELIVERABLES</text>
+    <text x="20" y="80" class="item">▸ Health Scorecard.md</text>
+    <text x="20" y="104" class="mono">Draft evidence state</text>
+    <text x="20" y="140" class="item">▸ Action Roadmap.md</text>
+    <text x="20" y="164" class="mono">Draft review steps</text>
+    <text x="20" y="200" class="item">▸ Weekly Report + HTML</text>
+    <text x="20" y="224" class="mono">Draft report render</text>
+    <text x="20" y="260" class="item">▸ Approval Queue.md</text>
+    <text x="20" y="284" class="mono">account-touching gates</text>
+    <text x="20" y="328" class="mono" fill="#1F1B16">Owner review before action</text>
+  </g>
+
+  <!-- Footer band -->
+  <line x1="40" y1="510" x2="1160" y2="510" stroke="#E8E0D4" stroke-width="1"/>
+  <text x="40" y="528" class="mono">SCAFFOLD → INGEST → SYNTHESIZE → LINT → RENDER · explicit targets · hash checks · owner review</text>
+</svg>

@@ -1,0 +1,19 @@
+---
+type: "source"
+title: "{{title}}"
+created: "{{date}}"
+updated: "{{date}}"
+status: "draft"
+---
+
+# {{title}}
+
+## Source
+
+- Path:
+- Hash:
+- Retrieved:
+
+## Compiled Truth
+
+Summarize the source without copying it wholesale.

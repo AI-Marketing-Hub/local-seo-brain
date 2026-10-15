@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AI-Marketing-Hub/local-seo-brain/schemas/source-ledger.schema.json",
+  "title": "Local SEO Brain Source Ledger",
+  "type": "object",
+  "required": [
+    "schema",
+    "as_of",
+    "sources"
+  ],
+  "properties": {
+    "schema": {
+      "const": "local-seo-brain.source-ledger.v1"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "url",
+          "title",
+          "publisher",
+          "date",
+          "updated_at",
+          "retrieved",
+          "retrieved_at",
+          "last_verified",
+          "refresh_due",
+          "source_type",
+          "authority",
+          "review_state",
+          "independence_key",
+          "jurisdiction",
+          "payload_sha256",
+          "raw_path",
+          "supports_claims",
+          "locator"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "updated_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "retrieved": {
+            "type": "string",
+            "format": "date"
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "last_verified": {
+            "type": "string",
+            "format": "date"
+          },
+          "refresh_due": {
+            "type": "string",
+            "format": "date"
+          },
+          "source_type": {
+            "enum": [
+              "official-doc",
+              "primary-research",
+              "first-party-blog",
+              "standard",
+              "independent-study",
+              "practitioner",
+              "community"
+            ]
+          },
+          "authority": {
+            "enum": [
+              "official",
+              "primary",
+              "secondary",
+              "community",
+              "synthetic",
+              "unknown"
+            ]
+          },
+          "review_state": {
+            "enum": [
+              "unreviewed",
+              "active",
+              "superseded",
+              "rejected"
+            ]
+          },
+          "independence_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "jurisdiction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "payload_sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "raw_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "supports_claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "refresh_result": {
+            "enum": [
+              "changed",
+              "unchanged",
+              "superseded-in-part",
+              "added",
+              "unavailable"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

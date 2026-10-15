@@ -1,0 +1,9 @@
+directory,url,status
+Yelp,https://yelp.com/biz/demo-plumbing,verified
+BBB,https://bbb.org/demo-plumbing,verified
+Yellow Pages,https://yellowpages.com/demo-plumbing,unverified
+Angi,https://angi.com/companylist/us/demo-plumbing,verified
+HomeAdvisor,https://homeadvisor.com/rated.demo-plumbing,verified
+Facebook,https://facebook.com/demoplumbing,verified
+Apple Maps,https://maps.apple.com/?q=demo-plumbing,unverified
+Bing Places,https://bing.com/maps?q=demo-plumbing,verified

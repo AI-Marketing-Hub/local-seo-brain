@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="banner-title banner-desc" preserveAspectRatio="xMidYMid meet">
+  <title id="banner-title">Local SEO Brain</title>
+  <desc id="banner-desc">Operator brain for ranking local businesses in the Google Map Pack, organic SERPs, and AI search. Source-cited, refusal-rule-driven, agency-friendly.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F1B16">
+        <animate attributeName="stop-color" values="#1F1B16;#2A1F18;#1F1B16" dur="4.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#2A1F18">
+        <animate attributeName="stop-color" values="#2A1F18;#3A2A1E;#2A1F18" dur="4.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1F1B16">
+        <animate attributeName="stop-color" values="#1F1B16;#2A1F18;#1F1B16" dur="4.2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="orangeBreath" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#D97757" stop-opacity="0.35">
+        <animate attributeName="stop-opacity" values="0.35;0.55;0.35" dur="4.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%" stop-color="#D97757" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .figlet { font: 700 13px 'JetBrains Mono', 'Courier New', monospace; fill: #D97757; letter-spacing: 0; white-space: pre; }
+      .figletGlow { font: 700 13px 'JetBrains Mono', 'Courier New', monospace; fill: #D97757; filter: blur(2px); opacity: 0.6; }
+      .titlebar { font: 600 12px 'JetBrains Mono', 'Courier New', monospace; fill: #8B7E72; letter-spacing: 1.5px; }
+      .subtitle { font: 500 18px Inter, 'Helvetica Neue', Arial, sans-serif; fill: #F5EFE7; letter-spacing: 0.5px; }
+      .chip { font: 600 11px 'JetBrains Mono', 'Courier New', monospace; fill: #D97757; letter-spacing: 1px; }
+      .divider { stroke: #3A2A1E; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1200" height="380" fill="url(#bgGrad)"/>
+  <rect width="1200" height="380" fill="url(#orangeBreath)"/>
+
+  <!-- OS window chrome (48px title bar + traffic lights) -->
+  <rect x="0" y="0" width="1200" height="48" fill="#16120E"/>
+  <circle cx="24" cy="24" r="7" fill="#FF5F57"/>
+  <circle cx="48" cy="24" r="7" fill="#FEBC2E"/>
+  <circle cx="72" cy="24" r="7" fill="#28C840"/>
+  <text x="600" y="30" text-anchor="middle" class="titlebar">~ / local-seo-brain</text>
+  <line x1="0" y1="48" x2="1200" y2="48" class="divider"/>
+
+  <!-- ANSI Shadow figlet "LOCAL SEO BRAIN" - glow layer behind -->
+  <g transform="translate(76, 92)">
+    <text class="figletGlow" x="0" y="0">██╗      ██████╗  ██████╗ █████╗ ██╗         ███████╗███████╗ ██████╗     ██████╗ ██████╗  █████╗ ██╗███╗   ██╗</text>
+    <text class="figletGlow" x="0" y="16">██║     ██╔═══██╗██╔════╝██╔══██╗██║         ██╔════╝██╔════╝██╔═══██╗    ██╔══██╗██╔══██╗██╔══██╗██║████╗  ██║</text>
+    <text class="figletGlow" x="0" y="32">██║     ██║   ██║██║     ███████║██║         ███████╗█████╗  ██║   ██║    ██████╔╝██████╔╝███████║██║██╔██╗ ██║</text>
+    <text class="figletGlow" x="0" y="48">██║     ██║   ██║██║     ██╔══██║██║         ╚════██║██╔══╝  ██║   ██║    ██╔══██╗██╔══██╗██╔══██║██║██║╚██╗██║</text>
+    <text class="figletGlow" x="0" y="64">███████╗╚██████╔╝╚██████╗██║  ██║███████╗    ███████║███████╗╚██████╔╝    ██████╔╝██║  ██║██║  ██║██║██║ ╚████║</text>
+    <text class="figletGlow" x="0" y="80">╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝    ╚══════╝╚══════╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝</text>
+  </g>
+
+  <!-- ANSI Shadow figlet "LOCAL SEO BRAIN" - sharp layer on top -->
+  <g transform="translate(76, 92)">
+    <text class="figlet" x="0" y="0">██╗      ██████╗  ██████╗ █████╗ ██╗         ███████╗███████╗ ██████╗     ██████╗ ██████╗  █████╗ ██╗███╗   ██╗</text>
+    <text class="figlet" x="0" y="16">██║     ██╔═══██╗██╔════╝██╔══██╗██║         ██╔════╝██╔════╝██╔═══██╗    ██╔══██╗██╔══██╗██╔══██╗██║████╗  ██║</text>
+    <text class="figlet" x="0" y="32">██║     ██║   ██║██║     ███████║██║         ███████╗█████╗  ██║   ██║    ██████╔╝██████╔╝███████║██║██╔██╗ ██║</text>
+    <text class="figlet" x="0" y="48">██║     ██║   ██║██║     ██╔══██║██║         ╚════██║██╔══╝  ██║   ██║    ██╔══██╗██╔══██╗██╔══██║██║██║╚██╗██║</text>
+    <text class="figlet" x="0" y="64">███████╗╚██████╔╝╚██████╗██║  ██║███████╗    ███████║███████╗╚██████╔╝    ██████╔╝██║  ██║██║  ██║██║██║ ╚████║</text>
+    <text class="figlet" x="0" y="80">╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝    ╚══════╝╚══════╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="600" y="232" text-anchor="middle" class="subtitle">Operator brain for the Map Pack, organic local, and AI search.</text>
+
+  <!-- Chip row -->
+  <g transform="translate(600, 280)" text-anchor="middle">
+    <text x="-360" y="0" class="chip">› PROPERTY</text>
+    <text x="-180" y="0" class="chip">› GBP</text>
+    <text x="0" y="0" class="chip">› CITATIONS</text>
+    <text x="180" y="0" class="chip">› REVIEWS</text>
+    <text x="360" y="0" class="chip">› LLM SEO</text>
+  </g>
+
+  <!-- Footer rule with status -->
+  <line x1="80" y1="320" x2="1120" y2="320" class="divider"/>
+  <text x="80" y="350" class="chip" fill="#8B7E72">[ STATUS ]</text>
+  <text x="170" y="350" class="chip" fill="#F5EFE7">v0.3.0 · evidence review · Draft outputs</text>
+  <text x="1120" y="350" text-anchor="end" class="chip">AI-MARKETING-HUB ›</text>
+</svg>

@@ -1,0 +1,638 @@
+{
+  "schema": "local-seo-brain.source-review.v1",
+  "as_of": "2026-10-15",
+  "reviews": [
+    {
+      "source_id": "google-search-essentials",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/essentials",
+      "locator": "Technical requirements; spam policies; key best practices",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-ranking-systems",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
+      "locator": "Link analysis systems and PageRank; retired systems",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-helpful-content",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "locator": "Expertise questions; Get to know E-E-A-T; Who, How, and Why; main content quality; no preferred word count",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-core-updates",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/core-updates",
+      "locator": "Assessing a drop in position; self-assessment guidance",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-spam-policies",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "locator": "Scaled content abuse; hidden text and link abuse; link spam; doorway abuse",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-march-2024-core-spam",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/blog/2024/03/core-update-spam-policies",
+      "locator": "March 2024 core update and new spam policies announcement",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-site-reputation-update",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "superseded-in-part",
+      "inspected_url": "https://developers.google.com/search/blog/2024/11/site-reputation-abuse",
+      "locator": "Site reputation abuse policy update",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-status-summary",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://status.search.google.com/summary",
+      "locator": "Ranking update incident history",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-doc-updates",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/updates",
+      "locator": "Documentation change history",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-ai-features",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "locator": "How to appear in AI features; technical requirements; SEO best practices",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-succeeding-ai-search",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search",
+      "locator": "Foundational SEO guidance for AI search experiences",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-ai-optimization-resource-2026",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing",
+      "locator": "May 2026 AI search resource announcement",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gen-ai-report-launch",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
+      "locator": "Announcement and staged rollout",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gen-ai-performance-help",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://support.google.com/webmasters/answer/16984139?hl=en-GB",
+      "locator": "What's included; dimensions; data limitations",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gen-ai-control",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://support.google.com/webmasters/answer/16908024",
+      "locator": "Change your control; exclusion effects",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-page-experience",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/page-experience",
+      "locator": "Page experience and relevance; Core Web Vitals",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-core-web-vitals",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+      "locator": "LCP, INP, CLS and Search",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-structured-data-guidelines",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "locator": "Format; content quality; completeness",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-structured-data-intro",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "locator": "Supported formats",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-localbusiness-structured-data",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+      "locator": "Guidelines; aggregateRating; review properties",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-review-snippet",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+      "locator": "LocalBusiness and Organization review guidelines",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-image-seo",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/google-images",
+      "locator": "Page context, alt text, speed, quality, image sitemaps",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-image-metadata",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata",
+      "locator": "IPTC rights fields and C2PA provenance",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-link-best-practices",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "locator": "Internal links; external links; sponsored and UGC attributes",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-seo-starter-guide",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "locator": "Influence your title links; Control your snippets; useful content; contextual links",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-console-anomalies",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://support.google.com/webmasters/answer/6211453",
+      "locator": "May 7, 2026 rich result reporting change",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-june-2026-spam-update",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://status.search.google.com/incidents/YUX1peHev5a4fkxLDiUQ",
+      "locator": "Incident details, June 24\u201326, 2026",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-representation-guidelines",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/3038177",
+      "locator": "Business description; hours; name; categories; address; service-area businesses",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-eligibility-ownership",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/13763036",
+      "locator": "Eligible and ineligible businesses; authorized representatives",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-service-areas",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/9157481",
+      "locator": "How service areas work; remove address when customers are not served there",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-categories",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/7249669",
+      "locator": "Understand business categories; add or edit categories",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-verification",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/7107242",
+      "locator": "Verification methods and re-verification",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-video-verification",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/14271705",
+      "locator": "Prepare for recording; service-area business requirements",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-posts",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/7342169",
+      "locator": "Post types, scheduling, status, and tips",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-reviews",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/3474050",
+      "locator": "Read and reply to reviews; reply moderation",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-qanda-api-changelog",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/my-business/content/qanda/change-log",
+      "locator": "v1 2025-11-03 Q&A API deprecation complete",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-api-changelog",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/my-business/content/change-log",
+      "locator": "v4.9 New Features: 2026-10-09 Food Menus Dietary Restrictions; 2026-07-24 review_reply_url; 2026-07-01 Policy Violation",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-media-post-policy",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://support.google.com/business/answer/7213077",
+      "locator": "Posts including contact information; hotel-post restrictions; linked prohibited and restricted content",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-maps-prohibited-content",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/contributionpolicy/answer/7400114",
+      "locator": "Fake engagement; rating manipulation; personal information",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-maps-ugc-policy",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/contributionpolicy/answer/7422880",
+      "locator": "Real experiences; place questions and answers; enforcement",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-maps-content-use",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/contributionpolicy/answer/7412443",
+      "locator": "Subjective content; beta questions; machine learning and generative AI",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-maps-ask-maps-launch",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/",
+      "locator": "Ask anything about any place; initial rollout scope",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-local-ranking",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://support.google.com/business/answer/7091",
+      "locator": "Relevance, distance, prominence; reviews",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-policy-overview",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/13762416",
+      "locator": "Policy overview and linked requirements",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-restrictions",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/14114287",
+      "locator": "Restrictions and enforcement",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-get-reviews",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/3474122",
+      "locator": "Permitted review requests",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-report-reviews",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/4596773",
+      "locator": "Review reporting workflow",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-missing-reviews",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://support.google.com/business/answer/10313341",
+      "locator": "Review delay and removal causes",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-chat-call-history",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://support.google.com/business/answer/14919056",
+      "locator": "Chat and call history ended July 31, 2024",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-api-overview",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/my-business/content/overview",
+      "locator": "API overview and authorization boundary",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-api-faq",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/my-business/content/faq",
+      "locator": "Access and usage FAQ",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-gbp-rest-reference",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/my-business/reference/rest",
+      "locator": "Current REST resources and methods",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-places-policies",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/maps/documentation/places/web-service/policies",
+      "locator": "Attribution, caching, storage, and display requirements",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-places-release-notes",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://developers.google.com/maps/documentation/places/web-service/release-notes",
+      "locator": "Places API release history",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-maps-platform-terms",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://cloud.google.com/maps-platform/terms",
+      "locator": "License restrictions and service terms",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "schema-localbusiness",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://schema.org/LocalBusiness",
+      "locator": "LocalBusiness type and properties",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "schema-validator",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://validator.schema.org/",
+      "locator": "Schema.org syntax and vocabulary validation",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-rich-results-test",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://search.google.com/test/rich-results",
+      "locator": "Google rich-result eligibility test surface",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "pew-ai-summary-click-study",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "locator": "Methods and findings for 68,879 searches from 900 U.S. adults",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "ahrefs-ai-overview-ctr-study",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "superseded-in-part",
+      "inspected_url": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/",
+      "locator": "February 2026 rerun: 300,000 keywords; desktop GSC December 2023 vs December 2025; correlational counterfactual",
+      "scope": "2026 rerun replaces the prior estimate; both are observational and the retained claim is directional only",
+      "previous_url": "https://ahrefs.com/blog/ai-overviews-reduce-clicks/"
+    },
+    {
+      "source_id": "geo-kdd-2024",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://arxiv.org/html/2311.09735v3",
+      "locator": "Abstract and contribution summary",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "geo-citation-absorption-2026",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://arxiv.org/abs/2604.25707",
+      "locator": "Abstract; 602-prompt cross-platform measurement",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "doj-google-interaction-testimony",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://www.justice.gov/d9/2023-10/417254.pdf",
+      "locator": "PDF pp. 44\u201347; aggregated interaction evidence and NavBoost",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "hbs-yelp-revenue-study",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://www.hbs.edu/ris/Publication%20Files/12-016_a7e4a5a2-03f9-490d-b093-8f951238dba2.pdf",
+      "locator": "Abstract; data and identification: Seattle restaurant revenues 2003-2009 and rounded Yelp star thresholds",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "cipa-exif-31",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "unchanged",
+      "inspected_url": "https://www.cipa.jp/e/std/std-sec.html",
+      "locator": "Standards list and Exif 3.1 entry",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "local-seo-brain-product-contract",
+      "reviewed_at": "2026-10-15",
+      "previous_verified_at": "2026-07-18",
+      "result": "changed",
+      "inspected_url": "https://github.com/AI-Marketing-Hub/local-seo-brain",
+      "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-generative-ai-content-guidance",
+      "reviewed_at": "2026-10-15",
+      "result": "added",
+      "inspected_url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+      "locator": "Using generative AI content; accuracy, quality, relevance; give users context",
+      "scope": "global; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-aggregator-unit",
+      "reviewed_at": "2026-10-15",
+      "result": "added",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/aggregator-unit",
+      "locator": "Feature availability; eligibility criteria; direct data-feed integrations for local businesses",
+      "scope": "EEA; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-search-supplier-unit",
+      "reviewed_at": "2026-10-15",
+      "result": "added",
+      "inspected_url": "https://developers.google.com/search/docs/appearance/supplier-unit",
+      "locator": "Direct-provider eligibility; crawling; only alongside aggregator units",
+      "scope": "EEA; claim-bearing passages, not a whole-page byte comparison"
+    },
+    {
+      "source_id": "google-site-reputation-eea-update-2026",
+      "reviewed_at": "2026-10-15",
+      "result": "added",
+      "inspected_url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+      "locator": "August 30 enforcement effects by searcher region",
+      "scope": "global with EEA distinction; claim-bearing passages, not a whole-page byte comparison"
+    }
+  ],
+  "limitations": [
+    "Primary equivalent author/official URLs used where recorded canonical fetchers failed.",
+    "No live account API calls.",
+    "Local product contract verified locally; remote GitHub state unverified."
+  ]
+}

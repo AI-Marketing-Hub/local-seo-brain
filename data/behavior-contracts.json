@@ -1,0 +1,79 @@
+{
+  "scripts/guide_next_action.py": [
+    "tests/test_freshness.py"
+  ],
+  "scripts/lint_vault.py": [],
+  "scripts/audit_brain.py": [],
+  "scripts/brainstein_gate.py": [],
+  "scripts/build_demo_vault.py": [
+    "tests/test_demo_determinism.py"
+  ],
+  "scripts/build_vault_transaction.py": [],
+  "scripts/cross_link_seeded.py": [],
+  "scripts/evidence_contract.py": [
+    "tests/test_citation_contract.py",
+    "tests/test_freshness.py"
+  ],
+  "scripts/fix_anchor_links.py": [],
+  "scripts/generate_vault_visuals.py": [],
+  "scripts/historical_seed_contract.py": [],
+  "scripts/ingest_citations.py": [
+    "tests/test_domain_ingestors.py",
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/ingest_gbp.py": [
+    "tests/test_domain_ingestors.py",
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/ingest_geogrid.py": [
+    "tests/test_domain_ingestors.py",
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/ingest_knowledge_base.py": [
+    "tests/test_reseed_preserves_overlays.py",
+    "tests/test_freshness.py"
+  ],
+  "scripts/ingest_reviews.py": [
+    "tests/test_privacy_and_refusals.py",
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/ingest_source.py": [
+    "tests/test_pipeline.py",
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/package_release.py": [
+    "tests/test_release_receipt.py"
+  ],
+  "scripts/render_brain_report.py": [],
+  "scripts/runtime.py": [
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/scaffold_vault.py": [
+    "tests/test_scaffold.py",
+    "tests/test_cli_safety.py"
+  ],
+  "scripts/synthesize_brain.py": [
+    "tests/test_pipeline.py",
+    "tests/test_raw_integrity.py"
+  ],
+  "scripts/uninstall_vault.py": [
+    "tests/test_cli_safety.py"
+  ],
+  "scripts/version_contract.py": [
+    "tests/test_version_consistency.py"
+  ],
+  "scripts/coverage_matrix.py": [],
+  "scripts/repository_safety_scan.py": [
+    "tests/test_safety_scan.py"
+  ],
+  "scripts/change_manifest.py": [],
+  "scripts/freshness.py": [
+    "tests/test_freshness.py"
+  ],
+  "scripts/verification_receipt.py": [
+    "tests/test_release_receipt.py"
+  ],
+  "scripts/working_content_contract.py": [
+    "tests/test_documentation_claims.py"
+  ]
+}

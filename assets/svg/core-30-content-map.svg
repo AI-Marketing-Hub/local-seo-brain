@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
+<title id="title">Useful page planning</title><desc id="desc">A task based replacement for the historical Core 30 worksheet. No fixed page count or ranking formula.</desc>
+<rect width="1200" height="490" rx="18" fill="#FAF8F4"/>
+<g font-family="Arial,sans-serif" fill="#172033">
+<text x="40" y="52" font-size="30" font-weight="700">Useful page planning</text>
+<text x="40" y="88" font-size="17">Preserved Core 30 filename. The historical count is retired from working guidance.</text>
+<g transform="translate(40 125)"><rect width="350" height="240" rx="12" fill="white" stroke="#E8E0D4"/><text x="20" y="38" font-size="21" fill="#D97757">Business facts</text><text x="20" y="80" font-size="17">Confirmed services and service area</text><text x="20" y="115" font-size="17">Accurate identity and contact details</text><text x="20" y="150" font-size="17">Experience supported by records</text><text x="20" y="195" font-size="17">Unknown facts stay needs_input</text></g>
+<g transform="translate(425 125)"><rect width="350" height="240" rx="12" fill="white" stroke="#E8E0D4"/><text x="20" y="38" font-size="21" fill="#4D8271">Distinct user tasks</text><text x="20" y="80" font-size="17">A useful purpose for each page</text><text x="20" y="115" font-size="17">Evidence for location differences</text><text x="20" y="150" font-size="17">Consolidate repetitive pages</text><text x="20" y="195" font-size="17">No fixed page or word quota</text></g>
+<g transform="translate(810 125)"><rect width="350" height="240" rx="12" fill="white" stroke="#E8E0D4"/><text x="20" y="38" font-size="21" fill="#8055A8">Review before publishing</text><text x="20" y="80" font-size="17">Verify every material assertion</text><text x="20" y="115" font-size="17">Use relevant, resolved navigation</text><text x="20" y="150" font-size="17">Markup must match visible facts</text><text x="20" y="195" font-size="17">Require human review and approval</text></g>
+<text x="40" y="410" font-size="17">Claims: no-universal-content-formula, hidden-and-doorway-abuse, structured-data-no-guarantee.</text>
+<text x="40" y="448" font-size="16">Sources, locators, dates, and scope: the canonical Claim Ledger. No page mix or ranking outcome is promised.</text>
+</g></svg>

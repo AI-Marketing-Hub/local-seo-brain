@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "start",
+      "type": "file",
+      "file": "wiki/meta/Start Here.md",
+      "x": -700,
+      "y": -300,
+      "width": 360,
+      "height": 220,
+      "color": "1"
+    },
+    {
+      "id": "hot",
+      "type": "file",
+      "file": "wiki/hot.md",
+      "x": -700,
+      "y": -50,
+      "width": 360,
+      "height": 220,
+      "color": "1"
+    },
+    {
+      "id": "phases",
+      "type": "file",
+      "file": "wiki/frameworks/the-3-phases-of-local-seo.md",
+      "x": -260,
+      "y": -300,
+      "width": 380,
+      "height": 470,
+      "color": "5"
+    },
+    {
+      "id": "core30",
+      "type": "file",
+      "file": "wiki/frameworks/the-core-30-content-strategy.md",
+      "x": -260,
+      "y": 200,
+      "width": 380,
+      "height": 270,
+      "color": "5"
+    },
+    {
+      "id": "phase1-flow",
+      "type": "file",
+      "file": "wiki/flows/Property Audit Workflow.md",
+      "x": 160,
+      "y": -300,
+      "width": 320,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "phase2-flow",
+      "type": "file",
+      "file": "wiki/flows/GBP Optimization Workflow.md",
+      "x": 160,
+      "y": -110,
+      "width": 320,
+      "height": 160,
+      "color": "2"
+    },
+    {
+      "id": "phase3-flow",
+      "type": "file",
+      "file": "wiki/flows/Citation Audit Workflow.md",
+      "x": 160,
+      "y": 80,
+      "width": 320,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "audits-hub",
+      "type": "file",
+      "file": "wiki/audits/_index.md",
+      "x": 520,
+      "y": -300,
+      "width": 280,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "gbp-hub",
+      "type": "file",
+      "file": "wiki/gbp/_index.md",
+      "x": 520,
+      "y": -110,
+      "width": 280,
+      "height": 160,
+      "color": "2"
+    },
+    {
+      "id": "backlinks-hub",
+      "type": "file",
+      "file": "wiki/backlinks/_index.md",
+      "x": 520,
+      "y": 80,
+      "width": 280,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "llm-hub",
+      "type": "file",
+      "file": "wiki/llm-seo/_index.md",
+      "x": 840,
+      "y": -110,
+      "width": 280,
+      "height": 250,
+      "color": "6"
+    },
+    {
+      "id": "freshness-hub",
+      "type": "file",
+      "file": "wiki/freshness/_index.md",
+      "x": 840,
+      "y": 170,
+      "width": 280,
+      "height": 200,
+      "color": "1"
+    },
+    {
+      "id": "dashboard",
+      "type": "file",
+      "file": "wiki/meta/dashboard.md",
+      "x": -700,
+      "y": 200,
+      "width": 360,
+      "height": 270,
+      "color": "5"
+    },
+    {
+      "id": "scorecard",
+      "type": "file",
+      "file": "wiki/deliverables/Health Scorecard.md",
+      "x": 160,
+      "y": 280,
+      "width": 320,
+      "height": 160,
+      "color": "1"
+    },
+    {
+      "id": "approval",
+      "type": "file",
+      "file": "wiki/decisions/Approval Queue.md",
+      "x": 520,
+      "y": 280,
+      "width": 280,
+      "height": 160,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {"id": "e-start-hot", "fromNode": "start", "fromSide": "bottom", "toNode": "hot", "toSide": "top"},
+    {"id": "e-start-phases", "fromNode": "start", "fromSide": "right", "toNode": "phases", "toSide": "left", "label": "1. Set frame"},
+    {"id": "e-phases-core30", "fromNode": "phases", "fromSide": "bottom", "toNode": "core30", "toSide": "top"},
+    {"id": "e-phases-p1", "fromNode": "phases", "fromSide": "right", "toNode": "phase1-flow", "toSide": "left", "label": "Phase 1"},
+    {"id": "e-phases-p2", "fromNode": "phases", "fromSide": "right", "toNode": "phase2-flow", "toSide": "left", "label": "Phase 2"},
+    {"id": "e-phases-p3", "fromNode": "phases", "fromSide": "right", "toNode": "phase3-flow", "toSide": "left", "label": "Phase 3"},
+    {"id": "e-p1-audits", "fromNode": "phase1-flow", "fromSide": "right", "toNode": "audits-hub", "toSide": "left"},
+    {"id": "e-p2-gbp", "fromNode": "phase2-flow", "fromSide": "right", "toNode": "gbp-hub", "toSide": "left"},
+    {"id": "e-p3-backlinks", "fromNode": "phase3-flow", "fromSide": "right", "toNode": "backlinks-hub", "toSide": "left"},
+    {"id": "e-llm-cross", "fromNode": "llm-hub", "fromSide": "left", "toNode": "gbp-hub", "toSide": "right", "label": "cross-cutting"},
+    {"id": "e-freshness-llm", "fromNode": "freshness-hub", "fromSide": "top", "toNode": "llm-hub", "toSide": "bottom"},
+    {"id": "e-hot-scorecard", "fromNode": "hot", "fromSide": "right", "toNode": "scorecard", "toSide": "left"},
+    {"id": "e-scorecard-approval", "fromNode": "scorecard", "fromSide": "right", "toNode": "approval", "toSide": "left"},
+    {"id": "e-dashboard-scorecard", "fromNode": "dashboard", "fromSide": "right", "toNode": "scorecard", "toSide": "left"}
+  ]
+}

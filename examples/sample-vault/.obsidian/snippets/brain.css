@@ -1,0 +1,95 @@
+/* Local SEO Brain — visual theme */
+
+:root {
+  /* Brand palette */
+  --brain-bg: #fafaf7;
+  --brain-ink: #172033;
+  --brain-muted: #64748b;
+
+  /* Phase colors */
+  --phase-1-property: #2f7f87;   /* teal */
+  --phase-2-gbp: #c85f4d;        /* coral */
+  --phase-3-backlinks: #f0b33d;  /* amber */
+  --phase-llm: #7c4ddb;          /* purple */
+
+  /* Status colors */
+  --status-fresh: #10b981;       /* green */
+  --status-stale: #f59e0b;       /* warning amber */
+  --status-source: #6b7280;      /* gray */
+
+  /* Typography */
+  --brain-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Headings */
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-header-1 {
+  color: var(--phase-1-property);
+  border-bottom: 2px solid var(--phase-1-property);
+  padding-bottom: 0.2em;
+}
+
+.markdown-preview-view h2 {
+  color: var(--brain-ink);
+  border-bottom: 1px solid var(--brain-muted);
+  padding-bottom: 0.15em;
+}
+
+.markdown-preview-view h3 {
+  color: var(--phase-2-gbp);
+}
+
+/* Callouts (Obsidian native) — make warnings prominent for freshness layer */
+.callout[data-callout="warning"] {
+  --callout-color: 245, 158, 11;
+  --callout-icon: lucide-alert-triangle;
+  border-left: 4px solid var(--status-stale);
+  background: rgba(245, 158, 11, 0.08);
+}
+
+/* Phase-tinted note titles via frontmatter `folder` field — when supported */
+.metadata-property[data-property-key="folder"][data-property-value="gbp"] {
+  color: var(--phase-2-gbp);
+}
+.metadata-property[data-property-key="folder"][data-property-value="audits"],
+.metadata-property[data-property-key="folder"][data-property-value="content"] {
+  color: var(--phase-1-property);
+}
+.metadata-property[data-property-key="folder"][data-property-value="backlinks"],
+.metadata-property[data-property-key="folder"][data-property-value="citations"] {
+  color: var(--phase-3-backlinks);
+}
+.metadata-property[data-property-key="folder"][data-property-value="llm-seo"] {
+  color: var(--phase-llm);
+}
+
+/* Cross-link block — visually distinct */
+.markdown-preview-view h2:has(+ ul:has(li > a[data-href*="-"])) {
+  color: var(--brain-muted);
+}
+
+/* Tables — readable density */
+.markdown-preview-view table {
+  font-size: 0.92em;
+  border-collapse: collapse;
+}
+.markdown-preview-view table th {
+  background: rgba(47, 127, 135, 0.08);
+  font-weight: 600;
+  text-align: left;
+}
+.markdown-preview-view table tr:nth-child(2n) td {
+  background: rgba(0, 0, 0, 0.015);
+}
+
+/* Frontmatter title for freshness type */
+.metadata-property[data-property-key="type"][data-property-value="freshness"] {
+  color: var(--status-stale);
+  font-weight: 700;
+}
+
+/* Code blocks use mono */
+.markdown-preview-view code,
+.markdown-preview-view pre {
+  font-family: var(--brain-mono);
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Local SEO Brain operating roadmap</title>
+<desc id="desc">Version 0.3.0 supports authorized export ingestion and Draft evidence review. Maintenance checks freshness and reproducibility. All external changes require owner approval and remain outside the product.</desc>
+<rect width="1200" height="430" fill="#FAF7F2"/>
+<g font-family="Inter, Arial, sans-serif" fill="#1F1B16">
+<text x="40" y="48" font-size="28" font-weight="700">Local SEO Brain · v0.3.0</text>
+<text x="40" y="80" font-size="16" fill="#5C5346">Current capabilities and operating boundaries</text>
+<g transform="translate(40 120)"><rect width="350" height="240" rx="12" fill="white" stroke="#E8E0D4"/><text x="20" y="38" font-size="20" fill="#2f7f87">Authorized evidence</text><text x="20" y="78" font-size="16">Manual, GBP, citation, review</text><text x="20" y="108" font-size="16">and geo-grid exports</text><text x="20" y="153" font-size="16">Immutable raw bytes and receipts</text><text x="20" y="183" font-size="16">Descriptive summaries</text></g>
+<g transform="translate(425 120)"><rect width="350" height="240" rx="12" fill="white" stroke="#E8E0D4"/><text x="20" y="38" font-size="20" fill="#D97757">Reviewed working memory</text><text x="20" y="78" font-size="16">Scoped claims and source locators</text><text x="20" y="108" font-size="16">Dated freshness checks</text><text x="20" y="153" font-size="16">Staged, hash-bound transactions</text><text x="20" y="183" font-size="16">Deterministic fixture builds</text></g>
+<g transform="translate(810 120)"><rect width="350" height="240" rx="12" fill="white" stroke="#E8E0D4"/><text x="20" y="38" font-size="20" fill="#B084CC">Draft outputs</text><text x="20" y="78" font-size="16">Evidence-state scorecard</text><text x="20" y="108" font-size="16">Review steps and report</text><text x="20" y="153" font-size="16">Approval queue with rollback</text><text x="20" y="183" font-size="16">External systems remain read-only</text></g>
+<text x="40" y="402" font-size="14" fill="#5C5346">No live account integration, invented grade, causal diagnosis, or ranking guarantee.</text>
+</g></svg>

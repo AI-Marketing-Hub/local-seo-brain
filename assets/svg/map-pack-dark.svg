@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="t d">
+<title id="t">The map pack: Google shows three businesses first</title>
+<desc id="d">A search for plumber near me shows a map with three pins and three business results. What gets you in: accurate details, real reviews, being close by. What keeps you out: wrong details, stale listings, fake shortcuts.</desc>
+<style>text{font-family:Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif} .m{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace} @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}} .r{animation:rise .7s cubic-bezier(.2,.7,.2,1) both} @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="1200" height="460" rx="22" fill="#0D1117"/>
+<rect x="0.5" y="0.5" width="1199" height="459" rx="21.5" fill="none" stroke="#2B313B"/>
+<text x="72" y="70" font-size="14" font-weight="700" fill="#F07A5E" text-anchor="start" class="m">THE MAP PACK</text>
+<text x="72" y="118" font-size="36" font-weight="800" fill="#F2F3F5" text-anchor="start">Google shows three businesses first.</text>
+<g class="r" style="animation-delay:0.1s">
+<rect x="72" y="150" width="500" height="266" rx="18" fill="#161B22" stroke="#2B313B"/>
+<rect x="92" y="170" width="460" height="38" rx="19" fill="#1F262E" stroke="#2B313B"/>
+<g transform="translate(108 181)" fill="none" stroke="#6E7681" stroke-width="2" stroke-linecap="round"><circle cx="7" cy="7" r="6"/><path d="M11.5 11.5L16 16"/></g>
+<text x="134" y="195" font-size="16" font-weight="600" fill="#F2F3F5" text-anchor="start">plumber near me</text>
+<rect x="92" y="222" width="190" height="174" rx="12" fill="#1A2229"/>
+<g stroke="#2B343D" stroke-width="6" stroke-linecap="round"><path d="M92 300h190"/><path d="M160 222v174"/><path d="M230 222v174"/><path d="M92 350h190"/></g>
+<g transform="translate(140 292)"><path d="M0 -34c-11 0-19 8-19 19 0 14 19 34 19 34s19-20 19-34c0-11-8-19-19-19z" fill="#F07A5E"/><circle cx="0" cy="-15" r="8" fill="#0D1117"/><text x="0" y="-11" font-size="11" font-weight="800" fill="#F07A5E" text-anchor="middle"></text></g><g transform="translate(205 330)"><path d="M0 -34c-11 0-19 8-19 19 0 14 19 34 19 34s19-20 19-34c0-11-8-19-19-19z" fill="#F07A5E"/><circle cx="0" cy="-15" r="8" fill="#0D1117"/><text x="0" y="-11" font-size="11" font-weight="800" fill="#F07A5E" text-anchor="middle"></text></g><g transform="translate(255 274)"><path d="M0 -34c-11 0-19 8-19 19 0 14 19 34 19 34s19-20 19-34c0-11-8-19-19-19z" fill="#F07A5E"/><circle cx="0" cy="-15" r="8" fill="#0D1117"/><text x="0" y="-11" font-size="11" font-weight="800" fill="#F07A5E" text-anchor="middle"></text></g><rect x="298" y="222" width="254" height="52" rx="10" fill="#1F262E" stroke="#2B313B"/>
+<text x="312" y="242" font-size="13" font-weight="700" fill="#F2F3F5" text-anchor="start">Northside Plumbing</text>
+<text x="312" y="262" font-size="12" font-weight="600" fill="#9AA1AD" text-anchor="start">4.9</text>
+<polygon points="348.0,253.0 349.3,256.2 352.8,256.5 350.1,258.7 350.9,262.0 348.0,260.2 345.1,262.0 345.9,258.7 343.2,256.5 346.7,256.2" fill="#F07A5E"/><polygon points="361.0,253.0 362.3,256.2 365.8,256.5 363.1,258.7 363.9,262.0 361.0,260.2 358.1,262.0 358.9,258.7 356.2,256.5 359.7,256.2" fill="#F07A5E"/><polygon points="374.0,253.0 375.3,256.2 378.8,256.5 376.1,258.7 376.9,262.0 374.0,260.2 371.1,262.0 371.9,258.7 369.2,256.5 372.7,256.2" fill="#F07A5E"/><polygon points="387.0,253.0 388.3,256.2 391.8,256.5 389.1,258.7 389.9,262.0 387.0,260.2 384.1,262.0 384.9,258.7 382.2,256.5 385.7,256.2" fill="#F07A5E"/><polygon points="400.0,253.0 401.3,256.2 404.8,256.5 402.1,258.7 402.9,262.0 400.0,260.2 397.1,262.0 397.9,258.7 395.2,256.5 398.7,256.2" fill="#F07A5E"/><text x="416" y="262" font-size="12" font-weight="400" fill="#6E7681" text-anchor="start">(212) Open now</text>
+<rect x="298" y="280" width="254" height="52" rx="10" fill="#1F262E" stroke="#2B313B"/>
+<text x="312" y="300" font-size="13" font-weight="700" fill="#F2F3F5" text-anchor="start">Bright Pipe Co.</text>
+<text x="312" y="320" font-size="12" font-weight="600" fill="#9AA1AD" text-anchor="start">4.8</text>
+<polygon points="348.0,311.0 349.3,314.2 352.8,314.5 350.1,316.7 350.9,320.0 348.0,318.2 345.1,320.0 345.9,316.7 343.2,314.5 346.7,314.2" fill="#F07A5E"/><polygon points="361.0,311.0 362.3,314.2 365.8,314.5 363.1,316.7 363.9,320.0 361.0,318.2 358.1,320.0 358.9,316.7 356.2,314.5 359.7,314.2" fill="#F07A5E"/><polygon points="374.0,311.0 375.3,314.2 378.8,314.5 376.1,316.7 376.9,320.0 374.0,318.2 371.1,320.0 371.9,316.7 369.2,314.5 372.7,314.2" fill="#F07A5E"/><polygon points="387.0,311.0 388.3,314.2 391.8,314.5 389.1,316.7 389.9,320.0 387.0,318.2 384.1,320.0 384.9,316.7 382.2,314.5 385.7,314.2" fill="#F07A5E"/><polygon points="400.0,311.0 401.3,314.2 404.8,314.5 402.1,316.7 402.9,320.0 400.0,318.2 397.1,320.0 397.9,316.7 395.2,314.5 398.7,314.2" fill="#F07A5E"/><text x="416" y="320" font-size="12" font-weight="400" fill="#6E7681" text-anchor="start">(97) Open now</text>
+<rect x="298" y="338" width="254" height="52" rx="10" fill="#1F262E" stroke="#2B313B"/>
+<text x="312" y="358" font-size="13" font-weight="700" fill="#F2F3F5" text-anchor="start">Reyes Heating and Plumbing</text>
+<text x="312" y="378" font-size="12" font-weight="600" fill="#9AA1AD" text-anchor="start">4.7</text>
+<polygon points="348.0,369.0 349.3,372.2 352.8,372.5 350.1,374.7 350.9,378.0 348.0,376.2 345.1,378.0 345.9,374.7 343.2,372.5 346.7,372.2" fill="#F07A5E"/><polygon points="361.0,369.0 362.3,372.2 365.8,372.5 363.1,374.7 363.9,378.0 361.0,376.2 358.1,378.0 358.9,374.7 356.2,372.5 359.7,372.2" fill="#F07A5E"/><polygon points="374.0,369.0 375.3,372.2 378.8,372.5 376.1,374.7 376.9,378.0 374.0,376.2 371.1,378.0 371.9,374.7 369.2,372.5 372.7,372.2" fill="#F07A5E"/><polygon points="387.0,369.0 388.3,372.2 391.8,372.5 389.1,374.7 389.9,378.0 387.0,376.2 384.1,378.0 384.9,374.7 382.2,372.5 385.7,372.2" fill="#F07A5E"/><polygon points="400.0,369.0 401.3,372.2 404.8,372.5 402.1,374.7 402.9,378.0 400.0,376.2 397.1,378.0 397.9,374.7 395.2,372.5 398.7,372.2" fill="#F07A5E"/><text x="416" y="378" font-size="12" font-weight="400" fill="#6E7681" text-anchor="start">(140) Opens 8 am</text>
+</g>
+<g class="r" style="animation-delay:0.25s">
+<rect x="612" y="150" width="516" height="124" rx="18" fill="#12301E"/>
+<g transform="translate(636 176)" fill="none" stroke="#3FB950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><path d="M8 14l4 4 8-8"/></g>
+<text x="680" y="186" font-size="22" font-weight="700" fill="#F2F3F5" text-anchor="start">What gets you in</text>
+<text x="680" y="216" font-size="16" font-weight="400" fill="#9AA1AD" text-anchor="start">Accurate details. Real reviews. Being close to</text>
+<text x="680" y="240" font-size="16" font-weight="400" fill="#9AA1AD" text-anchor="start">the person searching.</text>
+</g>
+<g class="r" style="animation-delay:0.4s">
+<rect x="612" y="292" width="516" height="124" rx="18" fill="#3A1A17"/>
+<g transform="translate(636 318)" fill="none" stroke="#F0675A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="12"/><path d="M9 9l10 10M19 9L9 19"/></g>
+<text x="680" y="328" font-size="22" font-weight="700" fill="#F2F3F5" text-anchor="start">What keeps you out</text>
+<text x="680" y="358" font-size="16" font-weight="400" fill="#9AA1AD" text-anchor="start">Wrong details. Stale listings. Fake shortcuts that</text>
+<text x="680" y="382" font-size="16" font-weight="400" fill="#9AA1AD" text-anchor="start">can get a profile suspended.</text>
+</g>
+<text x="72" y="440" font-size="12" font-weight="400" fill="#6E7681" text-anchor="start">Example listing. Google ranks local results by relevance, distance and prominence, and does not publish weights.</text>
+</svg>

@@ -1,0 +1,1371 @@
+{
+  "schema": "local-seo-brain.knowledge-overlays.v1",
+  "as_of": "2026-10-15",
+  "defaults": {
+    "status": "active",
+    "tags": [
+      "domain/local-seo"
+    ]
+  },
+  "notes": {
+    "wiki/audits/content-audit-homepage.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCompare the homepage’s stated services, service area, contact details, and next action with owner-confirmed facts. Record contradictions and missing proof before drafting repairs.\n\n## Use this note\n\nInputs: The current homepage, its intended customer task, and owner-confirmed services, service area, and contact details.\n\nResult: Passage-level findings with factual contradictions, missing proof, and a proposed repair for owner review."
+    },
+    "wiki/audits/content-audit-overview.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nInventory existing pages and their intended user tasks. Identify duplication, unsupported claims, and gaps against supplied business evidence.\n\n## Use this note\n\nInputs: A dated page inventory, page purposes, business priorities, and the evidence available for each page.\n\nResult: An audit map identifying overlap, unsupported claims, evidence gaps, and the appropriate page-level review."
+    },
+    "wiki/audits/content-audit-supporting-pages.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCheck whether each supporting page answers a distinct customer question and links to the relevant service. Remove conclusions that the supplied source does not support.\n\n## Use this note\n\nInputs: The supporting-page inventory, customer questions, page drafts, and the relevant service pages.\n\nResult: A page/question/service map with gaps, duplication, and specific consolidation or revision proposals."
+    },
+    "wiki/audits/content-planning-geographical-relevance-part-1.md": {
+      "claim_ids": [
+        "no-universal-content-formula",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse the confirmed service area and observed customer questions to propose location-page candidates. Treat unverified place names and demand as needs_input.\n\n## Use this note\n\nInputs: The confirmed service area, actual customer questions, and existing location-page inventory.\n\nResult: Location-page candidates with the distinct customer task, available local evidence, and unresolved facts.\n\n## Evidence and limits\n\nGoogle documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose. (Claim: no-universal-content-formula; sources: google-helpful-content, google-seo-starter-guide.)"
+    },
+    "wiki/audits/content-planning-geographical-relevance-part-2.md": {
+      "claim_ids": [
+        "no-universal-content-formula",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview each proposed location page for distinct business evidence and user value. Consolidate candidates that merely repeat the same service text with a changed place name.\n\n## Use this note\n\nInputs: Candidate location pages and the business records supporting their claimed local differences.\n\nResult: Keep, consolidate, or needs_input decisions for each candidate, with the supporting evidence.\n\n## Evidence and limits\n\nGoogle documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose. (Claim: no-universal-content-formula; sources: google-helpful-content, google-seo-starter-guide.)"
+    },
+    "wiki/audits/content-planning-topical-relevance-part-1.md": {
+      "claim_ids": [
+        "no-universal-content-formula",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nGroup supplied search queries and customer questions by the task they express. Draft page purposes without inventing search volume or conversion potential.\n\n## Use this note\n\nInputs: Observed queries and customer questions, with their source, locale, date, and relevant business offering.\n\nResult: Task-based topic groups and proposed page purposes, keeping unmeasured demand and competition unknown.\n\n## Evidence and limits\n\nGoogle documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose. (Claim: no-universal-content-formula; sources: google-helpful-content, google-seo-starter-guide.)"
+    },
+    "wiki/audits/content-planning-topical-relevance-part-2.md": {
+      "claim_ids": [
+        "no-universal-content-formula",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nMap topic groups to existing pages. Add a page only when a distinct useful answer and supporting facts exist.\n\n## Use this note\n\nInputs: The topic groups, existing URL inventory, and evidence supporting each proposed answer.\n\nResult: An existing-page/new-page map, duplication decisions, evidence gaps, and useful internal navigation.\n\n## Evidence and limits\n\nGoogle documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose. (Claim: no-universal-content-formula; sources: google-helpful-content, google-seo-starter-guide.)"
+    },
+    "wiki/audits/e-e-a-t-with-about-us-page.md": {
+      "claim_ids": [
+        "eeat-trust-context",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCheck the About page against supplied identity, qualifications, contact information, and experience records. Request evidence for claims instead of inventing a biography or treating author markup as a ranking lever.\n\n## Use this note\n\nInputs: The About page and verified identity, qualifications, experience, and contact records.\n\nResult: Supported revisions and proof requests, with unsupported credentials or experience claims flagged.\n\n## Evidence and limits\n\nGoogle describes E-E-A-T as a quality-assessment concept, not a specific ranking factor. Accurate authorship, sourcing, and demonstrated experience can help readers assess trust. (Claim: eeat-trust-context; sources: google-helpful-content.)"
+    },
+    "wiki/audits/property-audit-part-1.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nConfirm business identity, location model, account ownership, and website inventory using authorized records before evaluating recommendations.\n\n## Use this note\n\nInputs: Owner-authorized identity and ownership records, the location model, and the website inventory.\n\nResult: A confirmed scope and access record, contradictions to resolve, and the evidence needed before the audit proceeds."
+    },
+    "wiki/audits/property-audit-part-2.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview supplied crawl, index, content, link, and measurement evidence. Separate observed problems from possible causes and unmeasured effects.\n\n## Use this note\n\nInputs: Dated crawl, index, page, link, and measurement exports for the agreed property scope.\n\nResult: Observed issues with exact source locators, separate hypotheses, and the next check needed to test each hypothesis."
+    },
+    "wiki/audits/property-audit-quick-wins.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nSelect reversible repairs supported by observed errors and owner constraints. Describe the practical benefit and missing evidence without invented priority scores.\n\n## Use this note\n\nInputs: Verified issues, owner priorities, available access, implementation constraints, and rollback options.\n\nResult: A short repair queue justified by the observed problem and practical benefit, with owner and rollback recorded."
+    },
+    "wiki/audits/property-content-with-existing-authority-audit.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse supplied page performance and backlink exports to identify content worth reviewing. Do not turn historical traffic or links into a prediction of future ranking.\n\n## Use this note\n\nInputs: Page performance and backlink exports with matching URLs, dates, and scope.\n\nResult: Pages to review, the measured reason for selection, and a content check rather than a forecast of ranking gains."
+    },
+    "wiki/audits/property-ctr-audit.md": {
+      "claim_ids": [
+        "behavior-formulas-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "unsupported",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCompare impressions and clicks within the supplied report’s query, page, device, country, and date scope. Check title relevance; treat changes as observations rather than proof of a ranking mechanism.\n\n## Use this note\n\nInputs: The click/impression export, its filters and date window, and the current page titles and descriptions.\n\nResult: Comparable click and impression observations, snippet-relevance findings, and explicit limits on causal interpretation.\n\n## Evidence and limits\n\nAggregated interaction data has been described in primary trial evidence, but this does not validate GA bounce-rate formulas, dwell-time thresholds, CTR manipulation, or local-ranking guarantees. (Claim: behavior-formulas-unsupported; contrary evidence: doj-google-interaction-testimony.)"
+    },
+    "wiki/audits/property-technical-audit.md": {
+      "claim_ids": [
+        "core-web-vitals-scoped",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview supplied crawl and performance evidence for inaccessible pages, indexing controls, conflicting canonicals, and user-experience problems. State which checks were actually performed.\n\n## Use this note\n\nInputs: Crawl, indexing-control, canonical, rendering, and performance evidence for the named URLs.\n\nResult: A reproducible finding list identifying the tested control, observation, affected URL, and proposed verification or repair.\n\n## Evidence and limits\n\nCore Web Vitals are used within page-experience systems, but passing them does not guarantee ranking and relevance can outweigh page experience. (Claim: core-web-vitals-scoped; sources: google-page-experience, google-core-web-vitals.)"
+    },
+    "wiki/backlinks/backlinking-anchors.md": {
+      "claim_ids": [
+        "link-schemes-prohibited",
+        "no-universal-link-count",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nInspect the supplied link sample for readable, relevant anchor text and paid or manipulative placements. Do not prescribe an exact-match ratio.\n\n## Use this note\n\nInputs: A dated backlink sample with source pages, target URLs, anchor text, placement context, and any paid relationship.\n\nResult: Anchor-context findings, qualification concerns, and evidence gaps, without a prescribed anchor ratio.\n\n## Evidence and limits\n\nPBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies. (Claim: link-schemes-prohibited; sources: google-search-spam-policies, google-link-best-practices.)\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)"
+    },
+    "wiki/backlinks/backlinking-competitive-research-to-find-opportunities.md": {
+      "claim_ids": [
+        "link-schemes-prohibited",
+        "no-universal-link-count",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse an authorized competitor link export to identify real organizations and editorial relationships. Verify relevance and legitimacy before recommending owner-approved outreach.\n\n## Use this note\n\nInputs: An authorized competitor link export, the source pages, and evidence about the organizations involved.\n\nResult: Verified relevant relationships for owner review, with legitimacy checks and no promised ranking outcome.\n\n## Evidence and limits\n\nPBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies. (Claim: link-schemes-prohibited; sources: google-search-spam-policies, google-link-best-practices.)\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)"
+    },
+    "wiki/backlinks/backlinking-local-citations.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "product-no-fabricated-metrics"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCompare supplied listings with owner-confirmed business information. Record directory, URL, observed status, and uncertainty; the adapter does not calculate NAP accuracy.\n\n## Use this note\n\nInputs: Listing exports or observed listing URLs, collection dates, and owner-confirmed business details.\n\nResult: A directory/URL/status record plus separately verified discrepancies and unknowns; exported status alone does not prove accuracy."
+    },
+    "wiki/backlinks/backlinking-no-follow-links.md": {
+      "claim_ids": [
+        "link-schemes-prohibited",
+        "no-universal-link-count",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nDistinguish editorial, paid, and user-added links. Use appropriate qualification rather than promising a ranking benefit from an attribute.\n\n## Use this note\n\nInputs: The actual linking HTML, page context, destination, and paid or user-generated relationship.\n\nResult: A link-qualification review identifying observed attributes, their context, and the proposed correction if needed.\n\n## Evidence and limits\n\nPBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies. (Claim: link-schemes-prohibited; sources: google-search-spam-policies, google-link-best-practices.)\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)"
+    },
+    "wiki/backlinks/backlinking-overview.md": {
+      "claim_ids": [
+        "link-schemes-prohibited",
+        "no-universal-link-count",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview real editorial and business relationships in the supplied evidence. Reject link networks or placements created mainly to manipulate Search.\n\n## Use this note\n\nInputs: The supplied backlink evidence, real business relationships, and the reason each placement exists.\n\nResult: A scoped review of useful references, manipulation concerns, and verification needed before any outreach proposal.\n\n## Evidence and limits\n\nPBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies. (Claim: link-schemes-prohibited; sources: google-search-spam-policies, google-link-best-practices.)\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)"
+    },
+    "wiki/backlinks/social-signals.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse supplied referral reports and actual community questions to understand audience needs. A Google ranking mechanism is outside this review; collect separate evidence before making a causal claim.\n\n## Use this note\n\nInputs: Dated referral reports, attributable community questions, and the disclosed business participation being reviewed.\n\nResult: Audience questions and referral observations, separated from untested claims about Google ranking effects."
+    },
+    "wiki/concepts/ai-overview-in-search.md": {
+      "claim_ids": [
+        "ai-features-no-special-requirements",
+        "ai-summary-click-direction",
+        "ai-citation-formulas-unsupported",
+        "search-console-genai-reporting",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCheck ordinary Search eligibility and supplied AI-feature impression reports. Report the measured scope, missing data, and observational limits.\n\n## Use this note\n\nInputs: The named AI Search surface, query or report, locale, device, collection date, and website eligibility evidence.\n\nResult: A scoped eligibility or observation record, report limitations, and missing data without a universal click-loss estimate.\n\n## Evidence and limits\n\nGoogle documents no additional technical requirements, mandatory special schema, or AI text file for eligibility in AI Overviews or AI Mode beyond ordinary Search requirements and policies. (Claim: ai-features-no-special-requirements; sources: google-ai-features, google-succeeding-ai-search.)\n\nTwo independent observational datasets associate AI-summary result pages with fewer clicks to external/traditional results; no single percentage should be generalized across query sets. (Claim: ai-summary-click-direction; sources: pew-ai-summary-click-study, ahrefs-ai-overview-ctr-study.)\n\nFixed AI citation counts, Reddit citation-share percentages, and guaranteed local AIO tactics are unsupported across platforms, query classes, locales, and dates. (Claim: ai-citation-formulas-unsupported; contrary evidence: google-ai-features, geo-citation-absorption-2026.)\n\nGoogle documents worldwide availability of Search Console Generative AI performance reporting as of 2026-08-31. It exposes impressions for AI Overviews and AI Mode by page, country, date, and device; dedicated AI-feature click or query reporting is not established by the reviewed documentation. (Claim: search-console-genai-reporting; sources: google-gen-ai-report-launch, google-gen-ai-performance-help.)"
+    },
+    "wiki/concepts/creating-an-audience-avatar.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nSummarize needs found in supplied interviews, customer questions, and analytics. Label proposed segments as hypotheses; do not invent demographics or customer testimony.\n\n## Use this note\n\nInputs: Authorized interviews, actual customer questions, and relevant analytics with collection dates and privacy limits.\n\nResult: Evidence-linked needs and proposed audience segments, distinguishing observed characteristics from hypotheses."
+    },
+    "wiki/concepts/how-seo-authority-is-passed.md": {
+      "claim_ids": [
+        "page-rank-no-fixed-model",
+        "no-universal-link-count",
+        "operator-evidence-review"
+      ],
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse crawlable, descriptive links where they help readers. Do not calculate authority points or placement weights from an undocumented model.\n\n## Use this note\n\nInputs: The source and destination pages, crawlable link markup, anchor context, and the customer navigation task.\n\nResult: A useful-link assessment with observed crawlability and context, leaving undocumented authority arithmetic unsupported.\n\n## Evidence and limits\n\nGoogle documents evolved PageRank and link-analysis systems as only part of its ranking systems; fixed authority-point arithmetic and placement weights are unsupported. (Claim: page-rank-no-fixed-model; contrary evidence: google-search-ranking-systems, google-seo-starter-guide.)\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)"
+    },
+    "wiki/concepts/key-google-rank-factors.md": {
+      "claim_ids": [
+        "local-ranking-factors",
+        "local-ranking-no-public-weights",
+        "behavior-formulas-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse Google’s public local-result framing to organize evidence. Do not assign private weights or attribute a site movement to an untested mechanism.\n\n## Use this note\n\nInputs: The local-search surface, business location model, dated observations, and controlling ranking documentation.\n\nResult: An evidence map under relevance, distance, and prominence, without weights or an invented cause for movement.\n\n## Evidence and limits\n\nGoogle publicly frames local results using relevance, distance, and prominence/popularity; these are not an exhaustive public formula. (Claim: local-ranking-factors; sources: google-local-ranking.)\n\nGoogle does not publish universal weights, thresholds, or guaranteed lifts for local ranking factors. (Claim: local-ranking-no-public-weights; sources: google-local-ranking.)\n\nAggregated interaction data has been described in primary trial evidence, but this does not validate GA bounce-rate formulas, dwell-time thresholds, CTR manipulation, or local-ranking guarantees. (Claim: behavior-formulas-unsupported; contrary evidence: doj-google-interaction-testimony.)"
+    },
+    "wiki/concepts/keyword-research.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nSeparate observed queries from brainstorming. Record query, source, locale, date, and intended task; volume, competition, or SERP observations remain needs_input when not supplied.\n\n## Use this note\n\nInputs: Observed queries, customer questions, locale, dates, and business relevance; supply volume or SERP exports only if measured.\n\nResult: A query/source/intent inventory separating observations from brainstormed candidates and marking absent metrics needs_input."
+    },
+    "wiki/concepts/what-is-e-e-a-t.md": {
+      "claim_ids": [
+        "eeat-trust-context",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview whether readers can assess identity, experience, expertise, and trust from supported page facts. Do not reduce these considerations to a fabricated score.\n\n## Use this note\n\nInputs: The named page and evidence supporting its authorship, experience, expertise, sourcing, and business identity.\n\nResult: Trust-related factual gaps and supported improvements, without a numeric E-E-A-T score or ranking guarantee.\n\n## Evidence and limits\n\nGoogle describes E-E-A-T as a quality-assessment concept, not a specific ranking factor. Accurate authorship, sourcing, and demonstrated experience can help readers assess trust. (Claim: eeat-trust-context; sources: google-helpful-content.)"
+    },
+    "wiki/concepts/what-is-local-seo.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse local search evidence to help customers find and evaluate a real business. Keep website, Business Profile, Maps, and AI Search requirements scoped to their own surfaces.\n\n## Use this note\n\nInputs: The real business, customer task, location model, and the Search, Maps, GBP, or AI surface in question.\n\nResult: A surface-specific explanation and evidence checklist, with missing business or platform details identified."
+    },
+    "wiki/concepts/which-ai-tools-to-use.md": {
+      "claim_ids": [
+        "product-review-privacy",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCompare tools on the actual authorized task and privacy boundary. Verify capabilities and availability in current provider documentation before selecting a tool.\n\n## Use this note\n\nInputs: The authorized task, data sensitivity, required capabilities, and dated provider documentation for the candidate tools.\n\nResult: A capability/privacy comparison and an unresolved-input list; verify access and terms before recommending use.\n\n## Evidence and limits\n\nDerived review notes omit review-author identity; authorized raw exports remain immutable and access-controlled rather than being copied into public deliverables. (Claim: product-review-privacy; sources: local-seo-brain-product-contract.)"
+    },
+    "wiki/content/content-blog-post-outline.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nBuild an outline from an audience question, supplied sources, and the page’s useful next step. Flag evidence gaps before drafting.\n\n## Use this note\n\nInputs: The audience question, supplied sources, intended page purpose, and useful next customer step.\n\nResult: A sourced outline identifying the evidence needed for each section and gaps to resolve before writing."
+    },
+    "wiki/content/content-blog-post-writing.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "no-universal-content-formula",
+        "truthful-firsthand-content",
+        "generative-ai-content-quality"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nDraft from the approved outline and supplied sources. Fact-check claims, metadata, and image descriptions; remove invented experience or filler.\n\n## Use this note\n\nInputs: The approved outline, source passages, owner-confirmed business facts, and authorized media.\n\nResult: A Draft article with attributable claims, checked metadata and image descriptions, and a fact-review list.\n\n## Evidence and limits\n\nGoogle documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose. (Claim: no-universal-content-formula; sources: google-helpful-content, google-seo-starter-guide.)\n\nPrompts and workflows must not fabricate firsthand experiences, identities, costs, awards, guarantees, reviews, or community posts. (Claim: truthful-firsthand-content; sources: google-maps-prohibited-content, local-seo-brain-product-contract.)\n\nGoogle permits generative AI as a content-production aid. Generating many pages without user value may violate scaled-content-abuse policy; content and metadata should be manually checked for accuracy and trustworthiness, with creation context when useful to readers. (Claim: generative-ai-content-quality; sources: google-generative-ai-content-guidance, google-helpful-content.)"
+    },
+    "wiki/content/content-hidden-content.md": {
+      "claim_ids": [
+        "hidden-and-doorway-abuse",
+        "accordions-allowed",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse user-facing tabs and accordions for navigation when helpful. Do not hide text or create doorway pages to manipulate ranking.\n\n## Use this note\n\nInputs: Rendered page states, relevant HTML/CSS, and the user task served by any hidden or expandable content.\n\nResult: An observed visibility/accessibility record distinguishing useful controls from suspected manipulation and identifying the next check.\n\n## Evidence and limits\n\nHidden text used to manipulate ranking, doorway pages, and scaled low-value location/content pages violate Google's spam policies. (Claim: hidden-and-doorway-abuse; sources: google-search-spam-policies.)\n\nUser-facing accordions and tabs are not automatically hidden-content abuse when they serve ordinary design and user-experience purposes. (Claim: accordions-allowed; sources: google-search-spam-policies.)"
+    },
+    "wiki/content/content-homepage.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nExplain the confirmed business, services, service area, and contact route clearly. Include only supported differentiators and useful next steps.\n\n## Use this note\n\nInputs: Confirmed identity, services, service area, contact route, and evidence for proposed differentiators.\n\nResult: A factual homepage Draft with a clear next step and explicit proof requests for unsupported claims."
+    },
+    "wiki/content/content-internal-anchor-text-guidelines.md": {
+      "claim_ids": [
+        "no-universal-link-count",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nLink relevant pages using concise, descriptive anchors. Avoid quotas and forced keyword repetition.\n\n## Use this note\n\nInputs: Source and target pages, their customer tasks, and the actual link markup and anchor text.\n\nResult: A contextual internal-link proposal with descriptive anchors, resolved destinations, and no link-count target.\n\n## Evidence and limits\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)"
+    },
+    "wiki/content/content-outbound-authority-links.md": {
+      "claim_ids": [
+        "no-universal-link-count",
+        "link-schemes-prohibited",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nLink to evidence that helps readers evaluate a statement. A source’s reputation does not justify an irrelevant link or a promised ranking lift.\n\n## Use this note\n\nInputs: The page statements requiring evidence and the exact external passages proposed as support.\n\nResult: A statement/source/locator map and useful qualified links, rejecting irrelevant authority-name dropping.\n\n## Evidence and limits\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)\n\nPBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies. (Claim: link-schemes-prohibited; sources: google-search-spam-policies, google-link-best-practices.)"
+    },
+    "wiki/content/content-review-competitive-comparison.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCompare dated, attributable facts using the same criteria for each business. State unknowns and commercial relationships; avoid invented reviews or claims of superiority.\n\n## Use this note\n\nInputs: Dated attributable facts for each compared business, common comparison criteria, and commercial relationships.\n\nResult: A fair comparison Draft showing sources, unknowns, and disclosures for human review."
+    },
+    "wiki/content/content-service-pages.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nDescribe services the business actually provides, customer requirements, and the next step. Prices, outcomes, qualifications, and coverage require owner-confirmed evidence.\n\n## Use this note\n\nInputs: The confirmed offering, scope and exclusions, customer requirements, and evidence for prices or qualifications.\n\nResult: A service-page Draft with supported claims, a useful next step, and unresolved facts for owner review."
+    },
+    "wiki/content/content-supporting-pages.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nAnswer a distinct customer question with relevant evidence. Link to useful related services without creating pages solely to repeat a keyword or location.\n\n## Use this note\n\nInputs: The distinct customer question, relevant source passages, existing answers, and associated service pages.\n\nResult: A useful supporting-page Draft or consolidation decision, with relevant service links and evidence gaps."
+    },
+    "wiki/content/metadata-seo-titles-and-descriptions.md": {
+      "claim_ids": [
+        "metadata-accurate-descriptive",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview the existing title and description against visible page content, page purpose, and verified business facts. Draft accurate, distinctive alternatives without promising which snippet Google will display.\n\n## Use this note\n\nInputs: The visible page, existing title and description, page purpose, and confirmed business facts.\n\nResult: Title/description alternatives with their factual basis and rationale; displayed snippets remain Google-controlled.\n\n## Evidence and limits\n\nGoogle recommends clear, concise, accurate, page-specific titles and short, unique meta descriptions. Search snippets can use page content rather than the supplied description. (Claim: metadata-accurate-descriptive; sources: google-seo-starter-guide.)"
+    },
+    "wiki/frameworks/due-diligence-explanation.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nConfirm the evidence owner, collection method, dates, reuse rights, and privacy boundary before relying on a source. Record uncertainty and approval requirements.\n\n## Use this note\n\nInputs: The source owner, collection method and date, proposed use, reuse rights, and data sensitivity.\n\nResult: An intake decision with provenance, trust limits, privacy restrictions, missing permissions, and verification actions."
+    },
+    "wiki/frameworks/local-link-overview.md": {
+      "claim_ids": [
+        "no-universal-link-count",
+        "link-schemes-prohibited",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nPrioritize legitimate local relationships and useful references. Reject artificial link quotas, ratios, and paid ranking schemes.\n\n## Use this note\n\nInputs: Actual local organizations, business relationships, source pages, and the purpose of each proposed reference.\n\nResult: Relevant relationship opportunities and legitimacy checks, with owner review before outreach.\n\n## Evidence and limits\n\nGoogle documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified. (Claim: no-universal-link-count; sources: google-link-best-practices, google-seo-starter-guide.)\n\nPBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies. (Claim: link-schemes-prohibited; sources: google-search-spam-policies, google-link-best-practices.)"
+    },
+    "wiki/frameworks/schema-explanation.md": {
+      "claim_ids": [
+        "structured-data-formats",
+        "structured-data-no-guarantee",
+        "structured-data-vocabulary-distinction",
+        "own-business-review-markup-ineligible",
+        "operator-evidence-review",
+        "review-markup-incentive-disclosure"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nSelect vocabulary that matches visible, supported page facts, then check the relevant Google feature requirements. Record separate syntax and eligibility results.\n\n## Use this note\n\nInputs: Visible page facts, existing markup, candidate Schema.org types, and the specific Google feature requirements.\n\nResult: A fact-to-property map or Draft markup, separate syntax/eligibility results, and unsupported properties left out.\n\n## Evidence and limits\n\nGoogle Search supports JSON-LD, Microdata, and RDFa for structured data; JSON-LD is recommended for maintainability but is not the only supported format. (Claim: structured-data-formats; sources: google-structured-data-guidelines, google-structured-data-intro.)\n\nValid structured data creates feature eligibility and can help understanding, but Google does not guarantee rich-result appearance or document a direct organic-rank or AI-citation lift. (Claim: structured-data-no-guarantee; sources: google-structured-data-guidelines, google-localbusiness-structured-data.)\n\nSchema.org defines vocabulary and its validator checks vocabulary/syntax; Google documentation and the Rich Results Test govern Google feature eligibility. (Claim: structured-data-vocabulary-distinction; sources: schema-localbusiness, schema-validator, google-rich-results-test.)\n\nSelf-serving reviews on an entity's own LocalBusiness or Organization pages are ineligible for Google star review features; ratings must not be aggregated from other sites. (Claim: own-business-review-markup-ineligible; sources: google-localbusiness-structured-data, google-review-snippet.)\n\nFor Google Search review-snippet eligibility, fake or undisclosed incentivized reviews are prohibited; a provided benefit must be clearly and prominently disclosed. This does not relax Maps incentive prohibitions or guarantee rich results. (Claim: review-markup-incentive-disclosure; sources: google-review-snippet, google-maps-prohibited-content.)"
+    },
+    "wiki/frameworks/the-3-phases-of-local-seo.md": {
+      "claim_ids": [
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse evidence intake, review, and approved action planning as an optional workflow. The phase names are an internal organizing aid, not a Google ranking system.\n\n## Use this note\n\nInputs: The business objective, available website/profile/link evidence, and who can review proposed actions.\n\nResult: A task sequence with evidence dependencies and approval points, adapted to the actual business rather than a mandatory phase order."
+    },
+    "wiki/frameworks/the-core-30-content-strategy.md": {
+      "claim_ids": [
+        "no-universal-content-formula",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse the historical framework only as a reminder to inventory customer needs. Choose pages from actual useful tasks and evidence; no fixed page count is required.\n\n## Use this note\n\nInputs: The actual customer needs, existing page inventory, and evidence supporting a distinct purpose for any new page.\n\nResult: A task/page map and consolidation decisions, without a fixed page count or mandatory page mix.\n\n## Evidence and limits\n\nGoogle documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose. (Claim: no-universal-content-formula; sources: google-helpful-content, google-seo-starter-guide.)"
+    },
+    "wiki/gbp/gbp-categories-edge-cases-re-theming.md": {
+      "claim_ids": [
+        "gbp-name-and-categories",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview whether a category still represents the actual business. Do not re-theme a profile to chase queries or add categories for services not offered.\n\n## Use this note\n\nInputs: The current categories, confirmed business operations, and the reason a category change is proposed.\n\nResult: An accuracy review, unresolved eligibility questions, and an owner-reviewed diff or decision to retain the category.\n\n## Evidence and limits\n\nA Business Profile should use the real-world name and the fewest accurate categories needed to describe its core business; fixed category quotas are not official doctrine. (Claim: gbp-name-and-categories; sources: google-gbp-representation-guidelines, google-gbp-categories.)"
+    },
+    "wiki/gbp/gbp-categories.md": {
+      "claim_ids": [
+        "gbp-name-and-categories",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nChoose the most specific category describing the confirmed core business. Add categories only when accurate; record potential reverification and owner approval.\n\n## Use this note\n\nInputs: The confirmed core business, current categories, and current category/representation guidance.\n\nResult: Accurate category candidates with their business evidence, change risks, owner decision, and rollback.\n\n## Evidence and limits\n\nA Business Profile should use the real-world name and the fewest accurate categories needed to describe its core business; fixed category quotas are not official doctrine. (Claim: gbp-name-and-categories; sources: google-gbp-representation-guidelines, google-gbp-categories.)"
+    },
+    "wiki/gbp/gbp-description.md": {
+      "claim_ids": [
+        "gbp-truthful-fields",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nDraft a factual business description from confirmed services, identity, and service area. Have the owner check the exact text against the current representation guidelines.\n\n## Use this note\n\nInputs: Owner-confirmed identity, offerings, service area, and the current description.\n\nResult: A factual description Draft and policy check for owner review, excluding unverified differentiators.\n\n## Evidence and limits\n\nBusiness Profile information should accurately represent real operations. Descriptions, service offerings, and normal or special hours need owner-confirmed facts. (Claim: gbp-truthful-fields; sources: google-gbp-representation-guidelines.)"
+    },
+    "wiki/gbp/gbp-holiday-hours-maintenance-automated-calls.md": {
+      "claim_ids": [
+        "gbp-truthful-fields",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nAsk the owner to confirm normal and special hours using dated business records. Record the proposed profile diff and rollback; do not imply an automated-call integration.\n\n## Use this note\n\nInputs: Dated owner-confirmed normal/special hours and the currently displayed hours.\n\nResult: A proposed hours diff, confirmation record, owner approval, and rollback, without implying an automated-call integration.\n\n## Evidence and limits\n\nBusiness Profile information should accurately represent real operations. Descriptions, service offerings, and normal or special hours need owner-confirmed facts. (Claim: gbp-truthful-fields; sources: google-gbp-representation-guidelines.)"
+    },
+    "wiki/gbp/gbp-optimization.md": {
+      "claim_ids": [
+        "gbp-address-service-area",
+        "gbp-virtual-office-coworking",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nReview profile eligibility, truthful representation, and supplied evidence before proposing changes. Separate account facts from descriptive review observations and hypotheses.\n\n## Use this note\n\nInputs: The confirmed location model, current profile fields, and authorized exports or observations.\n\nResult: Eligibility and representation findings, with account facts separated from hypotheses and proposed edits.\n\n## Evidence and limits\n\nA service-area business that does not serve customers at its address should remove or hide that address; storefront eligibility requires a real customer-facing location. (Claim: gbp-address-service-area; sources: google-gbp-representation-guidelines, google-gbp-service-areas.)\n\nA rented mailing or virtual-office address where the business does not operate is ineligible; a coworking storefront requires permanent signage, customer reception, and the business's own staff during stated hours. (Claim: gbp-virtual-office-coworking; sources: google-gbp-representation-guidelines.)"
+    },
+    "wiki/gbp/gbp-overview.md": {
+      "claim_ids": [
+        "local-ranking-factors",
+        "gbp-address-service-area",
+        "gbp-virtual-office-coworking",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nConfirm the location model and owner-controlled business details. Review the applicable eligibility and representation policies before drafting profile recommendations.\n\n## Use this note\n\nInputs: The business identity, owner, customer-contact model, and dated profile evidence.\n\nResult: An eligibility and representation checklist scoped to that business, with missing ownership or location facts needs_input.\n\n## Evidence and limits\n\nGoogle publicly frames local results using relevance, distance, and prominence/popularity; these are not an exhaustive public formula. (Claim: local-ranking-factors; sources: google-local-ranking.)\n\nA service-area business that does not serve customers at its address should remove or hide that address; storefront eligibility requires a real customer-facing location. (Claim: gbp-address-service-area; sources: google-gbp-representation-guidelines, google-gbp-service-areas.)\n\nA rented mailing or virtual-office address where the business does not operate is ineligible; a coworking storefront requires permanent signage, customer reception, and the business's own staff during stated hours. (Claim: gbp-virtual-office-coworking; sources: google-gbp-representation-guidelines.)"
+    },
+    "wiki/gbp/gbp-posts.md": {
+      "claim_ids": [
+        "gbp-post-cadence-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nCreate Draft posts from confirmed offers, dates, services, and media rights. Review policy and owner approval; choose a schedule for business needs without claiming a ranking cadence.\n\n## Use this note\n\nInputs: Confirmed offers or updates, valid dates, owner-approved services, media rights, and applicable post policy.\n\nResult: A Draft post and business-driven scheduling proposal, with factual and owner review before publication.\n\n## Evidence and limits\n\nNo reviewed official source establishes a universal twice-weekly GBP post requirement, 30-day ranking decay cliff, or mandatory photo cadence. (Claim: gbp-post-cadence-unsupported; contrary evidence: google-gbp-posts.)"
+    },
+    "wiki/gbp/gbp-services.md": {
+      "claim_ids": [
+        "gbp-truthful-fields",
+        "operator-evidence-review"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nList only services the owner confirms are offered. Separate alternative customer wording from actual offerings and verify category suitability before any account change.\n\n## Use this note\n\nInputs: The owner-approved service list, scope/exclusions, current service fields, and applicable category evidence.\n\nResult: Confirmed service descriptions and proposed field changes, separating alternative wording from additional offerings.\n\n## Evidence and limits\n\nBusiness Profile information should accurately represent real operations. Descriptions, service offerings, and normal or special hours need owner-confirmed facts. (Claim: gbp-truthful-fields; sources: google-gbp-representation-guidelines.)"
+    },
+    "wiki/gbp/gbp-verification.md": {
+      "claim_ids": [
+        "gbp-verification-authenticity",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse genuine, non-sensitive proof of location, existence, and management. Ask the owner to follow the method Google actually offers rather than staging evidence.\n\n## Use this note\n\nInputs: The method Google actually offers and genuine business evidence the owner may safely provide.\n\nResult: A non-sensitive preparation checklist and owner questions, with no staged presence or guaranteed verification outcome.\n\n## Evidence and limits\n\nVerification evidence must truthfully demonstrate business location, existence, and management. Video verification must be captured live, unique and unedited, and exclude sensitive information and other people’s faces. (Claim: gbp-verification-authenticity; sources: google-gbp-verification, google-gbp-video-verification.)"
+    },
+    "wiki/gbp/gbp-website-image-geotagging.md": {
+      "claim_ids": [
+        "exif-ranking-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nImprove image context, alt text, quality, and performance from actual page evidence. Treat GPS metadata as metadata, not a proven local-ranking tactic.\n\n## Use this note\n\nInputs: The actual images and page context, alt text, dimensions/performance observations, and any relevant metadata.\n\nResult: Evidence-backed image/context repairs and metadata observations, without treating GPS tags as a proven ranking lever.\n\n## Evidence and limits\n\nEXIF can represent image metadata, including GPS data, but no reviewed source establishes that GPS geotagging causes Google local or organic ranking gains. (Claim: exif-ranking-unsupported; contrary evidence: cipa-exif-31, google-image-seo, google-image-metadata.)"
+    },
+    "wiki/gbp/warning-for-gbp-changes.md": {
+      "claim_ids": [
+        "product-account-mutations-require-approval",
+        "gbp-verification-authenticity",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nRecord the exact proposed diff, source, owner decision, and rollback before an external change. Check current verification guidance for the actual profile; do not invent suspension rates or assume a method is available.\n\n## Use this note\n\nInputs: The exact current/proposed fields, controlling policy, owner decision, and available rollback records.\n\nResult: A reviewable change request identifying scope, risk, verification uncertainty, approval, and rollback.\n\n## Evidence and limits\n\nLocal SEO Brain is advisory: any account control or third-party mutation requires explicit owner approval, scoped execution, and a rollback path. (Claim: product-account-mutations-require-approval; sources: local-seo-brain-product-contract.)\n\nVerification evidence must truthfully demonstrate business location, existence, and management. Video verification must be captured live, unique and unedited, and exclude sensitive information and other people’s faces. (Claim: gbp-verification-authenticity; sources: google-gbp-verification, google-gbp-video-verification.)"
+    },
+    "wiki/glossary/glossary.md": {
+      "claim_ids": [
+        "gbp-address-service-area",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse service-area business for a business that visits or delivers to customers; distinguish it from a customer-facing storefront or hybrid. Keep unresolved account details marked needs_input.\n\n## Use this note\n\nInputs: The term being used, the relevant official definition, and the actual business contact model.\n\nResult: A plain definition with a scoped business example and unresolved account facts marked needs_input.\n\n## Evidence and limits\n\nA service-area business that does not serve customers at its address should remove or hide that address; storefront eligibility requires a real customer-facing location. (Claim: gbp-address-service-area; sources: google-gbp-representation-guidelines, google-gbp-service-areas.)"
+    },
+    "wiki/llm-seo/llm-ranking-factors.md": {
+      "claim_ids": [
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nEvaluate AI Search visibility only within a recorded platform, locale, query set, and collection window. Citation breadth and answer influence are separate observations.\n\n## Use this note\n\nInputs: The platform/model, reproducible prompt or query, locale, date, responses, and collection method.\n\nResult: Separate citation-selection and answer-influence observations, with experimental limitations and no universal factor weights.\n\n## Evidence and limits\n\nGenerative-engine optimization experiments show bounded, domain- and platform-dependent effects; citation breadth and answer influence are distinct, so universal GEO recipes are not established. (Claim: geo-tactics-provisional; sources: geo-kdd-2024, geo-citation-absorption-2026.)\n\nFixed AI citation counts, Reddit citation-share percentages, and guaranteed local AIO tactics are unsupported across platforms, query classes, locales, and dates. (Claim: ai-citation-formulas-unsupported; contrary evidence: google-ai-features, geo-citation-absorption-2026.)"
+    },
+    "wiki/llm-seo/llm-reddit-importance.md": {
+      "claim_ids": [
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse community participation only when a disclosed representative can provide a useful, truthful response. Do not manufacture resident experiences or prescribe citation-share targets.\n\n## Use this note\n\nInputs: The real community question, disclosed business affiliation, supported first-hand facts, and participation rules.\n\nResult: A useful disclosed-response Draft or a decision not to participate, with unsupported experience and promotion removed.\n\n## Evidence and limits\n\nGenerative-engine optimization experiments show bounded, domain- and platform-dependent effects; citation breadth and answer influence are distinct, so universal GEO recipes are not established. (Claim: geo-tactics-provisional; sources: geo-kdd-2024, geo-citation-absorption-2026.)\n\nFixed AI citation counts, Reddit citation-share percentages, and guaranteed local AIO tactics are unsupported across platforms, query classes, locales, and dates. (Claim: ai-citation-formulas-unsupported; contrary evidence: google-ai-features, geo-citation-absorption-2026.)"
+    },
+    "wiki/llm-seo/llm-schema.md": {
+      "claim_ids": [
+        "ai-features-no-special-requirements",
+        "structured-data-formats",
+        "structured-data-no-guarantee",
+        "own-business-review-markup-ineligible",
+        "operator-evidence-review"
+      ],
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nUse visible, accurate structured data and ordinary Search eligibility. Verify the named feature rather than selling a special AI schema stack.\n\n## Use this note\n\nInputs: Visible page facts, existing structured data, ordinary Search eligibility evidence, and the named target feature.\n\nResult: A factual markup review or Draft with syntax/eligibility checks, without a special AI schema stack or citation promise.\n\n## Evidence and limits\n\nGoogle documents no additional technical requirements, mandatory special schema, or AI text file for eligibility in AI Overviews or AI Mode beyond ordinary Search requirements and policies. (Claim: ai-features-no-special-requirements; sources: google-ai-features, google-succeeding-ai-search.)\n\nGoogle Search supports JSON-LD, Microdata, and RDFa for structured data; JSON-LD is recommended for maintainability but is not the only supported format. (Claim: structured-data-formats; sources: google-structured-data-guidelines, google-structured-data-intro.)\n\nValid structured data creates feature eligibility and can help understanding, but Google does not guarantee rich-result appearance or document a direct organic-rank or AI-citation lift. (Claim: structured-data-no-guarantee; sources: google-structured-data-guidelines, google-localbusiness-structured-data.)\n\nSelf-serving reviews on an entity's own LocalBusiness or Organization pages are ineligible for Google star review features; ratings must not be aggregated from other sites. (Claim: own-business-review-markup-ineligible; sources: google-localbusiness-structured-data, google-review-snippet.)"
+    },
+    "wiki/llm-seo/llm-seo.md": {
+      "claim_ids": [
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported",
+        "operator-evidence-review"
+      ],
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Working guidance\n\nRecord AI Search observations with reproducible inputs and limitations. Controlled experiments and descriptive preprints do not establish a universal growth recipe.\n\n## Use this note\n\nInputs: Dated platform/model, prompt/query set, locale, response captures, and reproducible measurement details.\n\nResult: A scoped observation or experiment record separating what was measured from hypotheses and untested growth claims.\n\n## Evidence and limits\n\nGenerative-engine optimization experiments show bounded, domain- and platform-dependent effects; citation breadth and answer influence are distinct, so universal GEO recipes are not established. (Claim: geo-tactics-provisional; sources: geo-kdd-2024, geo-citation-absorption-2026.)\n\nFixed AI citation counts, Reddit citation-share percentages, and guaranteed local AIO tactics are unsupported across platforms, query classes, locales, and dates. (Claim: ai-citation-formulas-unsupported; contrary evidence: google-ai-features, geo-citation-absorption-2026.)"
+    },
+    "wiki/prompts/ai-detector-test-follow-up-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "generative-ai-content-quality"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nMark unsupported assertions and invented personal experience first. Then replace awkward, repetitive, or promotional phrasing while preserving factual meaning. Do not optimize for detector evasion.\n\n## Required inputs\n\nThe Draft, its approved outline, source table, and intended audience.\n\n## Output and acceptance\n\nA revised Draft plus a change table separating factual corrections from style edits.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Evidence and Style Review"
+    },
+    "wiki/prompts/ai-homepage-rewrite-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "metadata-accurate-descriptive"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nUse [[prompt-rewriting-existing-homepage]] as the canonical rewrite procedure. This stable slug is an entry point; do not run a second, competing rewrite.\n\n## Required inputs\n\nOwner-confirmed facts and current homepage copy.\n\n## Output and acceptance\n\nThe canonical homepage Draft and its evidence/change table.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Homepage Rewrite Entry Point"
+    },
+    "wiki/prompts/ai-supporting-pages-rewrite-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "no-universal-content-formula",
+        "hidden-and-doorway-abuse"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nIdentify the unanswered user question, duplication, and unsupported claims. Rewrite only to resolve those issues; link to the relevant service when useful.\n\n## Required inputs\n\nThe existing page, intended customer question, source material, and relevant service page.\n\n## Output and acceptance\n\nRevised page, retained/removed assertions, suggested internal links, and unresolved inputs.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Supporting Page Revision"
+    },
+    "wiki/prompts/backlink-competition-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "link-schemes-prohibited",
+        "no-universal-link-count"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nClassify the actual sample by relevance and placement type. Identify legitimate relationships worth investigating; flag paid or manipulative patterns without inventing authority scores or contacts.\n\n## Required inputs\n\nAn authorized backlink export with referring URL, target, anchor, collection date, and business constraints.\n\n## Output and acceptance\n\nObserved link table, evidence-limited opportunity list, and owner-review actions.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Competitor Link Review"
+    },
+    "wiki/prompts/blog-post-outline-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "no-universal-content-formula",
+        "generative-ai-content-quality"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nMap the questions that must be answered. Assign evidence to each proposed section and flag gaps before drafting. Omit sections added only to reach a word count.\n\n## Required inputs\n\nAudience question, topic scope, supplied sources, existing coverage, and desired next step.\n\n## Output and acceptance\n\nAn outline with section purpose, supporting sources, missing inputs, and acceptance checks.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Evidence-Led Article Outline"
+    },
+    "wiki/prompts/blog-post-writing-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "generative-ai-content-quality",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDraft each approved section from its assigned evidence. Distinguish sourced fact from interpretation, avoid invented experience, and check titles, summaries, and image descriptions against the text.\n\n## Required inputs\n\nApproved outline, source table, voice guidance, and supplied original evidence.\n\n## Output and acceptance\n\nArticle Draft, assertion/source table, and unresolved facts for human review.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Article Draft from Approved Outline"
+    },
+    "wiki/prompts/claude-deep-research-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "link-schemes-prohibited",
+        "product-advisory-boundary"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nSeparate observed listing facts from gaps that require further collection. Propose primary-source checks and real directories relevant to the business; do not fabricate listings or perform submissions.\n\n## Required inputs\n\nConfirmed business information, authorized listing sample, locale, and research question.\n\n## Output and acceptance\n\nA research brief with observed evidence, open questions, exact proposed sources, and collection boundaries.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Local Citation Research Brief"
+    },
+    "wiki/prompts/claude-prompt-1.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "structured-data-formats",
+        "structured-data-no-guarantee",
+        "own-business-review-markup-ineligible"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nInventory candidate entities and properties. For each value, locate visible evidence and the applicable feature rule. Mark missing required information needs_input; do not draft invented values.\n\n## Required inputs\n\nVisible page content, business facts, existing markup, and the intended Google feature.\n\n## Output and acceptance\n\nA property/evidence matrix and a list of unresolved inputs for the markup author.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Structured Data Fact Intake"
+    },
+    "wiki/prompts/claude-prompt-2.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "structured-data-formats",
+        "structured-data-no-guarantee",
+        "own-business-review-markup-ineligible"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDraft JSON-LD using only approved values. Keep entity identities consistent and omit unsupported optional properties. If required information is missing, explain the gap instead of producing apparently eligible markup.\n\n## Required inputs\n\nThe approved property/evidence matrix and confirmed visible page content.\n\n## Output and acceptance\n\nDraft JSON-LD, property-to-visible-content mapping, and remaining validation tasks.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Structured Data Draft"
+    },
+    "wiki/prompts/content-planning-for-topical-relevance-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nGroup queries by the user task, map them to existing coverage, and identify genuinely distinct gaps. Mark demand and SERP overlap as unmeasured unless evidence is supplied.\n\n## Required inputs\n\nSupplied queries, customer questions, current pages, and business services.\n\n## Output and acceptance\n\nIntent groups, existing-page mappings, proposed page purposes, and evidence gaps.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Topic-to-Page Planning"
+    },
+    "wiki/prompts/content-prioritization-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "product-no-fabricated-metrics",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nExplain which work removes a blocking factual or user-task problem first. Distinguish observed impact from assumptions; do not invent weighted scores, traffic forecasts, or deadlines.\n\n## Required inputs\n\nObserved content problems, evidence gaps, owner goals, dependencies, and available capacity.\n\n## Output and acceptance\n\nA reasoned work order with dependencies, owner, evidence, and uncertainty.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Content Work Sequencing"
+    },
+    "wiki/prompts/ctr-audit-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "behavior-formulas-unsupported",
+        "metadata-accurate-descriptive"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCompare only compatible report slices. Check title and snippet relevance against the actual page. Describe changes as observations, note confounders, and do not propose click manipulation or ranking thresholds.\n\n## Required inputs\n\nA query/page report with impressions, clicks, country, device, and date ranges.\n\n## Output and acceptance\n\nA comparison table, limitations, and evidence-supported metadata review proposals.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Scoped Click-Through Review"
+    },
+    "wiki/prompts/follow-up-prompt-1.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "generative-ai-content-quality"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCombine the approved sections in outline order. Remove repetition, resolve transitions, and preserve citations. Do not add new claims while assembling.\n\n## Required inputs\n\nApproved outline, reviewed section drafts, source table, and editorial decisions.\n\n## Output and acceptance\n\nOne coherent Draft plus an assembly change log and unresolved inconsistencies.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Assemble Approved Article Sections"
+    },
+    "wiki/prompts/follow-up-prompt-2.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "generative-ai-content-quality",
+        "product-no-fabricated-metrics"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCompare the Draft against the outline and evidence. List omissions, new unsupported claims, lost caveats, contradictory figures, and repeated material. Verify previous corrections survived.\n\n## Required inputs\n\nAssembled Draft, approved outline, source table, and prior review findings.\n\n## Output and acceptance\n\nA pass/fail checklist with exact passages and concrete repairs; no invented quality score.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Article Delta Review"
+    },
+    "wiki/prompts/follow-up-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "structured-data-vocabulary-distinction",
+        "structured-data-no-guarantee",
+        "own-business-review-markup-ineligible"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCheck JSON syntax, Schema.org vocabulary, the named Google feature requirements, and visible-page parity separately. Do not report a validator pass unless its result is supplied or actually observed.\n\n## Required inputs\n\nDraft JSON-LD, visible page content, property/evidence matrix, and actual validator outputs.\n\n## Output and acceptance\n\nFindings by validation layer, repaired Draft where supported, and checks still unverified.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Structured Data Validation Review"
+    },
+    "wiki/prompts/gbp-categories-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "gbp-name-and-categories",
+        "gbp-verification-authenticity"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nChoose the most specific category matching the real core business. Justify any additional category from actual operations; do not invent category IDs, quotas, or weights.\n\n## Required inputs\n\nConfirmed core business, offered services, location model, and current available category evidence.\n\n## Output and acceptance\n\nProposed category diff, evidence, unknowns, and owner approval/reverification considerations.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Confirmed Category Selection"
+    },
+    "wiki/prompts/gbp-description-claude-prompt-1.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "gbp-truthful-fields"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDraft a plain factual description of what the business does. Exclude unverified distinctions, prices, testimonials, or claims of superiority.\n\n## Required inputs\n\nConfirmed business name, operations, services, service area, and existing description.\n\n## Output and acceptance\n\nA Draft description with a sentence-to-fact mapping and unresolved inputs.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Business Description Draft"
+    },
+    "wiki/prompts/gbp-description-claude-prompt-2.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "gbp-truthful-fields",
+        "gbp-name-and-categories"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCheck factual support, promotional or irrelevant material, and current field constraints. Measure text length if a verified limit is provided; otherwise mark that constraint unverified.\n\n## Required inputs\n\nDraft description, supporting business facts, and current applicable representation guidance.\n\n## Output and acceptance\n\nA compliance/edit table, revised Draft, and exact rules or limits still needing verification.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Business Description Policy Review"
+    },
+    "wiki/prompts/gbp-description-claude-prompt-3.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "gbp-truthful-fields"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nAsk which differences matter to customers and what evidence supports each. Separate confirmed facts from interview questions; never manufacture unique selling points.\n\n## Required inputs\n\nOwner-confirmed operations and the claims proposed for the description.\n\n## Output and acceptance\n\nAn evidence-backed differentiator list and targeted questions for missing proof.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Business Differentiator Intake"
+    },
+    "wiki/prompts/gbp-services-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "gbp-truthful-fields"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDescribe only confirmed offerings. Separate alternative wording from additional services and flag any proposed offering that the business has not approved.\n\n## Required inputs\n\nThe owner-approved service list and evidence of scope, exclusions, and customer wording.\n\n## Output and acceptance\n\nService/description/evidence table and a needs_input list; no minimum service count.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Confirmed Service Descriptions"
+    },
+    "wiki/prompts/keyword-research-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDeduplicate observed queries, identify the task each expresses, and separate measured terms from brainstorming. Do not invent volume, competition, landmarks, or rankings.\n\n## Required inputs\n\nSupplied query sources, confirmed offerings and service area, locale, device, and collection dates.\n\n## Output and acceptance\n\nQuery/source/date/scope/intent table plus clearly labeled unmeasured hypotheses.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Observed Query Inventory"
+    },
+    "wiki/prompts/keyword-variations-for-topical-relevance-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nPropose wording variations that preserve the same customer task. Label every unsupplied term as an unmeasured hypothesis; do not present it as actual demand.\n\n## Required inputs\n\nObserved queries, confirmed services, and actual customer language.\n\n## Output and acceptance\n\nObserved terms and proposed variations in separate columns, with validation questions.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Query Variation Hypotheses"
+    },
+    "wiki/prompts/paa-question-rewording-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nRewrite questions for clarity without changing their meaning or implying that a rewritten question appeared in a SERP. Keep the original wording and source trace.\n\n## Required inputs\n\nActual collected questions, source URLs or interview records, and intended audience.\n\n## Output and acceptance\n\nOriginal/rewrite/source table and notes on any ambiguity.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Customer Question Editing",
+      "task_parent": "wiki/concepts/keyword-research.md"
+    },
+    "wiki/prompts/prompt-audience-avatar.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nSummarize observed needs, barriers, and decision questions. Distinguish recurring evidence from a single observation and from a proposed segment; avoid invented demographics or quotes.\n\n## Required inputs\n\nAuthorized interviews, customer questions, and analytics with dates and collection scope.\n\n## Output and acceptance\n\nAudience needs summary, evidence table, hypotheses, and unanswered research questions.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Evidence-Based Audience Summary"
+    },
+    "wiki/prompts/prompt-core-30-content-audit.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "no-universal-content-formula",
+        "hidden-and-doorway-abuse"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nMap each page to a useful customer task. Identify duplicate coverage and unsupported location pages; treat Core 30 as an optional historical planning label, not a required count or title formula.\n\n## Required inputs\n\nCurrent URL inventory, confirmed services/locations, observed customer questions, and content evidence.\n\n## Output and acceptance\n\nURL/task/evidence table, consolidate-or-improve proposals, and genuine content gaps.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Page Inventory and Coverage Review"
+    },
+    "wiki/prompts/prompt-generating-a-meta-description.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "metadata-accurate-descriptive"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nWrite a short, distinctive summary of the actual page. Remove unsupported offers or benefits. Explain that the supplied summary is a proposal, not a promise of the snippet Google displays.\n\n## Required inputs\n\nVisible page content, the page purpose, and verified business facts.\n\n## Output and acceptance\n\nMeta-description Draft and the page facts it summarizes.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Page Summary Draft"
+    },
+    "wiki/prompts/prompt-generating-a-title-tag.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "metadata-accurate-descriptive"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nWrite a clear, concise title unique to the page. Include location only when relevant and supported; reject mechanical service-city repetition or invented claims.\n\n## Required inputs\n\nVisible page content, page purpose, verified business name, and existing title.\n\n## Output and acceptance\n\nProposed title, rationale tied to page content, and any unresolved facts.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Page Title Draft"
+    },
+    "wiki/prompts/prompt-rewriting-existing-homepage.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "hidden-and-doorway-abuse",
+        "metadata-accurate-descriptive"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nIdentify the visitor’s main task and factual gaps. Rewrite the explanation of the business and next action; retain useful evidence and remove invented credentials, testimonials, or benefits.\n\n## Required inputs\n\nCurrent homepage, owner-confirmed services/service area, contact facts, and supporting evidence.\n\n## Output and acceptance\n\nHomepage Draft, section-purpose map, assertion/source table, and owner questions.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Homepage Content Revision"
+    },
+    "wiki/prompts/prompt-rewriting-existing-service-page.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "hidden-and-doorway-abuse",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nExplain the service and practical next step using confirmed facts. Remove unsupported outcomes and location swaps; propose distinct supporting content only where useful evidence exists.\n\n## Required inputs\n\nExisting page, confirmed service scope/exclusions, service area, and customer questions.\n\n## Output and acceptance\n\nRevised service-page Draft, change/evidence table, and missing inputs.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Service Page Content Revision"
+    },
+    "wiki/prompts/property-content-with-authority-audit-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "product-no-fabricated-metrics",
+        "no-universal-content-formula"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nFind pages with observed demand or references that also have useful content gaps. Separate historical measurements from forecasts and explain limitations before proposing revisions.\n\n## Required inputs\n\nAuthorized page-performance and backlink exports with compatible dates and scopes.\n\n## Output and acceptance\n\nPage/evidence/gap table and reasoned, unscored review proposals.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Existing Page Opportunity Review"
+    },
+    "wiki/prompts/reddit-claude-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "review-manipulation-prohibited"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDraft a useful answer only where the representative has relevant knowledge. Disclose the relationship and avoid fake resident testimony, covert mentions, fabricated prices, or review solicitation.\n\n## Required inputs\n\nThe actual discussion, platform rules, representative identity, confirmed facts, and any commercial relationship.\n\n## Output and acceptance\n\nA Draft response, disclosure text, factual evidence, and reasons to abstain if input is insufficient.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Disclosed Community Response"
+    },
+    "wiki/prompts/schema-prompt-1.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "structured-data-formats",
+        "structured-data-vocabulary-distinction",
+        "own-business-review-markup-ineligible"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nRun [[claude-prompt-1|Structured Data Fact Intake]], then [[claude-prompt-2|Structured Data Draft]], then [[follow-up-prompt|Structured Data Validation Review]]. Stop at missing required evidence rather than fabricating eligibility.\n\n## Required inputs\n\nVisible page content, current markup, and intended search feature.\n\n## Output and acceptance\n\nThe three linked review records: fact intake, markup Draft, and validation findings.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Structured Data Workflow Entry Point"
+    },
+    "wiki/prompts/step-1-the-chatgpt-discovery-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nDefine a reproducible prompt and a record of session conditions before observation. Keep supplied outputs separate from planned queries; never label a planned run as measured visibility.\n\n## Required inputs\n\nThe exact research question, platform/model, authorized session, locale, device, and collection date.\n\n## Output and acceptance\n\nAn observation protocol and blank result fields, or a scoped record of supplied observed output.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "AI Discovery Observation Setup"
+    },
+    "wiki/prompts/step-2-the-follow-up-qualifying-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nAsk a narrower follow-up grounded in the previous response. Preserve the full prompt chain and distinguish changes introduced by the follow-up from the original observation.\n\n## Required inputs\n\nThe exact previous prompt/response and its platform, session, locale, device, and date record.\n\n## Output and acceptance\n\nFollow-up prompt, supplied observed response if any, citation trace, and session limitations.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "AI Discovery Follow-up"
+    },
+    "wiki/prompts/technical-audit-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "core-web-vitals-scoped",
+        "product-no-fabricated-metrics"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCheck only what the supplied evidence supports: access, indexing controls, canonical consistency, rendering observations, and measured user experience. Separate untested conditions from failures and avoid a mandatory report word count.\n\n## Required inputs\n\nAuthorized crawl/indexing/performance reports, tested URLs, collection dates, and available response/markup evidence.\n\n## Output and acceptance\n\nFinding/evidence/scope/next-check table; actual validation results and explicitly skipped checks.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "Evidence-Based Technical Review"
+    },
+    "wiki/prompts/visibility-follow-up-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nCompare mentions, citations, and answer content within those samples. Identify incompatible conditions and avoid treating a single response or changed model as general visibility change.\n\n## Required inputs\n\nTwo recorded prompt/response samples with matching platform/model, locale, device, session conditions, and dates.\n\n## Output and acceptance\n\nA bounded comparison, condition differences, citation observations, and unsupported conclusions to avoid.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "AI Observation Comparison"
+    },
+    "wiki/prompts/visiblity-prompt.md": {
+      "claim_ids": [
+        "operator-evidence-review",
+        "truthful-firsthand-content",
+        "geo-tactics-provisional",
+        "ai-citation-formulas-unsupported"
+      ],
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "verified_at": "2026-10-15",
+      "refresh_due": "2026-11-14",
+      "mode": "replace",
+      "callouts": [],
+      "replacement_body": "## Task\n\nRecord whether the business was mentioned and which cited pages were actually observed. Keep missing or uncollected output as no_data and describe the sample rather than claiming general ranking.\n\n## Required inputs\n\nAn actual prompt/response record with platform/model, account/session conditions, locale, device, and date.\n\n## Output and acceptance\n\nA reproducible observation record with response, citations, business mention, scope, and limitations.\n\nTie factual assertions to supplied source IDs and locators. Retain needs_input for missing facts. The operator reviews scope, factual support, and privacy; any proposed external change needs owner approval and rollback.",
+      "title": "AI Visibility Observation"
+    }
+  }
+}

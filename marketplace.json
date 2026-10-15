@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "local-seo-brain",
+  "displayName": "Local SEO Brain",
+  "tagline": "Operator brain for the Map Pack, organic local, and AI search.",
+  "description": "Evidence-led Obsidian operating brain for local SEO. Ships 59 current working chapters, 37 bounded prompt notes, six current doctrine notes, canonical claim/source ledgers, deterministic evidence overlays, read-only fixture adapters, and approval-first operator workflows. Generated scorecards remain Draft until a documented scoring model exists.",
+  "version": "0.3.0",
+  "license": "MIT",
+  "category": "seo",
+  "subcategory": "local-seo",
+  "type": "obsidian-brain",
+  "family": "ai-marketing-hub",
+  "siblings": [
+    "marketing-brain",
+    "ads-brain",
+    "claude-seo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AI-Marketing-Hub/local-seo-brain"
+  },
+  "homepage": "https://github.com/AI-Marketing-Hub/local-seo-brain",
+  "bugs": "https://github.com/AI-Marketing-Hub/local-seo-brain/issues",
+  "topics": [
+    "local-seo",
+    "google-business-profile",
+    "gbp",
+    "map-pack",
+    "ai-overviews",
+    "llm-seo",
+    "geo-grid",
+    "obsidian",
+    "knowledge-vault",
+    "agency-toolkit",
+    "claude-code",
+    "claude-skill",
+    "agent-skill",
+    "source-cited",
+    "e-e-a-t",
+    "schema-markup",
+    "reddit-citations",
+    "review-management",
+    "citation-tracking",
+    "nap-consistency"
+  ],
+  "entrypoints": {
+    "skill": "SKILL.md",
+    "vault_template": "assets/template-brain/",
+    "sample_vault": "examples/sample-vault/"
+  },
+  "scripts": {
+    "scaffold": "python scripts/scaffold_vault.py",
+    "ingest_knowledge_base": "python scripts/ingest_knowledge_base.py",
+    "ingest_gbp": "python scripts/ingest_gbp.py",
+    "ingest_citations": "python scripts/ingest_citations.py",
+    "ingest_reviews": "python scripts/ingest_reviews.py",
+    "ingest_geogrid": "python scripts/ingest_geogrid.py",
+    "synthesize": "python scripts/synthesize_brain.py",
+    "lint": "python scripts/lint_vault.py",
+    "render_report": "python scripts/render_brain_report.py",
+    "next_action": "python scripts/guide_next_action.py"
+  },
+  "refuses": [
+    "Live account mutation",
+    "fake reviews / review gating",
+    "keyword stuffing / hidden text / doorway pages",
+    "proximity spoofing",
+    "mass low-quality citation submission",
+    "credentials or PII inside the vault",
+    "any recommendation without a citable raw source"
+  ],
+  "compatible_with": {
+    "claude_code": ">=1.0.0",
+    "obsidian": ">=1.5.0",
+    "python": ">=3.11"
+  },
+  "support": {
+    "blog": "https://aimarketinghub.com/blog",
+    "community_free": "https://www.skool.com/ai-marketing-hub-7997",
+    "community_pro": "https://www.skool.com/ai-marketing-hub-pro",
+    "youtube": "https://www.youtube.com/@AgriciDaniel",
+    "github": "https://github.com/AI-Marketing-Hub/local-seo-brain"
+  },
+  "schema_version": "2026.05.01"
+}

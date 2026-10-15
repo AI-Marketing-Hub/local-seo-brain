@@ -1,0 +1,1246 @@
+{
+  "baseline": "c37420fce1087a5814af804b1f9eb96b4d58c779",
+  "moves": [
+    {
+      "action": "move",
+      "bytes": 34666,
+      "from": "assets/template-brain/_attachments/images/diagrams/ai-overview-citations.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "990139c0b9606effcf938bae6817bdb4f04a292f6a628214d1619fa600be099a",
+      "to": "assets/archive/legacy-diagrams/ai-overview-citations.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 34666,
+      "from": "examples/sample-vault/_attachments/images/diagrams/ai-overview-citations.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "990139c0b9606effcf938bae6817bdb4f04a292f6a628214d1619fa600be099a",
+      "to": "assets/archive/legacy-diagrams/ai-overview-citations.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 39221,
+      "from": "assets/template-brain/_attachments/images/diagrams/anchor-mix.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "9c4d44ac52327f92089aa044f4dc4c8f96dee6d0a55e4b06dae67cdb4b07a131",
+      "to": "assets/archive/legacy-diagrams/anchor-mix.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 39221,
+      "from": "examples/sample-vault/_attachments/images/diagrams/anchor-mix.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "9c4d44ac52327f92089aa044f4dc4c8f96dee6d0a55e4b06dae67cdb4b07a131",
+      "to": "assets/archive/legacy-diagrams/anchor-mix.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 34426,
+      "from": "assets/template-brain/_attachments/images/diagrams/approval-queue-diff.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "e622a4d85a41ede864c63728077c3495f199ee2f18e3f81469a9332b9bfd47b7",
+      "to": "assets/archive/legacy-diagrams/approval-queue-diff.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 34426,
+      "from": "examples/sample-vault/_attachments/images/diagrams/approval-queue-diff.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "e622a4d85a41ede864c63728077c3495f199ee2f18e3f81469a9332b9bfd47b7",
+      "to": "assets/archive/legacy-diagrams/approval-queue-diff.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 35798,
+      "from": "assets/template-brain/_attachments/images/diagrams/citation-gap-bars.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "6169480089351605616a865c784a92a65984cde2d3da16a2bcaec5b4c1e0e88e",
+      "to": "assets/archive/legacy-diagrams/citation-gap-bars.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 35798,
+      "from": "examples/sample-vault/_attachments/images/diagrams/citation-gap-bars.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "6169480089351605616a865c784a92a65984cde2d3da16a2bcaec5b4c1e0e88e",
+      "to": "assets/archive/legacy-diagrams/citation-gap-bars.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 44705,
+      "from": "assets/template-brain/_attachments/images/diagrams/citation-verified.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "e2a7299301ec323f55654659183b41be66693bd4924b4fe7a8d99524fc914528",
+      "to": "assets/archive/legacy-diagrams/citation-verified.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 44705,
+      "from": "examples/sample-vault/_attachments/images/diagrams/citation-verified.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "e2a7299301ec323f55654659183b41be66693bd4924b4fe7a8d99524fc914528",
+      "to": "assets/archive/legacy-diagrams/citation-verified.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 42633,
+      "from": "assets/template-brain/_attachments/images/diagrams/eeat-author-card.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "b30f10c96172f32c4801b3ce6b2c1c2c9998eeb93b5bd02c6e31c2bb8faa6267",
+      "to": "assets/archive/legacy-diagrams/eeat-author-card.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 42633,
+      "from": "examples/sample-vault/_attachments/images/diagrams/eeat-author-card.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "b30f10c96172f32c4801b3ce6b2c1c2c9998eeb93b5bd02c6e31c2bb8faa6267",
+      "to": "assets/archive/legacy-diagrams/eeat-author-card.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 46756,
+      "from": "assets/template-brain/_attachments/images/diagrams/four-pipelines-flow.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "c0ef83c25a0026e7fca6d75167df71ca0e09214adbf84ee8b1e216b63e02a2d7",
+      "to": "assets/archive/legacy-diagrams/four-pipelines-flow.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 46756,
+      "from": "examples/sample-vault/_attachments/images/diagrams/four-pipelines-flow.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "c0ef83c25a0026e7fca6d75167df71ca0e09214adbf84ee8b1e216b63e02a2d7",
+      "to": "assets/archive/legacy-diagrams/four-pipelines-flow.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 38085,
+      "from": "assets/template-brain/_attachments/images/diagrams/freshness-callout.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "2f25db22d8564453ceb1efbdd878da45baeec5de157edf52022d2a2b75963661",
+      "to": "assets/archive/legacy-diagrams/freshness-callout.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 38085,
+      "from": "examples/sample-vault/_attachments/images/diagrams/freshness-callout.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "2f25db22d8564453ceb1efbdd878da45baeec5de157edf52022d2a2b75963661",
+      "to": "assets/archive/legacy-diagrams/freshness-callout.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 84104,
+      "from": "assets/template-brain/_attachments/images/diagrams/geo-grid-heatmap.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "5aa1b90e9daa6838cb159503e913ca1efbf37c89be79d6296d33e2beb8802db2",
+      "to": "assets/archive/legacy-diagrams/geo-grid-heatmap.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 84104,
+      "from": "examples/sample-vault/_attachments/images/diagrams/geo-grid-heatmap.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "5aa1b90e9daa6838cb159503e913ca1efbf37c89be79d6296d33e2beb8802db2",
+      "to": "assets/archive/legacy-diagrams/geo-grid-heatmap.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 41274,
+      "from": "assets/template-brain/_attachments/images/diagrams/health-scorecard-preview.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "907ebb4d21af183345d6536e61d7188c123a7d86472ae57a980a637f0eb6e23c",
+      "to": "assets/archive/legacy-diagrams/health-scorecard-preview.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 41274,
+      "from": "examples/sample-vault/_attachments/images/diagrams/health-scorecard-preview.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "907ebb4d21af183345d6536e61d7188c123a7d86472ae57a980a637f0eb6e23c",
+      "to": "assets/archive/legacy-diagrams/health-scorecard-preview.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 40129,
+      "from": "assets/template-brain/_attachments/images/diagrams/hot-index-wiki-layers.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "3ae465f55d9ac0633ab5567f850b6c9bd37cb4b869f80a7d814990fcede6d181",
+      "to": "assets/archive/legacy-diagrams/hot-index-wiki-layers.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 40129,
+      "from": "examples/sample-vault/_attachments/images/diagrams/hot-index-wiki-layers.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "3ae465f55d9ac0633ab5567f850b6c9bd37cb4b869f80a7d814990fcede6d181",
+      "to": "assets/archive/legacy-diagrams/hot-index-wiki-layers.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 39164,
+      "from": "assets/template-brain/_attachments/images/diagrams/nap-consistency-check.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "2a297504fba70a236a592640d0e67a77292ed743bd6c79220aa18eee529d6c74",
+      "to": "assets/archive/legacy-diagrams/nap-consistency-check.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 39164,
+      "from": "examples/sample-vault/_attachments/images/diagrams/nap-consistency-check.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "2a297504fba70a236a592640d0e67a77292ed743bd6c79220aa18eee529d6c74",
+      "to": "assets/archive/legacy-diagrams/nap-consistency-check.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 35174,
+      "from": "assets/template-brain/_attachments/images/diagrams/review-velocity.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "ec0ecc41aaa0b2512eeb69e960c01ece3aaf51b997fafd58e803dcc27ff2c4c1",
+      "to": "assets/archive/legacy-diagrams/review-velocity.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 35174,
+      "from": "examples/sample-vault/_attachments/images/diagrams/review-velocity.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "ec0ecc41aaa0b2512eeb69e960c01ece3aaf51b997fafd58e803dcc27ff2c4c1",
+      "to": "assets/archive/legacy-diagrams/review-velocity.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 38420,
+      "from": "assets/template-brain/_attachments/images/diagrams/schema-subtype-stack.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "fd2f7cae922c466c3bb0fcd9f67d4725d507890eb4a2001a6286b9d25c8bd5be",
+      "to": "assets/archive/legacy-diagrams/schema-subtype-stack.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 38420,
+      "from": "examples/sample-vault/_attachments/images/diagrams/schema-subtype-stack.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "fd2f7cae922c466c3bb0fcd9f67d4725d507890eb4a2001a6286b9d25c8bd5be",
+      "to": "assets/archive/legacy-diagrams/schema-subtype-stack.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 42726,
+      "from": "assets/template-brain/_attachments/images/diagrams/serp-anatomy.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "a4db2e0f188feff171b03a9c7adeb7d7103353b33d646e186823d14872839b80",
+      "to": "assets/archive/legacy-diagrams/serp-anatomy.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 42726,
+      "from": "examples/sample-vault/_attachments/images/diagrams/serp-anatomy.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "a4db2e0f188feff171b03a9c7adeb7d7103353b33d646e186823d14872839b80",
+      "to": "assets/archive/legacy-diagrams/serp-anatomy.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 36011,
+      "from": "assets/template-brain/_attachments/images/diagrams/source-manifest-receipt.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "06789745d3fbca55584721f98f43bef55bb8b69b0a6951ec6bed33ab16ef0364",
+      "to": "assets/archive/legacy-diagrams/source-manifest-receipt.jpg"
+    },
+    {
+      "action": "deduplicate",
+      "bytes": 36011,
+      "from": "examples/sample-vault/_attachments/images/diagrams/source-manifest-receipt.jpg",
+      "role": "archived-project-illustration",
+      "sha256": "06789745d3fbca55584721f98f43bef55bb8b69b0a6951ec6bed33ab16ef0364",
+      "to": "assets/archive/legacy-diagrams/source-manifest-receipt.jpg"
+    },
+    {
+      "action": "move",
+      "bytes": 33649,
+      "from": "assets/template-brain/_attachments/images/image1.png",
+      "role": "historical-course-extract",
+      "sha256": "c8c1bedfe6292c142fccbe9885d75fd8a56a7b5ad47aa06fec724bf95b35038c",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image1.png"
+    },
+    {
+      "action": "move",
+      "bytes": 33649,
+      "from": "examples/sample-vault/_attachments/images/image1.png",
+      "role": "historical-course-extract",
+      "sha256": "c8c1bedfe6292c142fccbe9885d75fd8a56a7b5ad47aa06fec724bf95b35038c",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image1.png"
+    },
+    {
+      "action": "move",
+      "bytes": 27786,
+      "from": "assets/template-brain/_attachments/images/image10.png",
+      "role": "historical-course-extract",
+      "sha256": "60ec040e7399da9b4a9c9a17f562c39674edd3b17d09d58fd1e18b409a18fa3b",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image10.png"
+    },
+    {
+      "action": "move",
+      "bytes": 27786,
+      "from": "examples/sample-vault/_attachments/images/image10.png",
+      "role": "historical-course-extract",
+      "sha256": "60ec040e7399da9b4a9c9a17f562c39674edd3b17d09d58fd1e18b409a18fa3b",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image10.png"
+    },
+    {
+      "action": "move",
+      "bytes": 447225,
+      "from": "assets/template-brain/_attachments/images/image11.png",
+      "role": "historical-course-extract",
+      "sha256": "1aed1337370072ddabea952a49a3cc456decb115bb4c3b7ba745940b0e2ebc36",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image11.png"
+    },
+    {
+      "action": "move",
+      "bytes": 447225,
+      "from": "examples/sample-vault/_attachments/images/image11.png",
+      "role": "historical-course-extract",
+      "sha256": "1aed1337370072ddabea952a49a3cc456decb115bb4c3b7ba745940b0e2ebc36",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image11.png"
+    },
+    {
+      "action": "move",
+      "bytes": 609556,
+      "from": "assets/template-brain/_attachments/images/image12.png",
+      "role": "historical-course-extract",
+      "sha256": "badad857e257c2b76a8dc06ab3d3d7ee21d6343c35add35e9d3568cdee44f46c",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image12.png"
+    },
+    {
+      "action": "move",
+      "bytes": 609556,
+      "from": "examples/sample-vault/_attachments/images/image12.png",
+      "role": "historical-course-extract",
+      "sha256": "badad857e257c2b76a8dc06ab3d3d7ee21d6343c35add35e9d3568cdee44f46c",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image12.png"
+    },
+    {
+      "action": "move",
+      "bytes": 45504,
+      "from": "assets/template-brain/_attachments/images/image13.png",
+      "role": "historical-course-extract",
+      "sha256": "28ab1716cdf64205a788d66e2385d359347467ae23e47409d49c2b69099efb3d",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image13.png"
+    },
+    {
+      "action": "move",
+      "bytes": 45504,
+      "from": "examples/sample-vault/_attachments/images/image13.png",
+      "role": "historical-course-extract",
+      "sha256": "28ab1716cdf64205a788d66e2385d359347467ae23e47409d49c2b69099efb3d",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image13.png"
+    },
+    {
+      "action": "move",
+      "bytes": 124742,
+      "from": "assets/template-brain/_attachments/images/image14.png",
+      "role": "historical-course-extract",
+      "sha256": "3f034744b3042efb926a0e6c8c8a9a3cb873cb5d03069c1150e7935dc50153bb",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image14.png"
+    },
+    {
+      "action": "move",
+      "bytes": 124742,
+      "from": "examples/sample-vault/_attachments/images/image14.png",
+      "role": "historical-course-extract",
+      "sha256": "3f034744b3042efb926a0e6c8c8a9a3cb873cb5d03069c1150e7935dc50153bb",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image14.png"
+    },
+    {
+      "action": "move",
+      "bytes": 123231,
+      "from": "assets/template-brain/_attachments/images/image15.png",
+      "role": "historical-course-extract",
+      "sha256": "4c01431157d710705bc2abca3b1de9fbbc5987a849f3cb35508c01bddb10a7be",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image15.png"
+    },
+    {
+      "action": "move",
+      "bytes": 123231,
+      "from": "examples/sample-vault/_attachments/images/image15.png",
+      "role": "historical-course-extract",
+      "sha256": "4c01431157d710705bc2abca3b1de9fbbc5987a849f3cb35508c01bddb10a7be",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image15.png"
+    },
+    {
+      "action": "move",
+      "bytes": 76858,
+      "from": "assets/template-brain/_attachments/images/image16.png",
+      "role": "historical-course-extract",
+      "sha256": "7d1f698145519e3d182d4fdc4ab299098f339947dfe857874fde42468364ba90",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image16.png"
+    },
+    {
+      "action": "move",
+      "bytes": 76858,
+      "from": "examples/sample-vault/_attachments/images/image16.png",
+      "role": "historical-course-extract",
+      "sha256": "7d1f698145519e3d182d4fdc4ab299098f339947dfe857874fde42468364ba90",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image16.png"
+    },
+    {
+      "action": "move",
+      "bytes": 122226,
+      "from": "assets/template-brain/_attachments/images/image17.png",
+      "role": "historical-course-extract",
+      "sha256": "4e3486a2d3981ef164b5e45d0ff489aecb352e0ede5552fab09c7b076b69297c",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image17.png"
+    },
+    {
+      "action": "move",
+      "bytes": 122226,
+      "from": "examples/sample-vault/_attachments/images/image17.png",
+      "role": "historical-course-extract",
+      "sha256": "4e3486a2d3981ef164b5e45d0ff489aecb352e0ede5552fab09c7b076b69297c",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image17.png"
+    },
+    {
+      "action": "move",
+      "bytes": 109805,
+      "from": "assets/template-brain/_attachments/images/image18.png",
+      "role": "historical-course-extract",
+      "sha256": "332be294d7d154fb341ddd142191dc2ca9a6afb21be81d0fa025d6627089ed8b",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image18.png"
+    },
+    {
+      "action": "move",
+      "bytes": 109805,
+      "from": "examples/sample-vault/_attachments/images/image18.png",
+      "role": "historical-course-extract",
+      "sha256": "332be294d7d154fb341ddd142191dc2ca9a6afb21be81d0fa025d6627089ed8b",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image18.png"
+    },
+    {
+      "action": "move",
+      "bytes": 34206,
+      "from": "assets/template-brain/_attachments/images/image19.png",
+      "role": "historical-course-extract",
+      "sha256": "7098b6728ff81f8090277bb4d733bc8fdf0daf36bef51a4efea9903cf54a89cb",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image19.png"
+    },
+    {
+      "action": "move",
+      "bytes": 34206,
+      "from": "examples/sample-vault/_attachments/images/image19.png",
+      "role": "historical-course-extract",
+      "sha256": "7098b6728ff81f8090277bb4d733bc8fdf0daf36bef51a4efea9903cf54a89cb",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image19.png"
+    },
+    {
+      "action": "move",
+      "bytes": 60927,
+      "from": "assets/template-brain/_attachments/images/image2.png",
+      "role": "historical-course-extract",
+      "sha256": "618e5211c01dcb18548c238eada74b413762838c062d003c58334b56fcca97bb",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image2.png"
+    },
+    {
+      "action": "move",
+      "bytes": 60927,
+      "from": "examples/sample-vault/_attachments/images/image2.png",
+      "role": "historical-course-extract",
+      "sha256": "618e5211c01dcb18548c238eada74b413762838c062d003c58334b56fcca97bb",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image2.png"
+    },
+    {
+      "action": "move",
+      "bytes": 374362,
+      "from": "assets/template-brain/_attachments/images/image20.png",
+      "role": "historical-course-extract",
+      "sha256": "82d811017951d1c47e93dfbb338db5d0a70c1586b95d7a6ceff8fc3304e92e53",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image20.png"
+    },
+    {
+      "action": "move",
+      "bytes": 374362,
+      "from": "examples/sample-vault/_attachments/images/image20.png",
+      "role": "historical-course-extract",
+      "sha256": "82d811017951d1c47e93dfbb338db5d0a70c1586b95d7a6ceff8fc3304e92e53",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image20.png"
+    },
+    {
+      "action": "move",
+      "bytes": 41156,
+      "from": "assets/template-brain/_attachments/images/image21.png",
+      "role": "historical-course-extract",
+      "sha256": "ba3cdd99295a5617286c5c457a526f49587b31334544c586bb1c64ba94c79fa2",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image21.png"
+    },
+    {
+      "action": "move",
+      "bytes": 41156,
+      "from": "examples/sample-vault/_attachments/images/image21.png",
+      "role": "historical-course-extract",
+      "sha256": "ba3cdd99295a5617286c5c457a526f49587b31334544c586bb1c64ba94c79fa2",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image21.png"
+    },
+    {
+      "action": "move",
+      "bytes": 172960,
+      "from": "assets/template-brain/_attachments/images/image22.png",
+      "role": "historical-course-extract",
+      "sha256": "3a017a388f4400fac10f89cfadb79717d4a28b58888bea0e91b497a4336a9cee",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image22.png"
+    },
+    {
+      "action": "move",
+      "bytes": 172960,
+      "from": "examples/sample-vault/_attachments/images/image22.png",
+      "role": "historical-course-extract",
+      "sha256": "3a017a388f4400fac10f89cfadb79717d4a28b58888bea0e91b497a4336a9cee",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image22.png"
+    },
+    {
+      "action": "move",
+      "bytes": 133696,
+      "from": "assets/template-brain/_attachments/images/image23.png",
+      "role": "historical-course-extract",
+      "sha256": "375570f8fe87e346d31b65482ccc52f6d866825239b323e8cb52e9d1eddc0c4e",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image23.png"
+    },
+    {
+      "action": "move",
+      "bytes": 133696,
+      "from": "examples/sample-vault/_attachments/images/image23.png",
+      "role": "historical-course-extract",
+      "sha256": "375570f8fe87e346d31b65482ccc52f6d866825239b323e8cb52e9d1eddc0c4e",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image23.png"
+    },
+    {
+      "action": "move",
+      "bytes": 30163,
+      "from": "assets/template-brain/_attachments/images/image24.png",
+      "role": "historical-course-extract",
+      "sha256": "3dc5059454ad7fda68ae56c9db3894f3aab52e1b8961b33454eea9755ab121ee",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image24.png"
+    },
+    {
+      "action": "move",
+      "bytes": 30163,
+      "from": "examples/sample-vault/_attachments/images/image24.png",
+      "role": "historical-course-extract",
+      "sha256": "3dc5059454ad7fda68ae56c9db3894f3aab52e1b8961b33454eea9755ab121ee",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image24.png"
+    },
+    {
+      "action": "move",
+      "bytes": 188369,
+      "from": "assets/template-brain/_attachments/images/image25.png",
+      "role": "historical-course-extract",
+      "sha256": "4bead2167dfa6ebce5e9298ed8951d2c7da5214508d7226da067c502a5bf2c24",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image25.png"
+    },
+    {
+      "action": "move",
+      "bytes": 188369,
+      "from": "examples/sample-vault/_attachments/images/image25.png",
+      "role": "historical-course-extract",
+      "sha256": "4bead2167dfa6ebce5e9298ed8951d2c7da5214508d7226da067c502a5bf2c24",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image25.png"
+    },
+    {
+      "action": "move",
+      "bytes": 40023,
+      "from": "assets/template-brain/_attachments/images/image26.png",
+      "role": "historical-course-extract",
+      "sha256": "2b4fa42869e41739933e955a63ddb597ca67f5513c41acf8cf3f36b8980be89c",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image26.png"
+    },
+    {
+      "action": "move",
+      "bytes": 40023,
+      "from": "examples/sample-vault/_attachments/images/image26.png",
+      "role": "historical-course-extract",
+      "sha256": "2b4fa42869e41739933e955a63ddb597ca67f5513c41acf8cf3f36b8980be89c",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image26.png"
+    },
+    {
+      "action": "move",
+      "bytes": 26784,
+      "from": "assets/template-brain/_attachments/images/image27.png",
+      "role": "historical-course-extract",
+      "sha256": "b35eceea5723d6742b004f3c159333b704e74ad7d373554b75f1996a88f6bb49",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image27.png"
+    },
+    {
+      "action": "move",
+      "bytes": 26784,
+      "from": "examples/sample-vault/_attachments/images/image27.png",
+      "role": "historical-course-extract",
+      "sha256": "b35eceea5723d6742b004f3c159333b704e74ad7d373554b75f1996a88f6bb49",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image27.png"
+    },
+    {
+      "action": "move",
+      "bytes": 17874,
+      "from": "assets/template-brain/_attachments/images/image28.png",
+      "role": "historical-course-extract",
+      "sha256": "409c7146135fae03af4591937d4251f4273679cf4403e790cc7cccc7d1b5b650",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image28.png"
+    },
+    {
+      "action": "move",
+      "bytes": 17874,
+      "from": "examples/sample-vault/_attachments/images/image28.png",
+      "role": "historical-course-extract",
+      "sha256": "409c7146135fae03af4591937d4251f4273679cf4403e790cc7cccc7d1b5b650",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image28.png"
+    },
+    {
+      "action": "move",
+      "bytes": 40859,
+      "from": "assets/template-brain/_attachments/images/image29.png",
+      "role": "historical-course-extract",
+      "sha256": "f413581808021086dc5ad0a62f8d95d69a595a0bdd7bac336b7d8ff64a3cccdc",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image29.png"
+    },
+    {
+      "action": "move",
+      "bytes": 40859,
+      "from": "examples/sample-vault/_attachments/images/image29.png",
+      "role": "historical-course-extract",
+      "sha256": "f413581808021086dc5ad0a62f8d95d69a595a0bdd7bac336b7d8ff64a3cccdc",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image29.png"
+    },
+    {
+      "action": "move",
+      "bytes": 94263,
+      "from": "assets/template-brain/_attachments/images/image3.png",
+      "role": "historical-course-extract",
+      "sha256": "c866d9c6c0ce5ec4133ec13dca5c7bb36410c3cd6d590f22a6de9983ba6cda02",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image3.png"
+    },
+    {
+      "action": "move",
+      "bytes": 94263,
+      "from": "examples/sample-vault/_attachments/images/image3.png",
+      "role": "historical-course-extract",
+      "sha256": "c866d9c6c0ce5ec4133ec13dca5c7bb36410c3cd6d590f22a6de9983ba6cda02",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image3.png"
+    },
+    {
+      "action": "move",
+      "bytes": 156959,
+      "from": "assets/template-brain/_attachments/images/image30.png",
+      "role": "historical-course-extract",
+      "sha256": "036a6379dbb9b8b77da9487ede64542b6111e8701957c2c8aed46e9c5fed4642",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image30.png"
+    },
+    {
+      "action": "move",
+      "bytes": 156959,
+      "from": "examples/sample-vault/_attachments/images/image30.png",
+      "role": "historical-course-extract",
+      "sha256": "036a6379dbb9b8b77da9487ede64542b6111e8701957c2c8aed46e9c5fed4642",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image30.png"
+    },
+    {
+      "action": "move",
+      "bytes": 37784,
+      "from": "assets/template-brain/_attachments/images/image31.png",
+      "role": "historical-course-extract",
+      "sha256": "e51bfad1bcf66bf3fcf231ae0c12c8824b408f4507d8398fa65501ce8496edac",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image31.png"
+    },
+    {
+      "action": "move",
+      "bytes": 37784,
+      "from": "examples/sample-vault/_attachments/images/image31.png",
+      "role": "historical-course-extract",
+      "sha256": "e51bfad1bcf66bf3fcf231ae0c12c8824b408f4507d8398fa65501ce8496edac",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image31.png"
+    },
+    {
+      "action": "move",
+      "bytes": 65955,
+      "from": "assets/template-brain/_attachments/images/image4.png",
+      "role": "historical-course-extract",
+      "sha256": "e8dc07e2c4928827d9e7236bf2388d4febfbb47a59b7eaa1c51fa96c053b132d",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image4.png"
+    },
+    {
+      "action": "move",
+      "bytes": 65955,
+      "from": "examples/sample-vault/_attachments/images/image4.png",
+      "role": "historical-course-extract",
+      "sha256": "e8dc07e2c4928827d9e7236bf2388d4febfbb47a59b7eaa1c51fa96c053b132d",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image4.png"
+    },
+    {
+      "action": "move",
+      "bytes": 157133,
+      "from": "assets/template-brain/_attachments/images/image5.png",
+      "role": "historical-course-extract",
+      "sha256": "e74f5d1e2c85de571bfbd094f51aeeddb12070838fd42127459879704032e9b8",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image5.png"
+    },
+    {
+      "action": "move",
+      "bytes": 157133,
+      "from": "examples/sample-vault/_attachments/images/image5.png",
+      "role": "historical-course-extract",
+      "sha256": "e74f5d1e2c85de571bfbd094f51aeeddb12070838fd42127459879704032e9b8",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image5.png"
+    },
+    {
+      "action": "move",
+      "bytes": 216279,
+      "from": "assets/template-brain/_attachments/images/image6.png",
+      "role": "historical-course-extract",
+      "sha256": "e572421c7dcab09b7d5d66a880b2cff042434805a59eb30e3bb6917cfb3569a0",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image6.png"
+    },
+    {
+      "action": "move",
+      "bytes": 216279,
+      "from": "examples/sample-vault/_attachments/images/image6.png",
+      "role": "historical-course-extract",
+      "sha256": "e572421c7dcab09b7d5d66a880b2cff042434805a59eb30e3bb6917cfb3569a0",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image6.png"
+    },
+    {
+      "action": "move",
+      "bytes": 360738,
+      "from": "assets/template-brain/_attachments/images/image7.png",
+      "role": "historical-course-extract",
+      "sha256": "d74eafc80c8e2793079cc77708c350b14c23fd4df2c98344227a2fc30427e0ca",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image7.png"
+    },
+    {
+      "action": "move",
+      "bytes": 360738,
+      "from": "examples/sample-vault/_attachments/images/image7.png",
+      "role": "historical-course-extract",
+      "sha256": "d74eafc80c8e2793079cc77708c350b14c23fd4df2c98344227a2fc30427e0ca",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image7.png"
+    },
+    {
+      "action": "move",
+      "bytes": 45814,
+      "from": "assets/template-brain/_attachments/images/image8.png",
+      "role": "historical-course-extract",
+      "sha256": "aa0ff694d290210e29a4db9f4392723239e2253577b4ecb2948896d9d22292f2",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image8.png"
+    },
+    {
+      "action": "move",
+      "bytes": 45814,
+      "from": "examples/sample-vault/_attachments/images/image8.png",
+      "role": "historical-course-extract",
+      "sha256": "aa0ff694d290210e29a4db9f4392723239e2253577b4ecb2948896d9d22292f2",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image8.png"
+    },
+    {
+      "action": "move",
+      "bytes": 2633335,
+      "from": "assets/template-brain/_attachments/images/image9.png",
+      "role": "historical-course-extract",
+      "sha256": "0d6505bba7099871086b801940ad398f20d3ab980897bc59cfc267059594db60",
+      "to": "assets/template-brain/.raw/source-material/archived-attachments/images/image9.png"
+    },
+    {
+      "action": "move",
+      "bytes": 2633335,
+      "from": "examples/sample-vault/_attachments/images/image9.png",
+      "role": "historical-course-extract",
+      "sha256": "0d6505bba7099871086b801940ad398f20d3ab980897bc59cfc267059594db60",
+      "to": "examples/sample-vault/.raw/source-material/archived-attachments/images/image9.png"
+    }
+  ],
+  "purpose": "Preserve original bytes as historical/private provenance; these images do not support current advice.",
+  "reviewed_at": "2026-10-15",
+  "schema": "local-seo-brain.asset-retention.v1",
+  "withdrawal_reason": "Operator-supplied third-party course bundle removed from the public tree before the MIT release; hashes stay in references/historical-seed.sha256 and references/archived-assets.sha256 for operators who hold the bundle.",
+  "withdrawals": [
+    {
+      "action": "withdraw",
+      "bytes": 6948359,
+      "path": "assets/template-brain/.raw/source-material/LOCAL-seo-Knowledge-Base.docx",
+      "role": "historical-course-bundle",
+      "sha256": "6e91f9a329ed87fa121a6f98703dd5de679038d29a3f41c37c7743ad4348d785"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 3330767,
+      "path": "assets/template-brain/.raw/source-material/LOCAL-seo-Knowledge-Base.md",
+      "role": "historical-course-bundle",
+      "sha256": "b9ad72ce8f09950826442f779bf3e3df4851cd13406b2841ab7d11b776f3b161"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 6419949,
+      "path": "assets/template-brain/.raw/source-material/LOCAL-seo-Knowledge-Base.zip",
+      "role": "historical-course-bundle",
+      "sha256": "27120fa1281605db58b9241b59a1e7897cf12b6a0854258d2a80ffdb065e2579"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 33649,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image1.png",
+      "role": "historical-course-bundle",
+      "sha256": "c8c1bedfe6292c142fccbe9885d75fd8a56a7b5ad47aa06fec724bf95b35038c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 27786,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image10.png",
+      "role": "historical-course-bundle",
+      "sha256": "60ec040e7399da9b4a9c9a17f562c39674edd3b17d09d58fd1e18b409a18fa3b"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 447225,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image11.png",
+      "role": "historical-course-bundle",
+      "sha256": "1aed1337370072ddabea952a49a3cc456decb115bb4c3b7ba745940b0e2ebc36"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 609556,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image12.png",
+      "role": "historical-course-bundle",
+      "sha256": "badad857e257c2b76a8dc06ab3d3d7ee21d6343c35add35e9d3568cdee44f46c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 45504,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image13.png",
+      "role": "historical-course-bundle",
+      "sha256": "28ab1716cdf64205a788d66e2385d359347467ae23e47409d49c2b69099efb3d"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 124742,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image14.png",
+      "role": "historical-course-bundle",
+      "sha256": "3f034744b3042efb926a0e6c8c8a9a3cb873cb5d03069c1150e7935dc50153bb"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 123231,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image15.png",
+      "role": "historical-course-bundle",
+      "sha256": "4c01431157d710705bc2abca3b1de9fbbc5987a849f3cb35508c01bddb10a7be"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 76858,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image16.png",
+      "role": "historical-course-bundle",
+      "sha256": "7d1f698145519e3d182d4fdc4ab299098f339947dfe857874fde42468364ba90"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 122226,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image17.png",
+      "role": "historical-course-bundle",
+      "sha256": "4e3486a2d3981ef164b5e45d0ff489aecb352e0ede5552fab09c7b076b69297c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 109805,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image18.png",
+      "role": "historical-course-bundle",
+      "sha256": "332be294d7d154fb341ddd142191dc2ca9a6afb21be81d0fa025d6627089ed8b"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 34206,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image19.png",
+      "role": "historical-course-bundle",
+      "sha256": "7098b6728ff81f8090277bb4d733bc8fdf0daf36bef51a4efea9903cf54a89cb"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 60927,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image2.png",
+      "role": "historical-course-bundle",
+      "sha256": "618e5211c01dcb18548c238eada74b413762838c062d003c58334b56fcca97bb"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 374362,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image20.png",
+      "role": "historical-course-bundle",
+      "sha256": "82d811017951d1c47e93dfbb338db5d0a70c1586b95d7a6ceff8fc3304e92e53"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 41156,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image21.png",
+      "role": "historical-course-bundle",
+      "sha256": "ba3cdd99295a5617286c5c457a526f49587b31334544c586bb1c64ba94c79fa2"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 172960,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image22.png",
+      "role": "historical-course-bundle",
+      "sha256": "3a017a388f4400fac10f89cfadb79717d4a28b58888bea0e91b497a4336a9cee"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 133696,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image23.png",
+      "role": "historical-course-bundle",
+      "sha256": "375570f8fe87e346d31b65482ccc52f6d866825239b323e8cb52e9d1eddc0c4e"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 30163,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image24.png",
+      "role": "historical-course-bundle",
+      "sha256": "3dc5059454ad7fda68ae56c9db3894f3aab52e1b8961b33454eea9755ab121ee"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 188369,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image25.png",
+      "role": "historical-course-bundle",
+      "sha256": "4bead2167dfa6ebce5e9298ed8951d2c7da5214508d7226da067c502a5bf2c24"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 40023,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image26.png",
+      "role": "historical-course-bundle",
+      "sha256": "2b4fa42869e41739933e955a63ddb597ca67f5513c41acf8cf3f36b8980be89c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 26784,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image27.png",
+      "role": "historical-course-bundle",
+      "sha256": "b35eceea5723d6742b004f3c159333b704e74ad7d373554b75f1996a88f6bb49"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 17874,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image28.png",
+      "role": "historical-course-bundle",
+      "sha256": "409c7146135fae03af4591937d4251f4273679cf4403e790cc7cccc7d1b5b650"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 40859,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image29.png",
+      "role": "historical-course-bundle",
+      "sha256": "f413581808021086dc5ad0a62f8d95d69a595a0bdd7bac336b7d8ff64a3cccdc"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 94263,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image3.png",
+      "role": "historical-course-bundle",
+      "sha256": "c866d9c6c0ce5ec4133ec13dca5c7bb36410c3cd6d590f22a6de9983ba6cda02"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 156959,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image30.png",
+      "role": "historical-course-bundle",
+      "sha256": "036a6379dbb9b8b77da9487ede64542b6111e8701957c2c8aed46e9c5fed4642"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 37784,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image31.png",
+      "role": "historical-course-bundle",
+      "sha256": "e51bfad1bcf66bf3fcf231ae0c12c8824b408f4507d8398fa65501ce8496edac"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 65955,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image4.png",
+      "role": "historical-course-bundle",
+      "sha256": "e8dc07e2c4928827d9e7236bf2388d4febfbb47a59b7eaa1c51fa96c053b132d"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 157133,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image5.png",
+      "role": "historical-course-bundle",
+      "sha256": "e74f5d1e2c85de571bfbd094f51aeeddb12070838fd42127459879704032e9b8"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 216279,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image6.png",
+      "role": "historical-course-bundle",
+      "sha256": "e572421c7dcab09b7d5d66a880b2cff042434805a59eb30e3bb6917cfb3569a0"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 360738,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image7.png",
+      "role": "historical-course-bundle",
+      "sha256": "d74eafc80c8e2793079cc77708c350b14c23fd4df2c98344227a2fc30427e0ca"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 45814,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image8.png",
+      "role": "historical-course-bundle",
+      "sha256": "aa0ff694d290210e29a4db9f4392723239e2253577b4ecb2948896d9d22292f2"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 2633335,
+      "path": "assets/template-brain/.raw/source-material/archived-attachments/images/image9.png",
+      "role": "historical-course-bundle",
+      "sha256": "0d6505bba7099871086b801940ad398f20d3ab980897bc59cfc267059594db60"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 6948359,
+      "path": "examples/sample-vault/.raw/source-material/LOCAL-seo-Knowledge-Base.docx",
+      "role": "historical-course-bundle",
+      "sha256": "6e91f9a329ed87fa121a6f98703dd5de679038d29a3f41c37c7743ad4348d785"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 3328577,
+      "path": "examples/sample-vault/.raw/source-material/LOCAL-seo-Knowledge-Base.md",
+      "role": "historical-course-bundle",
+      "sha256": "7fbf73365af5f1ae0806afd691367d5cfde9c5b732909bfeff9129e9085433e8"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 6419949,
+      "path": "examples/sample-vault/.raw/source-material/LOCAL-seo-Knowledge-Base.zip",
+      "role": "historical-course-bundle",
+      "sha256": "27120fa1281605db58b9241b59a1e7897cf12b6a0854258d2a80ffdb065e2579"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 33649,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image1.png",
+      "role": "historical-course-bundle",
+      "sha256": "c8c1bedfe6292c142fccbe9885d75fd8a56a7b5ad47aa06fec724bf95b35038c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 27786,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image10.png",
+      "role": "historical-course-bundle",
+      "sha256": "60ec040e7399da9b4a9c9a17f562c39674edd3b17d09d58fd1e18b409a18fa3b"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 447225,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image11.png",
+      "role": "historical-course-bundle",
+      "sha256": "1aed1337370072ddabea952a49a3cc456decb115bb4c3b7ba745940b0e2ebc36"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 609556,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image12.png",
+      "role": "historical-course-bundle",
+      "sha256": "badad857e257c2b76a8dc06ab3d3d7ee21d6343c35add35e9d3568cdee44f46c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 45504,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image13.png",
+      "role": "historical-course-bundle",
+      "sha256": "28ab1716cdf64205a788d66e2385d359347467ae23e47409d49c2b69099efb3d"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 124742,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image14.png",
+      "role": "historical-course-bundle",
+      "sha256": "3f034744b3042efb926a0e6c8c8a9a3cb873cb5d03069c1150e7935dc50153bb"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 123231,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image15.png",
+      "role": "historical-course-bundle",
+      "sha256": "4c01431157d710705bc2abca3b1de9fbbc5987a849f3cb35508c01bddb10a7be"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 76858,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image16.png",
+      "role": "historical-course-bundle",
+      "sha256": "7d1f698145519e3d182d4fdc4ab299098f339947dfe857874fde42468364ba90"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 122226,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image17.png",
+      "role": "historical-course-bundle",
+      "sha256": "4e3486a2d3981ef164b5e45d0ff489aecb352e0ede5552fab09c7b076b69297c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 109805,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image18.png",
+      "role": "historical-course-bundle",
+      "sha256": "332be294d7d154fb341ddd142191dc2ca9a6afb21be81d0fa025d6627089ed8b"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 34206,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image19.png",
+      "role": "historical-course-bundle",
+      "sha256": "7098b6728ff81f8090277bb4d733bc8fdf0daf36bef51a4efea9903cf54a89cb"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 60927,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image2.png",
+      "role": "historical-course-bundle",
+      "sha256": "618e5211c01dcb18548c238eada74b413762838c062d003c58334b56fcca97bb"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 374362,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image20.png",
+      "role": "historical-course-bundle",
+      "sha256": "82d811017951d1c47e93dfbb338db5d0a70c1586b95d7a6ceff8fc3304e92e53"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 41156,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image21.png",
+      "role": "historical-course-bundle",
+      "sha256": "ba3cdd99295a5617286c5c457a526f49587b31334544c586bb1c64ba94c79fa2"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 172960,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image22.png",
+      "role": "historical-course-bundle",
+      "sha256": "3a017a388f4400fac10f89cfadb79717d4a28b58888bea0e91b497a4336a9cee"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 133696,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image23.png",
+      "role": "historical-course-bundle",
+      "sha256": "375570f8fe87e346d31b65482ccc52f6d866825239b323e8cb52e9d1eddc0c4e"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 30163,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image24.png",
+      "role": "historical-course-bundle",
+      "sha256": "3dc5059454ad7fda68ae56c9db3894f3aab52e1b8961b33454eea9755ab121ee"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 188369,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image25.png",
+      "role": "historical-course-bundle",
+      "sha256": "4bead2167dfa6ebce5e9298ed8951d2c7da5214508d7226da067c502a5bf2c24"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 40023,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image26.png",
+      "role": "historical-course-bundle",
+      "sha256": "2b4fa42869e41739933e955a63ddb597ca67f5513c41acf8cf3f36b8980be89c"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 26784,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image27.png",
+      "role": "historical-course-bundle",
+      "sha256": "b35eceea5723d6742b004f3c159333b704e74ad7d373554b75f1996a88f6bb49"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 17874,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image28.png",
+      "role": "historical-course-bundle",
+      "sha256": "409c7146135fae03af4591937d4251f4273679cf4403e790cc7cccc7d1b5b650"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 40859,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image29.png",
+      "role": "historical-course-bundle",
+      "sha256": "f413581808021086dc5ad0a62f8d95d69a595a0bdd7bac336b7d8ff64a3cccdc"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 94263,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image3.png",
+      "role": "historical-course-bundle",
+      "sha256": "c866d9c6c0ce5ec4133ec13dca5c7bb36410c3cd6d590f22a6de9983ba6cda02"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 156959,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image30.png",
+      "role": "historical-course-bundle",
+      "sha256": "036a6379dbb9b8b77da9487ede64542b6111e8701957c2c8aed46e9c5fed4642"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 37784,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image31.png",
+      "role": "historical-course-bundle",
+      "sha256": "e51bfad1bcf66bf3fcf231ae0c12c8824b408f4507d8398fa65501ce8496edac"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 65955,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image4.png",
+      "role": "historical-course-bundle",
+      "sha256": "e8dc07e2c4928827d9e7236bf2388d4febfbb47a59b7eaa1c51fa96c053b132d"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 157133,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image5.png",
+      "role": "historical-course-bundle",
+      "sha256": "e74f5d1e2c85de571bfbd094f51aeeddb12070838fd42127459879704032e9b8"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 216279,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image6.png",
+      "role": "historical-course-bundle",
+      "sha256": "e572421c7dcab09b7d5d66a880b2cff042434805a59eb30e3bb6917cfb3569a0"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 360738,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image7.png",
+      "role": "historical-course-bundle",
+      "sha256": "d74eafc80c8e2793079cc77708c350b14c23fd4df2c98344227a2fc30427e0ca"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 45814,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image8.png",
+      "role": "historical-course-bundle",
+      "sha256": "aa0ff694d290210e29a4db9f4392723239e2253577b4ecb2948896d9d22292f2"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 2633335,
+      "path": "examples/sample-vault/.raw/source-material/archived-attachments/images/image9.png",
+      "role": "historical-course-bundle",
+      "sha256": "0d6505bba7099871086b801940ad398f20d3ab980897bc59cfc267059594db60"
+    },
+    {
+      "action": "withdraw",
+      "bytes": 3328577,
+      "path": "tests/fixtures/sample-history/.raw/source-material/LOCAL-seo-Knowledge-Base.md",
+      "role": "historical-course-bundle",
+      "sha256": "7fbf73365af5f1ae0806afd691367d5cfde9c5b732909bfeff9129e9085433e8"
+    }
+  ]
+}

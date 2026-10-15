@@ -1,0 +1,856 @@
+{
+  "schema": "local-seo-brain.claim-ledger.v1",
+  "as_of": "2026-07-18",
+  "notes": "Canonical claim dispositions. Assessment and confidence are separate; deprecated historical material remains visible only behind the generated provenance boundary.",
+  "claims": [
+    {
+      "id": "local-ranking-factors",
+      "statement": "Google publicly frames local results using relevance, distance, and prominence/popularity; these are not an exhaustive public formula.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/key-google-rank-factors.md#Evidence status",
+        "assets/template-brain/wiki/gbp/gbp-overview.md#Evidence status",
+        "README.md#Behavior and boundaries"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-local-ranking"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google local results; feature and locale availability vary",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "local-ranking-no-public-weights",
+      "statement": "Google does not publish universal weights, thresholds, or guaranteed lifts for local ranking factors.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/key-google-rank-factors.md#Historical seed material",
+        "assets/template-brain/wiki/gbp/gbp-optimization.md#Historical seed material"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-local-ranking"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google local results",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "gbp-address-service-area",
+      "statement": "A service-area business that does not serve customers at its address should remove or hide that address; storefront eligibility requires a real customer-facing location.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-overview.md#Evidence status",
+        "assets/template-brain/wiki/gbp/gbp-optimization.md#Evidence status",
+        "assets/template-brain/wiki/glossary/glossary.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-gbp-representation-guidelines",
+        "google-gbp-service-areas"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Business Profile; region-specific options may vary",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "gbp-virtual-office-coworking",
+      "statement": "A rented mailing or virtual-office address where the business does not operate is ineligible; a coworking storefront requires permanent signage, customer reception, and the business's own staff during stated hours.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-overview.md#Evidence status",
+        "assets/template-brain/wiki/gbp/gbp-optimization.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-gbp-representation-guidelines"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Business Profile eligibility",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "gbp-name-and-categories",
+      "statement": "A Business Profile should use the real-world name and the fewest accurate categories needed to describe its core business; fixed category quotas are not official doctrine.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-categories.md#Evidence status",
+        "assets/template-brain/wiki/gbp/gbp-categories-edge-cases-re-theming.md#Evidence status",
+        "assets/template-brain/wiki/prompts/gbp-categories-prompt.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-gbp-representation-guidelines",
+        "google-gbp-categories"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Business Profile",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "gbp-verification-authenticity",
+      "statement": "Business verification evidence must be authentic and non-sensitive; a video should be live, unique, unedited, and should not display private identity documents or stage a false business identity.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-verification.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-gbp-verification",
+        "google-gbp-video-verification"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Business Profile verification",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "review-manipulation-prohibited",
+      "statement": "Maps reviews must reflect genuine, unbiased experiences; fake, paid, incentivized, gated, quota-driven, conflict-of-interest, or wording-manipulated reviews are prohibited.",
+      "locations": [
+        "assets/template-brain/wiki/prompts/reddit-claude-prompt.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-gbp-changes.md#Posts and reviews",
+        "SKILL.md#Operating contract"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-maps-prohibited-content",
+        "google-maps-ugc-policy",
+        "google-gbp-get-reviews"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Maps and Business Profile contributions",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "truthful-firsthand-content",
+      "statement": "Prompts and workflows must not fabricate firsthand experiences, identities, costs, awards, guarantees, reviews, or community posts.",
+      "locations": [
+        "assets/template-brain/wiki/prompts/reddit-claude-prompt.md#Evidence status",
+        "assets/template-brain/wiki/prompts/ai-homepage-rewrite-prompt.md#Evidence status",
+        "references/safety-gates.md"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-maps-prohibited-content",
+        "local-seo-brain-product-contract"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Local SEO Brain outputs and Google user-contributed content",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "gbp-post-cadence-unsupported",
+      "statement": "No reviewed official source establishes a universal twice-weekly GBP post requirement, 30-day ranking decay cliff, or mandatory photo cadence.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-posts.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-gbp-changes.md#Posts and reviews"
+      ],
+      "risk": "high",
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "source_ids": [],
+      "contradicting_source_ids": [
+        "google-gbp-posts"
+      ],
+      "scope": "Google Business Profile posts; category and region vary",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-09-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "review-reply-deadline-unsupported",
+      "statement": "No reviewed official source establishes a universal 24-hour review-reply deadline or a direct local-ranking lift from reply speed.",
+      "locations": [
+        "assets/template-brain/wiki/freshness/2026-gbp-changes.md#Posts and reviews"
+      ],
+      "risk": "medium",
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "source_ids": [],
+      "contradicting_source_ids": [
+        "google-gbp-reviews"
+      ],
+      "scope": "Google Business Profile reviews",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "qanda-api-sunset-manual-contested",
+      "statement": "The My Business Q&A API was discontinued on 2025-11-03, but that does not establish a universal sunset of consumer place Q&A or prove Ask Maps replaced it everywhere.",
+      "locations": [
+        "assets/template-brain/wiki/freshness/2026-gbp-changes.md#Q&A and Ask Maps"
+      ],
+      "risk": "medium",
+      "assessment": "contested",
+      "confidence": "CONTESTED",
+      "source_ids": [
+        "google-gbp-qanda-api-changelog"
+      ],
+      "contradicting_source_ids": [
+        "google-maps-ugc-policy",
+        "google-maps-content-use"
+      ],
+      "scope": "API versus consumer UI; locale, device, account, and category vary",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "ask-maps-scope",
+      "statement": "Ask Maps launched as a conversational place-discovery experience with an initial U.S. and India mobile rollout; Google did not document it as a universal replacement for Business Profile Q&A.",
+      "locations": [
+        "assets/template-brain/wiki/freshness/2026-gbp-changes.md#Q&A and Ask Maps"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-maps-ask-maps-launch"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Launch scope as of 2026-03-12",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "ai-features-no-special-requirements",
+      "statement": "Google documents no additional technical requirements, mandatory special schema, or AI text file for eligibility in AI Overviews or AI Mode beyond ordinary Search requirements and policies.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/ai-overview-in-search.md#Evidence status",
+        "assets/template-brain/wiki/llm-seo/llm-schema.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-ai-overviews-state.md#Current doctrine"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-ai-features",
+        "google-succeeding-ai-search"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Search AI features",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "ai-summary-click-direction",
+      "statement": "Two independent observational datasets associate AI-summary result pages with fewer clicks to external/traditional results; no single percentage should be generalized across query sets.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/ai-overview-in-search.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-ai-overviews-state.md#Measurement"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "pew-ai-summary-click-study",
+        "ahrefs-ai-overview-ctr-study"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Pew U.S. panel and Ahrefs informational-query dataset; not universal",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "ai-citation-formulas-unsupported",
+      "statement": "Fixed AI citation counts, Reddit citation-share percentages, and guaranteed local AIO tactics are unsupported across platforms, query classes, locales, and dates.",
+      "locations": [
+        "README.md#Evidence maintenance",
+        "assets/template-brain/wiki/llm-seo/llm-ranking-factors.md#Evidence status",
+        "assets/template-brain/wiki/llm-seo/llm-reddit-importance.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "source_ids": [],
+      "contradicting_source_ids": [
+        "google-ai-features",
+        "geo-citation-absorption-2026"
+      ],
+      "scope": "AI search platforms and local query classes",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "search-console-genai-reporting",
+      "statement": "Search Console has staged generative-AI performance reporting that documents impression-oriented reporting for eligible sites; dedicated AI-feature click reporting must not be inferred.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/ai-overview-in-search.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-ai-overviews-state.md#Measurement"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-gen-ai-report-launch",
+        "google-gen-ai-performance-help"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Staged Search Console rollout",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "structured-data-formats",
+      "statement": "Google Search supports JSON-LD, Microdata, and RDFa for structured data; JSON-LD is recommended for maintainability but is not the only supported format.",
+      "locations": [
+        "assets/template-brain/wiki/frameworks/schema-explanation.md#Evidence status",
+        "assets/template-brain/wiki/llm-seo/llm-schema.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-schema-modernization.md#Formats and validation"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-structured-data-guidelines",
+        "google-structured-data-intro"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Search structured data",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "structured-data-no-guarantee",
+      "statement": "Valid structured data creates feature eligibility and can help understanding, but Google does not guarantee rich-result appearance or document a direct organic-rank or AI-citation lift.",
+      "locations": [
+        "assets/template-brain/wiki/frameworks/schema-explanation.md#Evidence status",
+        "assets/template-brain/wiki/llm-seo/llm-schema.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-schema-modernization.md#Limits"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-structured-data-guidelines",
+        "google-localbusiness-structured-data"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "structured-data-vocabulary-distinction",
+      "statement": "Schema.org defines vocabulary and its validator checks vocabulary/syntax; Google documentation and the Rich Results Test govern Google feature eligibility.",
+      "locations": [
+        "assets/template-brain/wiki/frameworks/schema-explanation.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-schema-modernization.md#Formats and validation"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "schema-localbusiness",
+        "schema-validator",
+        "google-rich-results-test"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Schema.org vocabulary versus Google Search features",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "own-business-review-markup-ineligible",
+      "statement": "Self-serving reviews on an entity's own LocalBusiness or Organization pages are ineligible for Google star review features; ratings must not be aggregated from other sites.",
+      "locations": [
+        "assets/template-brain/wiki/frameworks/schema-explanation.md#Evidence status",
+        "assets/template-brain/wiki/prompts/schema-prompt-1.md#Evidence status",
+        "assets/template-brain/wiki/freshness/2026-schema-modernization.md#Review, FAQ, and HowTo boundaries"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-localbusiness-structured-data",
+        "google-review-snippet"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google review rich results",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "faq-rich-results-ended",
+      "statement": "FAQ rich results stopped appearing in Google Search as of 2026-05-07; FAQ markup must not be sold as a current ordinary rich-result or AI-growth tactic.",
+      "locations": [
+        "assets/template-brain/wiki/freshness/2026-schema-modernization.md#Review, FAQ, and HowTo boundaries"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-search-console-anomalies"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Search rich results",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-08-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "page-rank-no-fixed-model",
+      "statement": "Google documents evolved PageRank and link-analysis systems as only part of its ranking systems; fixed authority-point arithmetic and placement weights are unsupported.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/how-seo-authority-is-passed.md#Evidence status",
+        "assets/template-brain/wiki/backlinks/backlinking-no-follow-links.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "source_ids": [],
+      "contradicting_source_ids": [
+        "google-search-ranking-systems",
+        "google-seo-starter-guide"
+      ],
+      "scope": "Google organic Search ranking",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "no-universal-content-formula",
+      "statement": "Google documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose.",
+      "locations": [
+        "assets/template-brain/wiki/frameworks/the-core-30-content-strategy.md#Evidence status",
+        "assets/template-brain/wiki/audits/content-planning-topical-relevance-part-2.md#Evidence status",
+        "assets/template-brain/wiki/content/content-outbound-authority-links.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-helpful-content",
+        "google-seo-starter-guide"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google organic Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "no-universal-link-count",
+      "statement": "Google documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified.",
+      "locations": [
+        "assets/template-brain/wiki/content/content-internal-anchor-text-guidelines.md#Evidence status",
+        "assets/template-brain/wiki/content/content-outbound-authority-links.md#Evidence status",
+        "assets/template-brain/wiki/frameworks/local-link-overview.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-link-best-practices",
+        "google-seo-starter-guide"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google organic Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "link-schemes-prohibited",
+      "statement": "PBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies.",
+      "locations": [
+        "assets/template-brain/wiki/backlinks/backlinking-overview.md#Evidence status",
+        "assets/template-brain/wiki/prompts/backlink-competition-prompt.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-search-spam-policies",
+        "google-link-best-practices"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Web Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "hidden-and-doorway-abuse",
+      "statement": "Hidden text used to manipulate ranking, doorway pages, and scaled low-value location/content pages violate Google's spam policies.",
+      "locations": [
+        "assets/template-brain/wiki/content/content-hidden-content.md#Evidence status",
+        "assets/template-brain/wiki/content/content-service-pages.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-search-spam-policies"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Web Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "accordions-allowed",
+      "statement": "User-facing accordions and tabs are not automatically hidden-content abuse when they serve ordinary design and user-experience purposes.",
+      "locations": [
+        "assets/template-brain/wiki/content/content-hidden-content.md#Evidence status"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-search-spam-policies"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Web Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "exif-ranking-unsupported",
+      "statement": "EXIF can represent image metadata, including GPS data, but no reviewed source establishes that GPS geotagging causes Google local or organic ranking gains.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-website-image-geotagging.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "unsupported",
+      "confidence": "FOLKLORE",
+      "source_ids": [],
+      "contradicting_source_ids": [
+        "cipa-exif-31",
+        "google-image-seo",
+        "google-image-metadata"
+      ],
+      "scope": "Google Search and Business Profile images",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "core-web-vitals-scoped",
+      "statement": "Core Web Vitals are used within page-experience systems, but passing them does not guarantee ranking and relevance can outweigh page experience.",
+      "locations": [
+        "assets/template-brain/wiki/audits/property-technical-audit.md#Evidence status"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-page-experience",
+        "google-core-web-vitals"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google organic Search",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "behavior-formulas-unsupported",
+      "statement": "Aggregated interaction data has been described in primary trial evidence, but this does not validate GA bounce-rate formulas, dwell-time thresholds, CTR manipulation, or local-ranking guarantees.",
+      "locations": [
+        "assets/template-brain/wiki/concepts/key-google-rank-factors.md#Evidence status",
+        "assets/template-brain/wiki/audits/property-ctr-audit.md#Evidence status"
+      ],
+      "risk": "high",
+      "assessment": "unsupported",
+      "confidence": "CONTESTED",
+      "source_ids": [],
+      "contradicting_source_ids": [
+        "doj-google-interaction-testimony"
+      ],
+      "scope": "Google Search interaction systems; no site-level formula",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-07-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "geo-tactics-provisional",
+      "statement": "Generative-engine optimization experiments show bounded, domain- and platform-dependent effects; citation breadth and answer influence are distinct, so universal GEO recipes are not established.",
+      "locations": [
+        "assets/template-brain/wiki/llm-seo/llm-seo.md#Evidence status",
+        "assets/template-brain/wiki/llm-seo/llm-ranking-factors.md#Evidence status"
+      ],
+      "risk": "medium",
+      "assessment": "provisional",
+      "confidence": "PRACTITIONER",
+      "source_ids": [
+        "geo-kdd-2024",
+        "geo-citation-absorption-2026"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Benchmarks and evolving AI platforms",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "review-demand-effect-scoped",
+      "statement": "A causal Yelp study found a 5–9% revenue effect from a one-star increase for independent restaurants in its historical Washington State sample; it does not establish Google ranking effects or universal industry outcomes.",
+      "locations": [
+        "assets/template-brain/wiki/gbp/gbp-optimization.md#Evidence status"
+      ],
+      "risk": "medium",
+      "assessment": "provisional",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "hbs-yelp-revenue-study"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Yelp independent restaurants; historical Washington State sample",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-07-18",
+      "owner": "research-owner",
+      "notes": null,
+      "claim_type": "empirical"
+    },
+    {
+      "id": "places-storage-restricted",
+      "statement": "Places content is subject to attribution, storage, caching, and license restrictions; competitor discovery does not authorize a permanent raw Places-content vault.",
+      "locations": [
+        "docs/PRODUCT_BOUNDARIES.md#Refusals",
+        "references/safety-gates.md"
+      ],
+      "risk": "high",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "google-places-policies",
+        "google-maps-platform-terms"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Google Maps Platform Places content",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2026-10-18",
+      "owner": "evidence-lead",
+      "notes": null,
+      "claim_type": "policy"
+    },
+    {
+      "id": "product-account-mutations-require-approval",
+      "statement": "Local SEO Brain is advisory: any account control or third-party mutation requires explicit owner approval, scoped execution, and a rollback path.",
+      "locations": [
+        "docs/PRODUCT_BOUNDARIES.md#Read-only boundary",
+        "SKILL.md#Operating contract"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "local-seo-brain-product-contract",
+        "google-gen-ai-control"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Local SEO Brain product behavior",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "product-owner",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "product-advisory-boundary",
+      "statement": "Local SEO Brain ingests authorized exports and drafts evidence-linked recommendations; it does not mutate Google or third-party accounts.",
+      "locations": [
+        "docs/PRODUCT_BOUNDARIES.md#Read-only boundary",
+        "README.md#Behavior and boundaries"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "local-seo-brain-product-contract"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Local SEO Brain v0.3.0",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "product-owner",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "product-no-fabricated-metrics",
+      "statement": "When source data is absent, synthesis must report Draft or no-data status and must not fabricate a grade, score, metric, causal explanation, or completed action.",
+      "locations": [
+        "docs/PRODUCT_BOUNDARIES.md#Measurement boundary",
+        "scripts/synthesize_brain.py"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "local-seo-brain-product-contract"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Local SEO Brain synthesis",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "product-owner",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "product-review-privacy",
+      "statement": "Derived review notes omit review-author identity; authorized raw exports remain immutable and access-controlled rather than being copied into public deliverables.",
+      "locations": [
+        "docs/PRODUCT_BOUNDARIES.md#Privacy and licensing",
+        "scripts/ingest_reviews.py"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "local-seo-brain-product-contract"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Local SEO Brain review ingestion",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "privacy-owner",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "product-deterministic-overlays",
+      "statement": "A pinned as-of date and canonical overlay/ledger inputs deterministically regenerate reviewed note metadata and evidence callouts without editing the historical raw seed.",
+      "locations": [
+        "scripts/ingest_knowledge_base.py",
+        "data/knowledge-overlays.json",
+        "tests/test_reseed_preserves_overlays.py"
+      ],
+      "risk": "medium",
+      "assessment": "accepted",
+      "confidence": "EVIDENCE-BASED",
+      "source_ids": [
+        "local-seo-brain-product-contract"
+      ],
+      "contradicting_source_ids": [],
+      "scope": "Local SEO Brain build pipeline",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "product-owner",
+      "notes": null,
+      "claim_type": "product"
+    },
+    {
+      "id": "legacy-seed-boundary",
+      "statement": "Historical seed prose is retained for provenance only; any number, mechanism, or prescription not restated in a current Evidence status section with a claim ID and active source is unsupported and must not drive client work.",
+      "locations": [
+        "assets/template-brain/wiki/glossary/glossary.md#Historical seed material",
+        "assets/template-brain/wiki/prompts/_index.md"
+      ],
+      "risk": "low",
+      "assessment": "deprecated",
+      "confidence": "FOLKLORE",
+      "source_ids": [],
+      "contradicting_source_ids": [],
+      "scope": "All generated seed chapters and prompt notes",
+      "verified_at": "2026-07-18",
+      "refresh_due": "2027-01-18",
+      "owner": "content-owner",
+      "notes": "This disposition preserves licensed history while preventing it from being treated as current doctrine.",
+      "claim_type": "historical"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+--- a/claude_obsidian/ledgers.py
++++ b/claude_obsidian/ledgers.py
+@@ -5,8 +5,10 @@
+ import hashlib
+ import ipaddress
+ import json
++import os
+ import re
+ import unicodedata
++from zoneinfo import ZoneInfo
+ from datetime import date, datetime, timezone
+ from pathlib import Path, PurePosixPath
+ from typing import Any, Callable, Mapping, cast
+@@ -196,7 +198,7 @@
+ 
+ def _audit_date(as_of: date | None) -> date:
+     if as_of is None:
+-        return datetime.now(timezone.utc).date()
++        return datetime.now(ZoneInfo(os.environ.get("CLAUDE_OBSIDIAN_REVIEW_TIMEZONE", "UTC"))).date()
+     if isinstance(as_of, datetime) or not isinstance(as_of, date):
+         raise ValueError("as_of must be a date object or null")
+     return as_of

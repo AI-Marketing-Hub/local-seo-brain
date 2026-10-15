@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Local SEO Brain evidence workflow</title>
+  <desc id="desc">Authorized exports flow through evidence checks into an approval-first Obsidian knowledge graph.</desc>
+  <rect width="1200" height="630" rx="32" fill="#171717"/>
+  <path d="M130 315h210M500 315h200M860 315h210" stroke="#d97757" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#242424" stroke="#f2e8dc" stroke-width="4">
+    <rect x="60" y="220" width="280" height="190" rx="24"/>
+    <rect x="420" y="220" width="280" height="190" rx="24"/>
+    <rect x="780" y="220" width="360" height="190" rx="24"/>
+  </g>
+  <g fill="#f2e8dc" font-family="system-ui, sans-serif" text-anchor="middle">
+    <text x="200" y="290" font-size="34" font-weight="700">Authorized</text>
+    <text x="200" y="338" font-size="34" font-weight="700">exports</text>
+    <text x="560" y="290" font-size="34" font-weight="700">Evidence</text>
+    <text x="560" y="338" font-size="34" font-weight="700">contract</text>
+    <text x="960" y="290" font-size="34" font-weight="700">Approval-first</text>
+    <text x="960" y="338" font-size="34" font-weight="700">knowledge graph</text>
+  </g>
+  <text x="600" y="105" fill="#f2e8dc" font-family="system-ui, sans-serif" font-size="54" font-weight="800" text-anchor="middle">Local SEO Brain</text>
+  <text x="600" y="540" fill="#b9a99a" font-family="system-ui, sans-serif" font-size="28" text-anchor="middle">Source-cited decisions · deterministic builds · no live-account control</text>
+</svg>

@@ -1,0 +1,123 @@
+name: Verified repository gates
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  CLAUDE_OBSIDIAN_REVIEW_TIMEZONE: UTC
+  TZ: UTC
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check evidence against the actual review date
+        run: |
+          REVIEW_ON=$(TZ=UTC date +%F)
+          python3 scripts/evidence_contract.py freshness --as-of "$REVIEW_ON" --format json
+
+  verify:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # The pinned verifiers live in private repositories. Forks and runs
+      # without the read token skip those steps instead of failing.
+      HAS_READ_TOKEN: ${{ secrets.AI_MARKETING_HUB_READ_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check canonical contracts
+        run: |
+          python3 scripts/historical_seed_contract.py
+          python3 scripts/version_contract.py
+          SNAPSHOT=$(python3 -c 'import json; print(json.load(open("references/source-ledger.json"))["as_of"])')
+          python3 scripts/evidence_contract.py validate --as-of "$SNAPSHOT"
+          python3 scripts/evidence_contract.py check --as-of "$SNAPSHOT" --vault assets/template-brain
+          python3 scripts/coverage_matrix.py check
+
+      - name: Run deterministic tests
+        run: |
+          python3 tests/test_pipeline.py
+          python3 tests/test_domain_ingestors.py
+          python3 tests/test_reseed_preserves_overlays.py
+          python3 tests/test_citation_contract.py
+          python3 tests/test_demo_determinism.py
+          python3 tests/test_cli_safety.py
+          python3 tests/test_privacy_and_refusals.py
+          python3 tests/test_version_consistency.py
+          python3 tests/test_documentation_claims.py
+          python3 tests/test_scaffold.py
+          python3 tests/test_freshness.py
+          python3 tests/test_raw_integrity.py
+          python3 tests/test_release_receipt.py
+          python3 tests/test_safety_scan.py
+
+      - name: Run repository vault lint
+        run: |
+          python3 scripts/lint_vault.py --vault assets/template-brain
+          python3 scripts/lint_vault.py --vault examples/sample-vault
+
+      - name: Check out pinned Claude Obsidian verifier
+        if: env.HAS_READ_TOKEN == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: AI-Marketing-Hub/claude-obsidian
+          ref: 32ac5a02c4e082e4a5628ca810776375e134708e
+          path: .ci-tools/claude-obsidian
+          token: ${{ secrets.AI_MARKETING_HUB_READ_TOKEN }}
+
+      - name: Apply explicit review timezone compatibility
+        if: env.HAS_READ_TOKEN == 'true'
+        run: git -C .ci-tools/claude-obsidian apply "$GITHUB_WORKSPACE/patches/claude-obsidian-review-timezone.patch"
+
+      - name: Run strict Claude Obsidian lint
+        if: env.HAS_READ_TOKEN == 'true'
+        run: |
+          python3 .ci-tools/claude-obsidian/scripts/claude-obsidian.py lint \
+            --vault "$GITHUB_WORKSPACE/assets/template-brain" --as-of "$(TZ=UTC date +%F)" --format markdown --strict
+          python3 .ci-tools/claude-obsidian/scripts/claude-obsidian.py lint \
+            --vault "$GITHUB_WORKSPACE/examples/sample-vault" --as-of "$(TZ=UTC date +%F)" --format markdown --strict
+
+      - name: Check out pinned Brainstein verifier
+        if: env.HAS_READ_TOKEN == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: AI-Marketing-Hub/Brainstein
+          ref: 32b14a2e35819ae4c0dec9278a3dd3cd2df8dff1
+          path: .ci-tools/Brainstein
+          token: ${{ secrets.AI_MARKETING_HUB_READ_TOKEN }}
+
+      - name: Run Brainstein audit
+        if: env.HAS_READ_TOKEN == 'true'
+        run: |
+          git -C .ci-tools/Brainstein apply --unidiff-zero "$GITHUB_WORKSPACE/patches/brainstein-evidence-ledger-compat.patch"
+          PYTHONPATH="$GITHUB_WORKSPACE/.ci-tools/Brainstein" python3 -P -m brainstein audit-brain . --json > "$RUNNER_TEMP/brainstein-audit.json"
+          PYTHONPATH="$GITHUB_WORKSPACE/.ci-tools/Brainstein" python3 -P -m brainstein next "$GITHUB_WORKSPACE" --json --limit 10 > "$RUNNER_TEMP/brainstein-next.json"
+          python3 scripts/brainstein_gate.py "$RUNNER_TEMP/brainstein-audit.json"
+
+      - name: Inspect repository safety after all checks
+        if: always()
+        run: python3 scripts/repository_safety_scan.py --base "$(git rev-list --max-parents=0 HEAD)"
+
+      - name: Check patch hygiene
+        if: always()
+        run: git diff --check "$(git rev-list --max-parents=0 HEAD)"

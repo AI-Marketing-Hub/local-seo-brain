@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.raw/secrets/
+*.secret
+*.env
+
+# Root-level Obsidian state from browsing the project dir (the real vault
+# lives at assets/template-brain/.obsidian/)
+/.obsidian/
+
+# Temporary build artifacts
+/examples/.tmp-build/
+
+# AI-generated banner/diagram exploration artifacts (kept locally only)
+/assets/png/candidates/
+
+# Isolated pinned verification checkouts, never package inputs.
+/.ci-tools/
+
+# Operator-supplied historical course bundle. Third-party material, never shipped.
+.raw/source-material/
+
+# Vault transaction journals hold undo backups of earlier note text,
+# including the withdrawn course bundle. They stay local.
+.vault-meta/transactions/

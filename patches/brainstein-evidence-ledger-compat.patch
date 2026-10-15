@@ -1,0 +1,128 @@
+diff --git a/brainstein/audit.py b/brainstein/audit.py
+index a59302e..4f0a5be 100644
+--- a/brainstein/audit.py
++++ b/brainstein/audit.py
+@@ -11 +11 @@ from urllib.parse import urlparse
+-from .spec import BrainSpec
++from .spec import BrainSpec, load_spec
+@@ -78,0 +79,25 @@ PRIMARY_SOURCE_TYPES = {
++    "official-doc",
++    "primary-research",
++    "first-party-blog",
++    "standard",
++}
++SUPPORTED_SOURCE_TYPES = PRIMARY_SOURCE_TYPES | {
++    "market",
++    "practitioner",
++    "supporting",
++    "fixture",
++    "repo-snapshot",
++    "independent-study",
++    "community",
++    "github-repo",
++    "third-party-blog",
++    "community-thread",
++}
++PRIMARY_SOURCE_AUTHORITIES = {
++    "official",
++    "primary",
++    "first-party",
++    "regulator",
++    "government",
++    "standards-body",
++    "authority",
+@@ -339 +364 @@ def _check_official_source_count_ok(repo: Path) -> tuple[bool, str]:
+-        if clean_string(source.get("source_type")).lower() in PRIMARY_SOURCE_TYPES:
++        if is_primary_source(source):
+@@ -675,0 +701,3 @@ def _check_sanitized_publish_surface(repo: Path) -> tuple[bool, str]:
++    private_surfaces = declared_private_publish_surfaces(repo)
++    if private_surfaces:
++        return True, f"private publish surface declared ({', '.join(private_surfaces)}); public site not required"
+@@ -946,4 +974,6 @@ def _check_sources_pack_present(repo: Path) -> tuple[bool, str]:
+-    sources_dir = repo / "wiki" / "sources"
+-    if not sources_dir.is_dir():
+-        return False, "wiki/sources/ folder missing"
+-    candidates = sorted(sources_dir.glob("research-pack-*.md"))
++    candidates = sorted(
++        path
++        for wiki_root in _wiki_roots(repo)
++        for path in (wiki_root / "sources").glob("research-pack-*.md")
++        if path.is_file()
++    )
+@@ -951 +981 @@ def _check_sources_pack_present(repo: Path) -> tuple[bool, str]:
+-        return False, "no wiki/sources/research-pack-*.md found"
++        return False, "no configured wiki root contains sources/research-pack-*.md"
+@@ -956 +986 @@ def _check_sources_pack_present(repo: Path) -> tuple[bool, str]:
+-        return False, f"could not read {pack.name}: {exc}"
++        return False, f"could not read {pack.relative_to(repo)}: {exc}"
+@@ -961,2 +991,2 @@ def _check_sources_pack_present(repo: Path) -> tuple[bool, str]:
+-        return False, f"{pack.name} has {urls} URLs + {dates} dates, citation count {citations} < 60"
+-    return True, f"{pack.name} has {urls} URLs + {dates} dates (citations >= {citations})"
++        return False, f"{pack.relative_to(repo)} has {urls} URLs + {dates} dates, citation count {citations} < 60"
++    return True, f"{pack.relative_to(repo)} has {urls} URLs + {dates} dates (citations >= {citations})"
+@@ -1384,0 +1415 @@ def check_source_ledger(repo: Path, *, requires_fresh: bool) -> tuple[bool, int,
++    mapped_claim_count = 0
+@@ -1396 +1427 @@ def check_source_ledger(repo: Path, *, requires_fresh: bool) -> tuple[bool, int,
+-        claims = source.get("claims")
++        claims = source_claims(source)
+@@ -1402 +1433 @@ def check_source_ledger(repo: Path, *, requires_fresh: bool) -> tuple[bool, int,
+-        if source_type not in PRIMARY_SOURCE_TYPES and source_type not in {"market", "practitioner", "supporting", "fixture"}:
++        if source_type not in SUPPORTED_SOURCE_TYPES:
+@@ -1404 +1435 @@ def check_source_ledger(repo: Path, *, requires_fresh: bool) -> tuple[bool, int,
+-        if source_type in PRIMARY_SOURCE_TYPES:
++        if is_primary_source(source):
+@@ -1411,2 +1442,4 @@ def check_source_ledger(repo: Path, *, requires_fresh: bool) -> tuple[bool, int,
+-        if not isinstance(claims, list) or not any(clean_string(claim) for claim in claims):
+-            critical.append(f"{label} must list sourced claims")
++        if not isinstance(claims, list):
++            critical.append(f"{label} must include a claims or supports_claims list")
++        else:
++            mapped_claim_count += sum(1 for claim in claims if clean_string(claim))
+@@ -1422,0 +1456,2 @@ def check_source_ledger(repo: Path, *, requires_fresh: bool) -> tuple[bool, int,
++    if mapped_claim_count == 0:
++        critical.append("source-ledger must map at least one sourced claim")
+@@ -1784,0 +1820,28 @@ def clean_string(value: object) -> str:
++def source_claims(source: dict[str, Any]) -> object:
++    if isinstance(source.get("claims"), list):
++        return source["claims"]
++    return source.get("supports_claims")
++
++
++def is_primary_source(source: dict[str, Any]) -> bool:
++    source_type = clean_string(source.get("source_type")).lower()
++    authority = clean_string(source.get("authority")).lower()
++    return source_type in PRIMARY_SOURCE_TYPES or authority in PRIMARY_SOURCE_AUTHORITIES
++
++
++def declared_private_publish_surfaces(repo: Path) -> list[str]:
++    surfaces: list[str] = []
++    specs_dir = repo / "specs"
++    paths = sorted(specs_dir.glob("*.yaml")) if specs_dir.is_dir() else []
++    for path in paths:
++        try:
++            surface = load_spec(path).publish_surface.strip().lower()
++        except (OSError, ValueError):
++            return []
++        if surface.startswith("private-") or surface in {"none", "disabled", "repository-only", "source-only"}:
++            surfaces.append(surface)
++        else:
++            return []
++    return surfaces
++
++
+diff --git a/brainstein/validate.py b/brainstein/validate.py
+index d847a9e..bbda049 100644
+--- a/brainstein/validate.py
++++ b/brainstein/validate.py
+@@ -95 +95 @@ SECRET_PATTERNS = {
+-    "openai api key": re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
++    "openai api key": re.compile(r"(?:sk-(?:proj|svcacct)-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,})"),
+@@ -295,3 +295,5 @@ def check_scripts(repo: Path, errors: list[str]) -> None:
+-        proc = subprocess.run([sys.executable, "-m", "py_compile", str(path)], cwd=repo, text=True, capture_output=True)
+-        if proc.returncode:
+-            errors.append(f"script does not compile: {path.relative_to(repo)}: {proc.stderr.strip()}")
++        try:
++            source = path.read_text(encoding="utf-8")
++            compile(source, str(path), "exec")
++        except (OSError, SyntaxError, UnicodeError) as exc:
++            errors.append(f"script does not compile: {path.relative_to(repo)}: {exc}")

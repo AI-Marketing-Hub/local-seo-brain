@@ -1,0 +1,36 @@
+{
+  "schema": "local-seo-brain.adapter-manifest.v1",
+  "generic_only": false,
+  "input_schemas": [
+    {"path": "schemas/source-ledger.schema.json"},
+    {"path": "schemas/claim-ledger.schema.json"},
+    {"path": "schemas/knowledge-overlays.schema.json"}
+  ],
+  "importers": [
+    {"path": "scripts/ingest_source.py"},
+    {"path": "scripts/ingest_gbp.py"},
+    {"path": "scripts/ingest_citations.py"},
+    {"path": "scripts/ingest_reviews.py"},
+    {"path": "scripts/ingest_geogrid.py"}
+  ],
+  "synthesis_modules": [
+    {"path": "scripts/synthesize_brain.py"},
+    {"path": "scripts/evidence_contract.py"}
+  ],
+  "report_renderers": [
+    {"path": "scripts/render_brain_report.py"},
+    {"path": "scripts/generate_vault_visuals.py"}
+  ],
+  "fixtures": [
+    {"path": "tests/fixtures/sample-gbp.csv"},
+    {"path": "tests/fixtures/sample-citations.csv"},
+    {"path": "tests/fixtures/sample-reviews.json"},
+    {"path": "tests/fixtures/sample-geogrid.csv"}
+  ],
+  "tests": [
+    {"path": "tests/test_pipeline.py"},
+    {"path": "tests/test_domain_ingestors.py"},
+    {"path": "tests/test_citation_contract.py"},
+    {"path": "tests/test_privacy_and_refusals.py"}
+  ]
+}

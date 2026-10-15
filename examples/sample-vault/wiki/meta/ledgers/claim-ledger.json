@@ -1,0 +1,1210 @@
+{
+  "claims": {
+    "clm-1286917201e91ab2ed01": {
+      "assessment": "accepted",
+      "canonical_id": "product-advisory-boundary",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "product-advisory-boundary",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: product-advisory-boundary. Canonical risk: medium. Scope: Local SEO Brain v0.3.0.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Local SEO Brain ingests authorized exports and drafts evidence-linked recommendations; it does not mutate Google or third-party accounts."
+    },
+    "clm-160965673e69d3e1331e": {
+      "assessment": "accepted",
+      "canonical_id": "operator-evidence-review",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "operator-evidence-review",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: operator-evidence-review. Canonical risk: medium. Scope: Local SEO Brain operator procedure; practitioner recommendation.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "The operator workflow is to inventory authorized evidence, separate observed facts from hypotheses, draft a scoped finding with sources and missing inputs, and obtain owner approval and a rollback plan for any proposed external change."
+    },
+    "clm-17af0e2b2d42dc136e74": {
+      "assessment": "accepted",
+      "canonical_id": "search-console-genai-reporting",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Announcement and staged rollout",
+          "relation": "supports",
+          "source_id": "src-430af356923901c4c696"
+        },
+        {
+          "locator": "What's included; dimensions; data limitations",
+          "relation": "supports",
+          "source_id": "src-ea4070acae320972bb10"
+        }
+      ],
+      "location": {
+        "anchor": "search-console-genai-reporting",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: search-console-genai-reporting. Canonical risk: medium. Scope: Worldwide documented availability from 2026-08-31; AI Overviews and AI Mode impression dimensions; feature data limitations.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google documents worldwide availability of Search Console Generative AI performance reporting as of 2026-08-31. It exposes impressions for AI Overviews and AI Mode by page, country, date, and device; dedicated AI-feature click or query reporting is not established by the reviewed documentation."
+    },
+    "clm-1a0316b6ce01a13eea59": {
+      "assessment": "accepted",
+      "canonical_id": "truthful-firsthand-content",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Fake engagement; rating manipulation; personal information",
+          "relation": "supports",
+          "source_id": "src-6ed428c4c817bc310b64"
+        },
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "truthful-firsthand-content",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: truthful-firsthand-content. Canonical risk: high. Scope: Local SEO Brain outputs and Google user-contributed content.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Prompts and workflows must not fabricate firsthand experiences, identities, costs, awards, guarantees, reviews, or community posts."
+    },
+    "clm-1dc1ff97350f2ea9f987": {
+      "assessment": "contested",
+      "canonical_id": "qanda-api-sunset-manual-contested",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "v1 2025-11-03 Q&A API deprecation complete",
+          "relation": "supports",
+          "source_id": "src-4c6e8b6ba36d26dc84ea"
+        },
+        {
+          "locator": "Real experiences; place questions and answers; enforcement",
+          "relation": "contradicts",
+          "source_id": "src-0e1099e09ea2a11cb1a1"
+        },
+        {
+          "locator": "Subjective content; beta questions; machine learning and generative AI",
+          "relation": "contradicts",
+          "source_id": "src-53aee1c90fd840426d7d"
+        }
+      ],
+      "location": {
+        "anchor": "qanda-api-sunset-manual-contested",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: qanda-api-sunset-manual-contested. Canonical risk: medium. Scope: API versus consumer UI; locale, device, account, and category vary.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "The My Business Q&A API was discontinued on 2025-11-03, but that does not establish a universal sunset of consumer place Q&A or prove Ask Maps replaced it everywhere."
+    },
+    "clm-1ee62fa1f963128fd3f7": {
+      "assessment": "accepted",
+      "canonical_id": "structured-data-formats",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Format; content quality; completeness",
+          "relation": "supports",
+          "source_id": "src-ffde11f53dbc36aa37e5"
+        },
+        {
+          "locator": "Supported formats",
+          "relation": "supports",
+          "source_id": "src-c40c524af2650ce4a729"
+        }
+      ],
+      "location": {
+        "anchor": "structured-data-formats",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: structured-data-formats. Canonical risk: high. Scope: Google Search structured data.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google Search supports JSON-LD, Microdata, and RDFa for structured data; JSON-LD is recommended for maintainability but is not the only supported format."
+    },
+    "clm-27ae1a75ddef11bba942": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-address-service-area",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Business description; hours; name; categories; address; service-area businesses",
+          "relation": "supports",
+          "source_id": "src-da55afdaa6e762fb7802"
+        },
+        {
+          "locator": "How service areas work; remove address when customers are not served there",
+          "relation": "supports",
+          "source_id": "src-65548205f0d2c064aeb0"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-address-service-area",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-address-service-area. Canonical risk: high. Scope: Google Business Profile; region-specific options may vary.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "A service-area business that does not serve customers at its address should remove or hide that address; storefront eligibility requires a real customer-facing location."
+    },
+    "clm-28045a3480b0d3a84de5": {
+      "assessment": "accepted",
+      "canonical_id": "places-storage-restricted",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Attribution, caching, storage, and display requirements",
+          "relation": "supports",
+          "source_id": "src-e5d65de8189c3cb3bce5"
+        },
+        {
+          "locator": "License restrictions and service terms",
+          "relation": "supports",
+          "source_id": "src-8b69d5f4f82f98fb047f"
+        }
+      ],
+      "location": {
+        "anchor": "places-storage-restricted",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: places-storage-restricted. Canonical risk: high. Scope: Google Maps Platform Places content.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Places content is subject to attribution, storage, caching, and license restrictions; competitor discovery does not authorize a permanent raw Places-content vault."
+    },
+    "clm-362e8b088e704c69bc1a": {
+      "assessment": "accepted",
+      "canonical_id": "review-manipulation-prohibited",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Fake engagement; rating manipulation; personal information",
+          "relation": "supports",
+          "source_id": "src-6ed428c4c817bc310b64"
+        },
+        {
+          "locator": "Real experiences; place questions and answers; enforcement",
+          "relation": "supports",
+          "source_id": "src-0e1099e09ea2a11cb1a1"
+        },
+        {
+          "locator": "Permitted review requests",
+          "relation": "supports",
+          "source_id": "src-2d5ca5e9324ec8a86f8a"
+        }
+      ],
+      "location": {
+        "anchor": "review-manipulation-prohibited",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: review-manipulation-prohibited. Canonical risk: high. Scope: Google Maps and Business Profile contributions.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google Maps and Business Profile reviews prohibit incentives for posting, revising, or removing reviews, even when disclosed. Fake, gated, quota-driven, conflict-of-interest, selectively positive, or wording-manipulated reviews are prohibited."
+    },
+    "clm-3c4a0a3e2f0717ff50d9": {
+      "assessment": "accepted",
+      "canonical_id": "product-no-fabricated-metrics",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "product-no-fabricated-metrics",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: product-no-fabricated-metrics. Canonical risk: medium. Scope: Local SEO Brain synthesis.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "When source data is absent, synthesis must report Draft or no-data status and must not fabricate a grade, score, metric, causal explanation, or completed action."
+    },
+    "clm-40311292ec98eb80f031": {
+      "assessment": "accepted",
+      "canonical_id": "core-web-vitals-scoped",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Page experience and relevance; Core Web Vitals",
+          "relation": "supports",
+          "source_id": "src-206e1466af1001d96b13"
+        },
+        {
+          "locator": "LCP, INP, CLS and Search",
+          "relation": "supports",
+          "source_id": "src-a963c854200101db2473"
+        }
+      ],
+      "location": {
+        "anchor": "core-web-vitals-scoped",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: core-web-vitals-scoped. Canonical risk: medium. Scope: Google organic Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Core Web Vitals are used within page-experience systems, but passing them does not guarantee ranking and relevance can outweigh page experience."
+    },
+    "clm-46f1182d19d864bac000": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-name-and-categories",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Business description; hours; name; categories; address; service-area businesses",
+          "relation": "supports",
+          "source_id": "src-da55afdaa6e762fb7802"
+        },
+        {
+          "locator": "Understand business categories; add or edit categories",
+          "relation": "supports",
+          "source_id": "src-4f6d6c75db03e8cff505"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-name-and-categories",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-name-and-categories. Canonical risk: high. Scope: Google Business Profile.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "A Business Profile should use the real-world name and the fewest accurate categories needed to describe its core business; fixed category quotas are not official doctrine."
+    },
+    "clm-4a719ded3545f2943c94": {
+      "assessment": "accepted",
+      "canonical_id": "local-ranking-no-public-weights",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Relevance, distance, prominence; reviews",
+          "relation": "supports",
+          "source_id": "src-11ebf2cd22ebb2ba864c"
+        }
+      ],
+      "location": {
+        "anchor": "local-ranking-no-public-weights",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: local-ranking-no-public-weights. Canonical risk: high. Scope: Google local results.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google does not publish universal weights, thresholds, or guaranteed lifts for local ranking factors."
+    },
+    "clm-4ab0df004578cef5f466": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-api-food-menu-dietary-restrictions",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "v4.9 New Features: 2026-10-09 Food Menus Dietary Restrictions; 2026-07-24 review_reply_url; 2026-07-01 Policy Violation",
+          "relation": "supports",
+          "source_id": "src-a313ffd5fd512bc33340"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-api-food-menu-dietary-restrictions",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-api-food-menu-dietary-restrictions. Canonical risk: medium. Scope: API enum and method documentation only; no live account integration.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "From 2026-10-09, My Business API v4.9 documents GLUTEN_FREE and DAIRY_FREE DietaryRestriction values for food-menu items through getFoodMenus and updateFoodMenus."
+    },
+    "clm-4bc518d1bbe42b402e96": {
+      "assessment": "accepted",
+      "canonical_id": "no-universal-content-formula",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Expertise questions; Get to know E-E-A-T; Who, How, and Why; main content quality; no preferred word count",
+          "relation": "supports",
+          "source_id": "src-1f02f8734441efe80cf6"
+        },
+        {
+          "locator": "Influence your title links; Control your snippets; useful content; contextual links",
+          "relation": "supports",
+          "source_id": "src-b2cf78baa6ffb866b267"
+        }
+      ],
+      "location": {
+        "anchor": "no-universal-content-formula",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: no-universal-content-formula. Canonical risk: high. Scope: Google organic Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google documents no preferred universal word count, keyword density, publication cadence, or fixed page-count framework; content should be people-first and useful for its purpose."
+    },
+    "clm-622d537652392055bcf5": {
+      "assessment": "accepted",
+      "canonical_id": "eea-site-reputation-enforcement",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "August 30 enforcement effects by searcher region",
+          "relation": "supports",
+          "source_id": "src-4de8b2526157d9568187"
+        },
+        {
+          "locator": "Scaled content abuse; hidden text and link abuse; link spam; doorway abuse",
+          "relation": "supports",
+          "source_id": "src-574f56015d37e6f7bcc0"
+        }
+      ],
+      "location": {
+        "anchor": "eea-site-reputation-enforcement",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: eea-site-reputation-enforcement. Canonical risk: medium. Scope: EEA versus non-EEA searcher location; enforcement, not permission to create spam.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "From 2026-08-30, site-reputation-policy manual-action effects differ by searcher location. Outside the EEA the affected portion can be directly impacted; inside the EEA that manual-action impact does not apply, though the portion may be separated and ranked independently."
+    },
+    "clm-6e18d274b8fee8c19b3f": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-verification-authenticity",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Verification methods and re-verification",
+          "relation": "supports",
+          "source_id": "src-7fb9170313d5fa1bdc76"
+        },
+        {
+          "locator": "Prepare for recording; service-area business requirements",
+          "relation": "supports",
+          "source_id": "src-61e671e58d9e0fe47b67"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-verification-authenticity",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-verification-authenticity. Canonical risk: high. Scope: Google Business Profile verification.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Verification evidence must truthfully demonstrate business location, existence, and management. Video verification must be captured live, unique and unedited, and exclude sensitive information and other people’s faces."
+    },
+    "clm-712b462a7dda68f541a0": {
+      "assessment": "accepted",
+      "canonical_id": "generative-ai-content-quality",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Using generative AI content; accuracy, quality, relevance; give users context",
+          "relation": "supports",
+          "source_id": "src-fb8f80a7233d83f37ebe"
+        },
+        {
+          "locator": "Expertise questions; Get to know E-E-A-T; Who, How, and Why; main content quality; no preferred word count",
+          "relation": "supports",
+          "source_id": "src-1f02f8734441efe80cf6"
+        }
+      ],
+      "location": {
+        "anchor": "generative-ai-content-quality",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: generative-ai-content-quality. Canonical risk: medium. Scope: global; content production and Search policy.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google permits generative AI as a content-production aid. Generating many pages without user value may violate scaled-content-abuse policy; content and metadata should be manually checked for accuracy and trustworthiness, with creation context when useful to readers."
+    },
+    "clm-725de91cb368e5a5bc3a": {
+      "assessment": "unsupported",
+      "canonical_id": "behavior-formulas-unsupported",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "PDF pp. 44–47; aggregated interaction evidence and NavBoost",
+          "relation": "contradicts",
+          "source_id": "src-57af35c3a95d547024f5"
+        }
+      ],
+      "location": {
+        "anchor": "behavior-formulas-unsupported",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: behavior-formulas-unsupported. Canonical risk: high. Scope: Google Search interaction systems; no site-level formula.",
+      "reviewed_at": "2026-10-15",
+      "risk": "high",
+      "supersedes": null,
+      "text": "Aggregated interaction data has been described in primary trial evidence, but this does not validate GA bounce-rate formulas, dwell-time thresholds, CTR manipulation, or local-ranking guarantees."
+    },
+    "clm-7268c2dd436386ba29b9": {
+      "assessment": "unsupported",
+      "canonical_id": "review-reply-deadline-unsupported",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "Read and reply to reviews; reply moderation",
+          "relation": "contradicts",
+          "source_id": "src-d1a0959df8558f1f7872"
+        }
+      ],
+      "location": {
+        "anchor": "review-reply-deadline-unsupported",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: review-reply-deadline-unsupported. Canonical risk: medium. Scope: Google Business Profile reviews.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "No reviewed official source establishes a universal 24-hour review-reply deadline or a direct local-ranking lift from reply speed."
+    },
+    "clm-729aa1e271fc3534cf07": {
+      "assessment": "accepted",
+      "canonical_id": "structured-data-no-guarantee",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Format; content quality; completeness",
+          "relation": "supports",
+          "source_id": "src-ffde11f53dbc36aa37e5"
+        },
+        {
+          "locator": "Guidelines; aggregateRating; review properties",
+          "relation": "supports",
+          "source_id": "src-ba67a65e6a06d4ee7018"
+        }
+      ],
+      "location": {
+        "anchor": "structured-data-no-guarantee",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: structured-data-no-guarantee. Canonical risk: high. Scope: Google Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Valid structured data creates feature eligibility and can help understanding, but Google does not guarantee rich-result appearance or document a direct organic-rank or AI-citation lift."
+    },
+    "clm-73cd3db5c2ecf3803788": {
+      "assessment": "accepted",
+      "canonical_id": "search-update-events",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Ranking update incident history",
+          "relation": "supports",
+          "source_id": "src-052cb01b9917db050bcf"
+        },
+        {
+          "locator": "Assessing a drop in position; self-assessment guidance",
+          "relation": "supports",
+          "source_id": "src-f9c333dc17a641100944"
+        }
+      ],
+      "location": {
+        "anchor": "search-update-events",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: search-update-events. Canonical risk: medium. Scope: named historical events through review date; no causal diagnosis.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "The Search Status Dashboard records August and September 2026 spam updates in addition to earlier named events. Rollout dates alone do not establish why an individual site moved."
+    },
+    "clm-755d92ee7d8e902975fe": {
+      "assessment": "accepted",
+      "canonical_id": "own-business-review-markup-ineligible",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Guidelines; aggregateRating; review properties",
+          "relation": "supports",
+          "source_id": "src-ba67a65e6a06d4ee7018"
+        },
+        {
+          "locator": "LocalBusiness and Organization review guidelines",
+          "relation": "supports",
+          "source_id": "src-07399f16231f427bea3c"
+        }
+      ],
+      "location": {
+        "anchor": "own-business-review-markup-ineligible",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: own-business-review-markup-ineligible. Canonical risk: high. Scope: Google review rich results.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Self-serving reviews on an entity's own LocalBusiness or Organization pages are ineligible for Google star review features; ratings must not be aggregated from other sites."
+    },
+    "clm-768df19d8a28b5fa89aa": {
+      "assessment": "accepted",
+      "canonical_id": "structured-data-vocabulary-distinction",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "LocalBusiness type and properties",
+          "relation": "supports",
+          "source_id": "src-36bbcc8a9a5a6b89253b"
+        },
+        {
+          "locator": "Schema.org syntax and vocabulary validation",
+          "relation": "supports",
+          "source_id": "src-71f7d659449f3880e1ba"
+        },
+        {
+          "locator": "Google rich-result eligibility test surface",
+          "relation": "supports",
+          "source_id": "src-b6a3de60bbfd2a10389f"
+        }
+      ],
+      "location": {
+        "anchor": "structured-data-vocabulary-distinction",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: structured-data-vocabulary-distinction. Canonical risk: medium. Scope: Schema.org vocabulary versus Google Search features.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Schema.org defines vocabulary and its validator checks vocabulary/syntax; Google documentation and the Rich Results Test govern Google feature eligibility."
+    },
+    "clm-76ee5249fa0201400123": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-api-review-reply-url",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "v4.9 New Features: 2026-10-09 Food Menus Dietary Restrictions; 2026-07-24 review_reply_url; 2026-07-01 Policy Violation",
+          "relation": "supports",
+          "source_id": "src-a313ffd5fd512bc33340"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-api-review-reply-url",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-api-review-reply-url. Canonical risk: medium. Scope: API field documentation only; no Local SEO Brain live integration.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "From 2026-07-24, My Business API v4.9 documents reviewReplyUrl retrieval through reviews get, list, and batchGetReviews."
+    },
+    "clm-7ff740cef28f3a6bf6ae": {
+      "assessment": "accepted",
+      "canonical_id": "metadata-accurate-descriptive",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Influence your title links; Control your snippets; useful content; contextual links",
+          "relation": "supports",
+          "source_id": "src-b2cf78baa6ffb866b267"
+        }
+      ],
+      "location": {
+        "anchor": "metadata-accurate-descriptive",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: metadata-accurate-descriptive. Canonical risk: medium. Scope: Google Search title links and snippets; no display or click guarantee.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google recommends clear, concise, accurate, page-specific titles and short, unique meta descriptions. Search snippets can use page content rather than the supplied description."
+    },
+    "clm-81d134b3d113dbd2696f": {
+      "assessment": "accepted",
+      "canonical_id": "ai-features-no-special-requirements",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "How to appear in AI features; technical requirements; SEO best practices",
+          "relation": "supports",
+          "source_id": "src-b14bb73560495d988f6f"
+        },
+        {
+          "locator": "Foundational SEO guidance for AI search experiences",
+          "relation": "supports",
+          "source_id": "src-b5c8f6e491878b36070c"
+        }
+      ],
+      "location": {
+        "anchor": "ai-features-no-special-requirements",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: ai-features-no-special-requirements. Canonical risk: high. Scope: Google Search AI features.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google documents no additional technical requirements, mandatory special schema, or AI text file for eligibility in AI Overviews or AI Mode beyond ordinary Search requirements and policies."
+    },
+    "clm-83a8b57a3169b1f300d7": {
+      "assessment": "accepted",
+      "canonical_id": "ask-maps-scope",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Ask anything about any place; initial rollout scope",
+          "relation": "supports",
+          "source_id": "src-77b9935c09a4729a9c91"
+        }
+      ],
+      "location": {
+        "anchor": "ask-maps-scope",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: ask-maps-scope. Canonical risk: medium. Scope: Launch scope as of 2026-03-12.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Ask Maps launched as a conversational place-discovery experience with an initial U.S. and India mobile rollout; Google did not document it as a universal replacement for Business Profile Q&A."
+    },
+    "clm-862283a23fcb410af647": {
+      "assessment": "accepted",
+      "canonical_id": "eeat-trust-context",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Expertise questions; Get to know E-E-A-T; Who, How, and Why; main content quality; no preferred word count",
+          "relation": "supports",
+          "source_id": "src-1f02f8734441efe80cf6"
+        }
+      ],
+      "location": {
+        "anchor": "eeat-trust-context",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: eeat-trust-context. Canonical risk: medium. Scope: Google Search people-first quality guidance; no score or ranking formula.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google describes E-E-A-T as a quality-assessment concept, not a specific ranking factor. Accurate authorship, sourcing, and demonstrated experience can help readers assess trust."
+    },
+    "clm-88879e68da2d4cbc8716": {
+      "assessment": "accepted",
+      "canonical_id": "no-universal-link-count",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Internal links; external links; sponsored and UGC attributes",
+          "relation": "supports",
+          "source_id": "src-1e1d16a4a1839eb899d2"
+        },
+        {
+          "locator": "Influence your title links; Control your snippets; useful content; contextual links",
+          "relation": "supports",
+          "source_id": "src-b2cf78baa6ffb866b267"
+        }
+      ],
+      "location": {
+        "anchor": "no-universal-link-count",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: no-universal-link-count. Canonical risk: high. Scope: Google organic Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google documents no magical ideal internal or external link count; links should be useful, contextual, crawlable, and appropriately qualified."
+    },
+    "clm-8db64bfa500c0a1a64dd": {
+      "assessment": "accepted",
+      "canonical_id": "hidden-and-doorway-abuse",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Scaled content abuse; hidden text and link abuse; link spam; doorway abuse",
+          "relation": "supports",
+          "source_id": "src-574f56015d37e6f7bcc0"
+        }
+      ],
+      "location": {
+        "anchor": "hidden-and-doorway-abuse",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: hidden-and-doorway-abuse. Canonical risk: high. Scope: Google Web Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Hidden text used to manipulate ranking, doorway pages, and scaled low-value location/content pages violate Google's spam policies."
+    },
+    "clm-8dbaf4b0983752bcef8c": {
+      "assessment": "deprecated",
+      "canonical_id": "legacy-seed-boundary",
+      "confidence": "low",
+      "evidence": [],
+      "location": {
+        "anchor": "legacy-seed-boundary",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: legacy-seed-boundary. Canonical risk: low. Scope: All generated seed chapters and prompt notes. This disposition preserves licensed history while preventing it from being treated as current doctrine.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Original licensed seed bytes remain immutable provenance in .raw. Working notes are rewritten current guidance; historical prescriptions must not be treated as current evidence."
+    },
+    "clm-91fe4c6d415b9a3b3c33": {
+      "assessment": "accepted",
+      "canonical_id": "review-markup-incentive-disclosure",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "LocalBusiness and Organization review guidelines",
+          "relation": "supports",
+          "source_id": "src-07399f16231f427bea3c"
+        },
+        {
+          "locator": "Fake engagement; rating manipulation; personal information",
+          "relation": "supports",
+          "source_id": "src-6ed428c4c817bc310b64"
+        }
+      ],
+      "location": {
+        "anchor": "review-markup-incentive-disclosure",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: review-markup-incentive-disclosure. Canonical risk: medium. Scope: Google Search review markup versus Maps review policy.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "For Google Search review-snippet eligibility, fake or undisclosed incentivized reviews are prohibited; a provided benefit must be clearly and prominently disclosed. This does not relax Maps incentive prohibitions or guarantee rich results."
+    },
+    "clm-92ba1c74fe999365f9c6": {
+      "assessment": "unsupported",
+      "canonical_id": "ai-citation-formulas-unsupported",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "How to appear in AI features; technical requirements; SEO best practices",
+          "relation": "contradicts",
+          "source_id": "src-b14bb73560495d988f6f"
+        },
+        {
+          "locator": "Abstract; 602-prompt cross-platform measurement",
+          "relation": "contradicts",
+          "source_id": "src-907ec793eb5bf57ff4cf"
+        }
+      ],
+      "location": {
+        "anchor": "ai-citation-formulas-unsupported",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: ai-citation-formulas-unsupported. Canonical risk: high. Scope: AI search platforms and local query classes.",
+      "reviewed_at": "2026-10-15",
+      "risk": "high",
+      "supersedes": null,
+      "text": "Fixed AI citation counts, Reddit citation-share percentages, and guaranteed local AIO tactics are unsupported across platforms, query classes, locales, and dates."
+    },
+    "clm-968c6e4aa9f0f3dfce24": {
+      "assessment": "unsupported",
+      "canonical_id": "page-rank-no-fixed-model",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "Link analysis systems and PageRank; retired systems",
+          "relation": "contradicts",
+          "source_id": "src-082af7b0bf412f8cf585"
+        },
+        {
+          "locator": "Influence your title links; Control your snippets; useful content; contextual links",
+          "relation": "contradicts",
+          "source_id": "src-b2cf78baa6ffb866b267"
+        }
+      ],
+      "location": {
+        "anchor": "page-rank-no-fixed-model",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: page-rank-no-fixed-model. Canonical risk: high. Scope: Google organic Search ranking.",
+      "reviewed_at": "2026-10-15",
+      "risk": "high",
+      "supersedes": null,
+      "text": "Google documents evolved PageRank and link-analysis systems as only part of its ranking systems; fixed authority-point arithmetic and placement weights are unsupported."
+    },
+    "clm-9daaeeff1e8adc09b825": {
+      "assessment": "provisional",
+      "canonical_id": "review-demand-effect-scoped",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Abstract; data and identification: Seattle restaurant revenues 2003-2009 and rounded Yelp star thresholds",
+          "relation": "supports",
+          "source_id": "src-9ae2c6897efc9367cc08"
+        }
+      ],
+      "location": {
+        "anchor": "review-demand-effect-scoped",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: review-demand-effect-scoped. Canonical risk: medium. Scope: Yelp independent restaurants; historical Washington State sample.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "A causal Yelp study found a 5–9% revenue effect from a one-star increase for independent restaurants in its historical Washington State sample; it does not establish Google ranking effects or universal industry outcomes."
+    },
+    "clm-a1933198dfa1e953dcb9": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-truthful-fields",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Business description; hours; name; categories; address; service-area businesses",
+          "relation": "supports",
+          "source_id": "src-da55afdaa6e762fb7802"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-truthful-fields",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-truthful-fields. Canonical risk: medium. Scope: Business Profile representation; proposed field edits require owner approval.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Business Profile information should accurately represent real operations. Descriptions, service offerings, and normal or special hours need owner-confirmed facts."
+    },
+    "clm-a822e4687312e72c9e44": {
+      "assessment": "accepted",
+      "canonical_id": "product-deterministic-overlays",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "product-deterministic-overlays",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: product-deterministic-overlays. Canonical risk: medium. Scope: Local SEO Brain build pipeline.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "A pinned as-of date and canonical overlay/ledger inputs deterministically regenerate reviewed note metadata and evidence callouts without editing the historical raw seed."
+    },
+    "clm-a90e6ed4bd79ba669260": {
+      "assessment": "accepted",
+      "canonical_id": "eea-local-business-search-units",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Feature availability; eligibility criteria; direct data-feed integrations for local businesses",
+          "relation": "supports",
+          "source_id": "src-92620f4d7bf74b4f519c"
+        },
+        {
+          "locator": "Direct-provider eligibility; crawling; only alongside aggregator units",
+          "relation": "supports",
+          "source_id": "src-12914ea1db52b1af21a1"
+        }
+      ],
+      "location": {
+        "anchor": "eea-local-business-search-units",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: eea-local-business-search-units. Canonical risk: medium. Scope: EEA; named Search units, not universal Map Pack eligibility.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google aggregator and supplier units support EEA local-business queries. Aggregators require approved vertical-search-service status and data integration. Suppliers are direct providers serving EEA users and appear only alongside an aggregator unit."
+    },
+    "clm-ad6d9ed13b9a4fbdc41f": {
+      "assessment": "accepted",
+      "canonical_id": "ai-summary-click-direction",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Methods and findings for 68,879 searches from 900 U.S. adults",
+          "relation": "supports",
+          "source_id": "src-4af7141858da367726e7"
+        },
+        {
+          "locator": "February 2026 rerun: 300,000 keywords; desktop GSC December 2023 vs December 2025; correlational counterfactual",
+          "relation": "supports",
+          "source_id": "src-f9ab02e826915ce95f9a"
+        }
+      ],
+      "location": {
+        "anchor": "ai-summary-click-direction",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: ai-summary-click-direction. Canonical risk: high. Scope: Pew U.S. panel and Ahrefs informational-query dataset; not universal.",
+      "reviewed_at": "2026-10-15",
+      "risk": "high",
+      "supersedes": null,
+      "text": "Two independent observational datasets associate AI-summary result pages with fewer clicks to external/traditional results; no single percentage should be generalized across query sets."
+    },
+    "clm-adcf9f72c3e3798812a8": {
+      "assessment": "provisional",
+      "canonical_id": "geo-tactics-provisional",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "locator": "Abstract and contribution summary",
+          "relation": "supports",
+          "source_id": "src-4c569690596b83d05e18"
+        },
+        {
+          "locator": "Abstract; 602-prompt cross-platform measurement",
+          "relation": "supports",
+          "source_id": "src-907ec793eb5bf57ff4cf"
+        }
+      ],
+      "location": {
+        "anchor": "geo-tactics-provisional",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: geo-tactics-provisional. Canonical risk: medium. Scope: Benchmarks and evolving AI platforms.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Generative-engine optimization experiments show bounded, domain- and platform-dependent effects; citation breadth and answer influence are distinct, so universal GEO recipes are not established."
+    },
+    "clm-ae06dd6b50d9566328a3": {
+      "assessment": "accepted",
+      "canonical_id": "product-account-mutations-require-approval",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "product-account-mutations-require-approval",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: product-account-mutations-require-approval. Canonical risk: medium. Scope: Local SEO Brain product behavior.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Local SEO Brain is advisory: any account control or third-party mutation requires explicit owner approval, scoped execution, and a rollback path."
+    },
+    "clm-bbe10dc976bed143e20c": {
+      "assessment": "accepted",
+      "canonical_id": "gbp-virtual-office-coworking",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Business description; hours; name; categories; address; service-area businesses",
+          "relation": "supports",
+          "source_id": "src-da55afdaa6e762fb7802"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-virtual-office-coworking",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-virtual-office-coworking. Canonical risk: high. Scope: Google Business Profile eligibility.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "A rented mailing or virtual-office address where the business does not operate is ineligible; a coworking storefront requires permanent signage, customer reception, and the business's own staff during stated hours."
+    },
+    "clm-bfafec1f7748a722c3b6": {
+      "assessment": "accepted",
+      "canonical_id": "product-review-privacy",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "docs/PRODUCT_BOUNDARIES.md, locally inspected; remote state unverified",
+          "relation": "supports",
+          "source_id": "src-f459f51ead8ed8994f33"
+        }
+      ],
+      "location": {
+        "anchor": "product-review-privacy",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: product-review-privacy. Canonical risk: medium. Scope: Local SEO Brain review ingestion.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Derived review notes omit review-author identity; authorized raw exports remain immutable and access-controlled rather than being copied into public deliverables."
+    },
+    "clm-c3095495b7a4df07f3f3": {
+      "assessment": "accepted",
+      "canonical_id": "faq-rich-results-ended",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "May 7, 2026 rich result reporting change",
+          "relation": "supports",
+          "source_id": "src-1d92a6be27947825c5f2"
+        },
+        {
+          "locator": "Documentation change history",
+          "relation": "supports",
+          "source_id": "src-3994d1b7a53d02189b18"
+        }
+      ],
+      "location": {
+        "anchor": "faq-rich-results-ended",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: faq-rich-results-ended. Canonical risk: medium. Scope: Google Search rich results.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "FAQ rich results stopped appearing in Google Search as of 2026-05-07; FAQ markup must not be sold as a current ordinary rich-result or AI-growth tactic."
+    },
+    "clm-d2683f9ea68e1649c03c": {
+      "assessment": "unsupported",
+      "canonical_id": "exif-ranking-unsupported",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "Standards list and Exif 3.1 entry",
+          "relation": "contradicts",
+          "source_id": "src-37797682c06dfa7d1d7b"
+        },
+        {
+          "locator": "Page context, alt text, speed, quality, image sitemaps",
+          "relation": "contradicts",
+          "source_id": "src-6b7eb398e7aab02810ca"
+        },
+        {
+          "locator": "IPTC rights fields and C2PA provenance",
+          "relation": "contradicts",
+          "source_id": "src-73dccfd0ac6fcb6b52d4"
+        }
+      ],
+      "location": {
+        "anchor": "exif-ranking-unsupported",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: exif-ranking-unsupported. Canonical risk: high. Scope: Google Search and Business Profile images.",
+      "reviewed_at": "2026-10-15",
+      "risk": "high",
+      "supersedes": null,
+      "text": "EXIF can represent image metadata, including GPS data, but no reviewed source establishes that GPS geotagging causes Google local or organic ranking gains."
+    },
+    "clm-dfd9c72a532a3142aa6f": {
+      "assessment": "accepted",
+      "canonical_id": "local-ranking-factors",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Relevance, distance, prominence; reviews",
+          "relation": "supports",
+          "source_id": "src-11ebf2cd22ebb2ba864c"
+        }
+      ],
+      "location": {
+        "anchor": "local-ranking-factors",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: local-ranking-factors. Canonical risk: high. Scope: Google local results; feature and locale availability vary.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "Google publicly frames local results using relevance, distance, and prominence/popularity; these are not an exhaustive public formula."
+    },
+    "clm-e9be290ff3474116ba52": {
+      "assessment": "accepted",
+      "canonical_id": "link-schemes-prohibited",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Scaled content abuse; hidden text and link abuse; link spam; doorway abuse",
+          "relation": "supports",
+          "source_id": "src-574f56015d37e6f7bcc0"
+        },
+        {
+          "locator": "Internal links; external links; sponsored and UGC attributes",
+          "relation": "supports",
+          "source_id": "src-1e1d16a4a1839eb899d2"
+        }
+      ],
+      "location": {
+        "anchor": "link-schemes-prohibited",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: link-schemes-prohibited. Canonical risk: high. Scope: Google Web Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "PBNs, paid ranking links without qualification, optimized forum/comment links, and link networks created primarily to manipulate ranking violate Google's spam policies."
+    },
+    "clm-edc5880d1dbed8fead44": {
+      "assessment": "unsupported",
+      "canonical_id": "gbp-post-cadence-unsupported",
+      "confidence": "low",
+      "evidence": [
+        {
+          "locator": "Post types, scheduling, status, and tips",
+          "relation": "contradicts",
+          "source_id": "src-5149fcc6e1bcceaa31f7"
+        }
+      ],
+      "location": {
+        "anchor": "gbp-post-cadence-unsupported",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: gbp-post-cadence-unsupported. Canonical risk: high. Scope: Google Business Profile posts; category and region vary.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "No reviewed official source establishes a universal twice-weekly GBP post requirement, 30-day ranking decay cliff, or mandatory photo cadence."
+    },
+    "clm-f2ea9f89bfb419ae2ebb": {
+      "assessment": "accepted",
+      "canonical_id": "accordions-allowed",
+      "confidence": "high",
+      "evidence": [
+        {
+          "locator": "Scaled content abuse; hidden text and link abuse; link spam; doorway abuse",
+          "relation": "supports",
+          "source_id": "src-574f56015d37e6f7bcc0"
+        }
+      ],
+      "location": {
+        "anchor": "accordions-allowed",
+        "path": "wiki/meta/Claim Ledger.md"
+      },
+      "notes": "Canonical ID: accordions-allowed. Canonical risk: medium. Scope: Google Web Search.",
+      "reviewed_at": "2026-10-15",
+      "risk": "normal",
+      "supersedes": null,
+      "text": "User-facing accordions and tabs are not automatically hidden-content abuse when they serve ordinary design and user-experience purposes."
+    }
+  },
+  "generated_at": "2026-10-15T00:00:00Z",
+  "schema": "claude-obsidian.claim-ledger.v1"
+}

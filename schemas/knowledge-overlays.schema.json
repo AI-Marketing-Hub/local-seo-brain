@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AI-Marketing-Hub/local-seo-brain/schemas/knowledge-overlays.schema.json",
+  "title": "Local SEO Brain Knowledge Overlays",
+  "type": "object",
+  "required": [
+    "schema",
+    "as_of",
+    "notes"
+  ],
+  "properties": {
+    "schema": {
+      "const": "local-seo-brain.knowledge-overlays.v1"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "notes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "claim_ids",
+          "assessment",
+          "confidence",
+          "verified_at",
+          "refresh_due"
+        ],
+        "properties": {
+          "claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "assessment": {
+            "enum": [
+              "accepted",
+              "provisional",
+              "contested",
+              "unsupported",
+              "deprecated"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "EVIDENCE-BASED",
+              "PRACTITIONER",
+              "CONTESTED",
+              "FOLKLORE"
+            ]
+          },
+          "verified_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "refresh_due": {
+            "type": "string",
+            "format": "date"
+          },
+          "mode": {
+            "enum": [
+              "annotate",
+              "replace"
+            ]
+          },
+          "replacement_body": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cross_links": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "callouts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "kind",
+                "title",
+                "body",
+                "claim_ids",
+                "source_ids"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "note",
+                    "info",
+                    "warning",
+                    "danger",
+                    "quote"
+                  ]
+                },
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "claim_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "task_parent": {
+            "type": "string",
+            "pattern": "^wiki/(?!prompts/).+\\.md$",
+            "description": "Optional current task chapter; the original prompt slug and raw provenance remain unchanged."
+          }
+        }
+      }
+    },
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-seo-brain"
+version = "0.3.0"
+description = "Evidence-led, approval-first Local SEO Obsidian operating brain."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []

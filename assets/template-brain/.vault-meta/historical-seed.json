@@ -1,0 +1,141 @@
+{
+  "schema": "local-seo-brain.historical-seed.v1",
+  "files": [
+    {
+      "path": ".raw/source-material/LOCAL-seo-Knowledge-Base.docx",
+      "sha256": "6e91f9a329ed87fa121a6f98703dd5de679038d29a3f41c37c7743ad4348d785"
+    },
+    {
+      "path": ".raw/source-material/LOCAL-seo-Knowledge-Base.md",
+      "sha256": "b9ad72ce8f09950826442f779bf3e3df4851cd13406b2841ab7d11b776f3b161"
+    },
+    {
+      "path": ".raw/source-material/LOCAL-seo-Knowledge-Base.zip",
+      "sha256": "27120fa1281605db58b9241b59a1e7897cf12b6a0854258d2a80ffdb065e2579"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image1.png",
+      "sha256": "c8c1bedfe6292c142fccbe9885d75fd8a56a7b5ad47aa06fec724bf95b35038c"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image10.png",
+      "sha256": "60ec040e7399da9b4a9c9a17f562c39674edd3b17d09d58fd1e18b409a18fa3b"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image11.png",
+      "sha256": "1aed1337370072ddabea952a49a3cc456decb115bb4c3b7ba745940b0e2ebc36"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image12.png",
+      "sha256": "badad857e257c2b76a8dc06ab3d3d7ee21d6343c35add35e9d3568cdee44f46c"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image13.png",
+      "sha256": "28ab1716cdf64205a788d66e2385d359347467ae23e47409d49c2b69099efb3d"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image14.png",
+      "sha256": "3f034744b3042efb926a0e6c8c8a9a3cb873cb5d03069c1150e7935dc50153bb"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image15.png",
+      "sha256": "4c01431157d710705bc2abca3b1de9fbbc5987a849f3cb35508c01bddb10a7be"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image16.png",
+      "sha256": "7d1f698145519e3d182d4fdc4ab299098f339947dfe857874fde42468364ba90"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image17.png",
+      "sha256": "4e3486a2d3981ef164b5e45d0ff489aecb352e0ede5552fab09c7b076b69297c"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image18.png",
+      "sha256": "332be294d7d154fb341ddd142191dc2ca9a6afb21be81d0fa025d6627089ed8b"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image19.png",
+      "sha256": "7098b6728ff81f8090277bb4d733bc8fdf0daf36bef51a4efea9903cf54a89cb"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image2.png",
+      "sha256": "618e5211c01dcb18548c238eada74b413762838c062d003c58334b56fcca97bb"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image20.png",
+      "sha256": "82d811017951d1c47e93dfbb338db5d0a70c1586b95d7a6ceff8fc3304e92e53"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image21.png",
+      "sha256": "ba3cdd99295a5617286c5c457a526f49587b31334544c586bb1c64ba94c79fa2"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image22.png",
+      "sha256": "3a017a388f4400fac10f89cfadb79717d4a28b58888bea0e91b497a4336a9cee"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image23.png",
+      "sha256": "375570f8fe87e346d31b65482ccc52f6d866825239b323e8cb52e9d1eddc0c4e"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image24.png",
+      "sha256": "3dc5059454ad7fda68ae56c9db3894f3aab52e1b8961b33454eea9755ab121ee"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image25.png",
+      "sha256": "4bead2167dfa6ebce5e9298ed8951d2c7da5214508d7226da067c502a5bf2c24"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image26.png",
+      "sha256": "2b4fa42869e41739933e955a63ddb597ca67f5513c41acf8cf3f36b8980be89c"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image27.png",
+      "sha256": "b35eceea5723d6742b004f3c159333b704e74ad7d373554b75f1996a88f6bb49"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image28.png",
+      "sha256": "409c7146135fae03af4591937d4251f4273679cf4403e790cc7cccc7d1b5b650"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image29.png",
+      "sha256": "f413581808021086dc5ad0a62f8d95d69a595a0bdd7bac336b7d8ff64a3cccdc"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image3.png",
+      "sha256": "c866d9c6c0ce5ec4133ec13dca5c7bb36410c3cd6d590f22a6de9983ba6cda02"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image30.png",
+      "sha256": "036a6379dbb9b8b77da9487ede64542b6111e8701957c2c8aed46e9c5fed4642"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image31.png",
+      "sha256": "e51bfad1bcf66bf3fcf231ae0c12c8824b408f4507d8398fa65501ce8496edac"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image4.png",
+      "sha256": "e8dc07e2c4928827d9e7236bf2388d4febfbb47a59b7eaa1c51fa96c053b132d"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image5.png",
+      "sha256": "e74f5d1e2c85de571bfbd094f51aeeddb12070838fd42127459879704032e9b8"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image6.png",
+      "sha256": "e572421c7dcab09b7d5d66a880b2cff042434805a59eb30e3bb6917cfb3569a0"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image7.png",
+      "sha256": "d74eafc80c8e2793079cc77708c350b14c23fd4df2c98344227a2fc30427e0ca"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image8.png",
+      "sha256": "aa0ff694d290210e29a4db9f4392723239e2253577b4ecb2948896d9d22292f2"
+    },
+    {
+      "path": ".raw/source-material/archived-attachments/images/image9.png",
+      "sha256": "0d6505bba7099871086b801940ad398f20d3ab980897bc59cfc267059594db60"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "local-seo-brain",
+  "version": "0.3.0",
+  "description": "Read-only, source-cited Local SEO evidence and synthesis brain.",
+  "allowed-tools": [
+    "Read",
+    "Glob",
+    "Grep",
+    "Bash(python3 scripts/* --help)",
+    "Bash(python3 scripts/lint_vault.py *)"
+  ]
+}

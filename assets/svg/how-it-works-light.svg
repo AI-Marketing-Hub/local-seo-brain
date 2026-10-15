@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+<title id="t">How Local SEO Brain works</title>
+<desc id="d">Three steps: bring what you have, get a draft plan, approve what ships. Nothing is posted or changed until you say yes.</desc>
+<style>text{font-family:Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif} .m{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace} @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}} .r{animation:rise .7s cubic-bezier(.2,.7,.2,1) both} @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="1200" height="400" rx="22" fill="#FFFFFF"/>
+<rect x="0.5" y="0.5" width="1199" height="399" rx="21.5" fill="none" stroke="#E3E3E9"/>
+<text x="72" y="82" font-size="14" font-weight="700" fill="#E4684B" text-anchor="start" class="m">HOW IT WORKS</text>
+<g class="r" style="animation-delay:0.10s">
+<rect x="72" y="112" width="344" height="236" rx="18" fill="#F6F6F8" stroke="#E3E3E9"/>
+<circle cx="118" cy="158" r="22" fill="#E4684B"/>
+<text x="118" y="166" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="152" y="167" font-size="24" font-weight="800" fill="#17171C" text-anchor="start">Bring what you have.</text>
+<text x="96" y="212" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">Your Business Profile export,</text>
+<text x="96" y="238" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">a reviews file, a list of</text>
+<text x="96" y="264" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">directories. Even notes.</text>
+<rect x="96" y="294" width="122" height="34" rx="17" fill="#FFFFFF" stroke="#E3E3E9"/>
+<text x="111" y="316" font-size="14" font-weight="600" fill="#E4684B" text-anchor="start" class="m">exports in</text>
+</g>
+<g class="r" style="animation-delay:0.25s">
+<rect x="428" y="112" width="344" height="236" rx="18" fill="#F6F6F8" stroke="#E3E3E9"/>
+<circle cx="474" cy="158" r="22" fill="#E4684B"/>
+<text x="474" y="166" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="508" y="167" font-size="24" font-weight="800" fill="#17171C" text-anchor="start">Get a draft plan.</text>
+<text x="452" y="212" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">A scorecard, a roadmap and a</text>
+<text x="452" y="238" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">weekly report, each tied to</text>
+<text x="452" y="264" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">the evidence it came from.</text>
+<rect x="452" y="294" width="122" height="34" rx="17" fill="#FFFFFF" stroke="#E3E3E9"/>
+<text x="467" y="316" font-size="14" font-weight="600" fill="#E4684B" text-anchor="start" class="m">Draft only</text>
+</g>
+<g class="r" style="animation-delay:0.40s">
+<rect x="784" y="112" width="344" height="236" rx="18" fill="#F6F6F8" stroke="#E3E3E9"/>
+<circle cx="830" cy="158" r="22" fill="#E4684B"/>
+<text x="830" y="166" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="864" y="167" font-size="24" font-weight="800" fill="#17171C" text-anchor="start">Approve what ships.</text>
+<text x="808" y="212" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">Every suggestion waits in an</text>
+<text x="808" y="238" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">approval queue until you</text>
+<text x="808" y="264" font-size="17" font-weight="400" fill="#5B5F6B" text-anchor="start">say yes to it.</text>
+<rect x="808" y="294" width="104" height="34" rx="17" fill="#FFFFFF" stroke="#E3E3E9"/>
+<text x="823" y="316" font-size="14" font-weight="600" fill="#E4684B" text-anchor="start" class="m">your yes</text>
+</g>
+</svg>

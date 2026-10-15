@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" role="img" aria-labelledby="title desc">
+<title id="title">The 3 Phases of Local SEO</title>
+<desc id="desc">Three practitioner review lenses: website, Business Profile, and third-party signals, with AI search evidence across all three.</desc>
+<defs>
+  <style>
+    .h1 { font: 700 32px Inter, Arial, sans-serif; fill: #172033; }
+    .h2 { font: 700 18px Inter, Arial, sans-serif; fill: #ffffff; }
+    .lbl { font: 500 13px Inter, Arial, sans-serif; fill: #334155; }
+    .mono { font: 700 12px 'JetBrains Mono', monospace; fill: #ffffff; letter-spacing: 1px; }
+    .arrow { stroke: #64748b; stroke-width: 3; fill: none; }
+    .cross { font: 700 13px 'JetBrains Mono', monospace; fill: #ffffff; letter-spacing: 0.5px; }
+  </style>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+  </marker>
+</defs>
+
+<rect width="980" height="540" fill="#fafaf7"/>
+
+<text x="40" y="50" class="h1">The 3 Phases of Local SEO</text>
+<text x="40" y="78" class="lbl">Practitioner planning map. It is not a universal ranking formula, weight, or required sequence.</text>
+
+<!-- Phase 1: Property -->
+<g transform="translate(80, 130)">
+  <rect x="0" y="0" width="240" height="320" rx="14" fill="#2f7f87" opacity="0.92"/>
+  <rect x="0" y="0" width="240" height="44" rx="14" fill="#206068"/>
+  <text x="20" y="29" class="mono">LENS 1: WEBSITE</text>
+  <text x="20" y="80" class="h2">Your website</text>
+  <text x="20" y="120" class="lbl" fill="#e8f4f6">Review supplied website evidence</text>
+  <text x="20" y="138" class="lbl" fill="#e8f4f6">without inferring ranking cause.</text>
+
+  <text x="20" y="180" class="lbl" fill="#ffffff">▸ Topical &amp; geographic relevance</text>
+  <text x="20" y="202" class="lbl" fill="#ffffff">▸ People-first usefulness and facts</text>
+  <text x="20" y="224" class="lbl" fill="#ffffff">▸ Crawl, render, and page experience</text>
+  <text x="20" y="246" class="lbl" fill="#ffffff">▸ Titles, headings, and useful links</text>
+  <text x="20" y="268" class="lbl" fill="#ffffff">▸ Valid structured data where relevant</text>
+  <text x="20" y="296" class="mono">Guarded notes + current claim ledger</text>
+</g>
+
+<!-- Phase 2: GBP -->
+<g transform="translate(370, 130)">
+  <rect x="0" y="0" width="240" height="320" rx="14" fill="#c85f4d" opacity="0.92"/>
+  <rect x="0" y="0" width="240" height="44" rx="14" fill="#9c4538"/>
+  <text x="20" y="29" class="mono">LENS 2: BUSINESS PROFILE</text>
+  <text x="20" y="80" class="h2">Map Pack profile</text>
+  <text x="20" y="120" class="lbl" fill="#fdebe7">Represent the real business and</text>
+  <text x="20" y="138" class="lbl" fill="#fdebe7">follow current eligibility policy.</text>
+
+  <text x="20" y="180" class="lbl" fill="#ffffff">▸ Authentic verification evidence</text>
+  <text x="20" y="202" class="lbl" fill="#ffffff">▸ Fewest accurate categories</text>
+  <text x="20" y="224" class="lbl" fill="#ffffff">▸ Description, services, photos</text>
+  <text x="20" y="246" class="lbl" fill="#ffffff">▸ Current hours and useful updates</text>
+  <text x="20" y="268" class="lbl" fill="#ffffff">▸ Authentic, ungated reviews</text>
+  <text x="20" y="296" class="mono">Read-only review + approval queue</text>
+</g>
+
+<!-- Phase 3: Backlinks -->
+<g transform="translate(660, 130)">
+  <rect x="0" y="0" width="240" height="320" rx="14" fill="#f0b33d" opacity="0.95"/>
+  <rect x="0" y="0" width="240" height="44" rx="14" fill="#c08828"/>
+  <text x="20" y="29" class="mono">LENS 3: THIRD-PARTY SIGNALS</text>
+  <text x="20" y="80" class="h2">Trust signals</text>
+  <text x="20" y="120" class="lbl" fill="#fef5e1">Review citations and earned links</text>
+  <text x="20" y="138" class="lbl" fill="#fef5e1">within their measured scope.</text>
+
+  <text x="20" y="180" class="lbl" fill="#172033">▸ Local citations (NAP consistency)</text>
+  <text x="20" y="202" class="lbl" fill="#172033">▸ Relevant earned link evidence</text>
+  <text x="20" y="224" class="lbl" fill="#172033">▸ Useful, qualified links</text>
+  <text x="20" y="246" class="lbl" fill="#172033">▸ Local sponsorships / chamber</text>
+  <text x="20" y="268" class="lbl" fill="#172033">▸ No PBN or comment-link schemes</text>
+  <text x="20" y="296" class="mono">Evidence snapshots, not link quotas</text>
+</g>
+
+<!-- Cross-cutting: LLM SEO -->
+<g transform="translate(80, 470)">
+  <rect x="0" y="0" width="820" height="50" rx="10" fill="#7c4ddb" opacity="0.92"/>
+  <text x="20" y="32" class="cross">CROSS-CUTTING: AI SEARCH</text>
+  <text x="280" y="32" class="lbl" fill="#f4eefb">Ordinary Search eligibility, attributable facts, scoped measurement, and current sources</text>
+</g>
+
+<!-- Arrows between phases -->
+<path d="M 320 290 L 370 290" class="arrow" marker-end="url(#arr)"/>
+<path d="M 610 290 L 660 290" class="arrow" marker-end="url(#arr)"/>
+</svg>

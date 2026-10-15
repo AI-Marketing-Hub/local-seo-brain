@@ -1,0 +1,4 @@
+# Transaction backups preserve source files byte-for-byte, and patch files carry upstream whitespace.
+# Exempt them from git diff --check so CI patch hygiene inspects only authored content.
+assets/template-brain/.vault-meta/transactions/** -whitespace
+patches/*.patch -whitespace

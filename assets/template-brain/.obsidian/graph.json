@@ -1,0 +1,90 @@
+{
+  "collapse-filter": false,
+  "search": "path:wiki -path:.raw",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "colorGroups": [
+    {
+      "query": "tag:#type/knowledge OR tag:#type/prompt OR tag:#type/ledger",
+      "color": { "a": 1, "rgb": 3115911 }
+    },
+    {
+      "query": "tag:#domain/gbp OR tag:#domain/local-seo OR tag:#domain/ai-search",
+      "color": { "a": 1, "rgb": 13123133 }
+    },
+    {
+      "query": "tag:#source/official OR tag:#provenance/ledger OR path:wiki/sources",
+      "color": { "a": 1, "rgb": 6918554 }
+    },
+    {
+      "query": "tag:#provenance/claims OR path:wiki/meta/ledgers",
+      "color": { "a": 1, "rgb": 8150963 }
+    },
+    {
+      "query": "file:hot.md OR file:index.md OR file:overview.md OR file:log.md OR path:wiki/meta",
+      "color": { "a": 1, "rgb": 16763953 }
+    },
+    {
+      "query": "path:wiki/glossary OR path:wiki/concepts",
+      "color": { "a": 1, "rgb": 9542639 }
+    },
+    {
+      "query": "path:wiki/frameworks",
+      "color": { "a": 1, "rgb": 14706227 }
+    },
+    {
+      "query": "path:wiki/audits OR path:wiki/content",
+      "color": { "a": 1, "rgb": 3115911 }
+    },
+    {
+      "query": "path:wiki/gbp",
+      "color": { "a": 1, "rgb": 13123133 }
+    },
+    {
+      "query": "path:wiki/backlinks OR path:wiki/citations",
+      "color": { "a": 1, "rgb": 15770177 }
+    },
+    {
+      "query": "path:wiki/llm-seo OR path:wiki/prompts",
+      "color": { "a": 1, "rgb": 8150963 }
+    },
+    {
+      "query": "path:wiki/freshness",
+      "color": { "a": 1, "rgb": 16737095 }
+    },
+    {
+      "query": "path:wiki/locations OR path:wiki/competitors OR path:wiki/reviews OR path:wiki/keywords",
+      "color": { "a": 1, "rgb": 5795730 }
+    },
+    {
+      "query": "path:wiki/sources",
+      "color": { "a": 1, "rgb": 6918554 }
+    },
+    {
+      "query": "path:wiki/flows",
+      "color": { "a": 1, "rgb": 12740671 }
+    },
+    {
+      "query": "path:wiki/decisions",
+      "color": { "a": 1, "rgb": 13214811 }
+    },
+    {
+      "query": "path:wiki/deliverables OR path:wiki/reports",
+      "color": { "a": 1, "rgb": 11033485 }
+    },
+    {
+      "query": "path:wiki/experiments",
+      "color": { "a": 1, "rgb": 4636947 }
+    }
+  ],
+  "showArrow": true,
+  "textFadeMultiplier": 0.25,
+  "nodeSizeMultiplier": 1.4,
+  "lineSizeMultiplier": 1.3,
+  "centerStrength": 0.5,
+  "repelStrength": 11,
+  "linkDistance": 160,
+  "scale": 1
+}
